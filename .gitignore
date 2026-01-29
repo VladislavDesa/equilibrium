@@ -1,0 +1,20 @@
+﻿# Obsidian
+.obsidian/workspace
+.obsidian/plugins/*
+
+# Private folders
+Private/Vlad/
+
+# API keys
+.env
+
+# Binary files
+*.ipt
+*.f3d
+*.max
+*.zbr
+*.stl
+*.obj
+*.xlsx
+*.pdf
+*.zip
