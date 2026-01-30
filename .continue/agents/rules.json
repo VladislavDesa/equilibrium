@@ -1,0 +1,13 @@
+{
+  "allow": [
+    "Projects/**",
+    "Shared/**",
+    "Docs/**",
+    "Inbox/**"
+  ],
+  "deny": [
+    "Private/**",
+    ".git/**",
+    ".continue/**"
+  ]
+}

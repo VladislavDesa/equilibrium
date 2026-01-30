@@ -1,0 +1,21 @@
+name: Equilibrium
+version: 1.0.0
+schema: v1
+
+models:
+  - name: Llama 3.1 8B (Local)
+    provider: ollama
+    model: llama3.1:8b
+  - name: Llama 3.3 70B (Groq)
+    provider: groq
+    model: llama-3.3-70b-versatile
+    apiKey: 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
+
+prompts:
+  - name: default
+    prompt: |
+      Ты — общий ИИ-ассистент для проекта Equilibrium.
+      Твоя задача — помогать Владиславу и его партнёру Александру в разработке инженерных проектов, документации, анализа кода и структурирования знаний.
+      Отвечай чётко, технически грамотно, с примерами. Учитывай контекст репозитория и предыдущие решения.
+      Не выдумывай факты. Если не знаешь — скажи.
+      Работай как профессиональный инженер-программист и системный архитектор.
