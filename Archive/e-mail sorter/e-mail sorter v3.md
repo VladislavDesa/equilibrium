@@ -1,3 +1,4 @@
+[[e-mail sorter v2]]
 import os
 import re
 import shutil
