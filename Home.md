@@ -36,7 +36,7 @@ action Templater: Insert template in new file from cursor
 
 ```button
 name ♻️ Синхронизировать
-type command
+Ctrl+Shift+G
 action Git: Commit and push
 ```
 =======
