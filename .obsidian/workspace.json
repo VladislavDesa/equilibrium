@@ -20,23 +20,8 @@
               "icon": "lucide-file",
               "title": "03-Data-Analytics 2"
             }
-          },
-          {
-            "id": "93f354bc0a9470de",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -200,10 +185,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "93f354bc0a9470de",
+  "active": "1c8e12a1a6953111",
   "lastOpenFiles": [
-    "Projects/03-Data-Analytics 2.md",
     "conflict-files-obsidian-git.md",
+    "Projects/03-Data-Analytics 2.md",
     "Untitled.canvas",
     "Projects/04-AI-Assistant.md",
     "Home.md",
