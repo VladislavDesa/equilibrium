@@ -44,12 +44,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-01-30.md",
+                "file": "Home.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-01-30"
+              "title": "Home"
             }
           }
         ],
@@ -219,6 +219,7 @@
   },
   "active": "1f9a7a8cef95cce1",
   "lastOpenFiles": [
+    "2026-01-30.md",
     "conflict-files-obsidian-git.md",
     "WTF.canvas",
     "Projects/03-Data-Analytics/Raw_Data/svod key.md",
@@ -227,7 +228,6 @@
     "Home.md",
     "README.md",
     "Untitled.base",
-    "2026-01-30.md",
     "_AFK_ZONE.md",
     "whiteboards/697c9d15-1c02-4b7f-b673-42b18e260e18.edn",
     "whiteboards",
