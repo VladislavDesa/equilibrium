@@ -9,7 +9,7 @@ models:
   - name: Llama 3.3 70B (Groq)
     provider: groq
     model: llama-3.3-70b-versatile
-    apiKey: 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
+    apiKey: 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
 
 prompts:
   - name: default
