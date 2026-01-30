@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Home.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Home"
             }
           }
         ]
@@ -186,6 +186,10 @@
   },
   "active": "4318530e78171565",
   "lastOpenFiles": [
+    "Projects/04-AI-Assistant.md",
+    "Home.md",
+    "Projects/01-CNC-Laser.md",
+    "README.md",
     "Docs/Integration-Ideas.md",
     "Docs/System-Evolution.md",
     "_AFK_ZONE.md",
@@ -196,8 +200,6 @@
     "Untitled 1.canvas",
     "Untitled.canvas",
     "Projects/FAQ.md",
-    "README.md",
-    "Home.md",
     "Projects/Kanban.md",
     "Projects/04-AI-Assistant/README.md",
     "Projects/03-Data-Analytics/README.md",
@@ -222,8 +224,6 @@
     "Private",
     "2026-01-30.md",
     "Projects/01-CNC-Laser 4.md",
-    "Projects/01-CNC-Laser/Design/technical-spec-template.md",
-    "Projects/01-CNC-Laser.md",
-    "Projects/01-CNC-Laser 2.md"
+    "Projects/01-CNC-Laser/Design/technical-spec-template.md"
   ]
 }
