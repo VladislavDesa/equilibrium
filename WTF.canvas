@@ -1,0 +1,10 @@
+{
+	"nodes":[
+		{"id":"547d427b514f30cb","type":"file","file":"Home.md","x":-1500,"y":-700,"width":400,"height":920,"color":"6"},
+		{"id":"97954dd2eb827b88","type":"file","file":"README.md","x":-1000,"y":-700,"width":720,"height":920,"color":"5"},
+		{"id":"deffeacc6e5f646f","x":-1425,"y":240,"width":250,"height":60,"color":"1","type":"text","text":"Потужно"}
+	],
+	"edges":[
+		{"id":"f7584182bdeceec5","fromNode":"547d427b514f30cb","fromSide":"top","toNode":"97954dd2eb827b88","toSide":"top","color":"3","label":"Зависимость"}
+	]
+}
