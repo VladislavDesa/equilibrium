@@ -10,3 +10,4 @@ h9DNQoWkgZqGgc0zT5hM
 Запуск сортировки
 
 python report_sorter_v4.1.py --source ./отчеты --output ./отсортированные --config ./ключи.txt --interactive
+
