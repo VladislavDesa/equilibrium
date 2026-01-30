@@ -4,17 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "e2eafed94a37d445",
+        "id": "b8fe2501e170cade",
         "type": "tabs",
         "children": [
           {
-            "id": "4318530e78171565",
+            "id": "34a552707be7aa5d",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "canvas",
+              "state": {
+                "file": "WTF.canvas",
+                "viewState": {
+                  "x": -650,
+                  "y": -240,
+                  "zoom": 0
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "WTF"
             }
           }
         ]
@@ -180,20 +187,26 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "4318530e78171565",
+  "active": "34a552707be7aa5d",
   "lastOpenFiles": [
+    "Untitled 1.canvas",
+    "WTF.canvas",
+    "conflict-files-obsidian-git.md",
+    "Projects/FAQ.md",
+    "Home.md",
+    "2026-01-30.md",
+    "Untitled.canvas",
+    "whiteboards/697c9d15-1c02-4b7f-b673-42b18e260e18.edn",
+    "whiteboards",
+    "Untitled.base",
     "logseq/custom.css",
     "pages/contents.md",
     "pages",
     "logseq/config.edn",
     "journals",
     "logseq",
-    "Projects/FAQ.md",
     "Projects/Kanban.md",
-    "Untitled.canvas",
-    "Untitled.base",
     "README.md",
-    "Home.md",
     "_AFK_ZONE.md",
     "Projects/04-AI-Assistant.md",
     "Projects/01-CNC-Laser.md",
@@ -202,7 +215,6 @@
     "Docs",
     "Projects/04-AI-Assistant 1.md",
     "Untitled 2.canvas",
-    "Untitled 1.canvas",
     "Projects/04-AI-Assistant/README.md",
     "Projects/03-Data-Analytics/README.md",
     "Projects/02-3D-Printer/README.md",
@@ -215,11 +227,6 @@
     "Projects/01-CNC-Laser 1.md",
     "Projects/03-Data-Analytics 1.md",
     "Projects/03-Data-Analytics 3.md",
-    "Projects/03-Data-Analytics/Scripts/e-mail sorter v4.1.py",
-    "Projects/03-Data-Analytics/Scripts/e-mail sorter v4.py",
-    "Projects/03-Data-Analytics/Scripts/e-mail sorter v3.py",
-    "conflict-files-obsidian-git.md",
-    "Projects/03-Data-Analytics 2.md",
-    "2026-01-30.md"
+    "Projects/03-Data-Analytics 2.md"
   ]
 }

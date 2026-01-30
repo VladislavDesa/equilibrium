@@ -1,15 +1,1 @@
-{
-	"nodes":[
-		{"id":"2b7937b1d1fcfaba","x":-502,"y":39,"width":250,"height":60,"type":"text","text":"Сюда"},
-		{"id":"dc09412d2b28c9d0","x":-7,"y":-220,"width":250,"height":60,"type":"text","text":"Отсюда"},
-		{"id":"61f40a961ec1f7d0","x":-1064,"y":-635,"width":250,"height":60,"type":"text","text":"Ближе"},
-		{"id":"b39856a6d6bd4afa","x":-377,"y":420,"width":250,"height":60,"type":"text","text":"Дальше"},
-		{"id":"11808dd8887955d6","x":-1064,"y":-420,"width":250,"height":60,"type":"text","text":"Ебать"}
-	],
-	"edges":[
-		{"id":"699f999f127cd0cc","fromNode":"11808dd8887955d6","fromSide":"top","toNode":"61f40a961ec1f7d0","toSide":"bottom"},
-		{"id":"610eff5bff0c8c9a","fromNode":"11808dd8887955d6","fromSide":"right","toNode":"2b7937b1d1fcfaba","toSide":"top"},
-		{"id":"5482817ae0d120d5","fromNode":"11808dd8887955d6","fromSide":"right","toNode":"dc09412d2b28c9d0","toSide":"left"},
-		{"id":"e73fe85087677e75","fromNode":"11808dd8887955d6","fromSide":"bottom","toNode":"b39856a6d6bd4afa","toSide":"left"}
-	]
-}
+{}
