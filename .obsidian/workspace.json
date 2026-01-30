@@ -185,8 +185,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "18373721d63cd4be",
+  "active": "1c8e12a1a6953111",
   "lastOpenFiles": [
+    "_AFK_ZONE.md",
     "1AFK_ZONE.md",
     "AFK_ZONE.md",
     "Docs/AFK_ZONE.md",
@@ -223,7 +224,6 @@
     "Projects/03-Data-Analytics/Scripts/e-mail sorter v4.1",
     "Projects/03-Data-Analytics/Scripts/e-mail sorter v4",
     "Projects/01-CNC-Laser 4.md",
-    "Projects/01-CNC-Laser/Design/technical-spec-template.md",
-    "Projects/01-CNC-Laser.md"
+    "Projects/01-CNC-Laser/Design/technical-spec-template.md"
   ]
 }
