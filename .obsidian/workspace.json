@@ -20,8 +20,19 @@
               "icon": "lucide-file",
               "title": "Home"
             }
+          },
+          {
+            "id": "2b92165cf0a8ad8f",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -185,10 +196,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "1c8e12a1a6953111",
+  "active": "2b92165cf0a8ad8f",
   "lastOpenFiles": [
-    "Projects/03-Data-Analytics 1.md",
     "Home.md",
+    "Projects/03-Data-Analytics 1.md",
+    "conflict-files-obsidian-git.md",
+    "Private/Vlad",
+    "Private",
     "Projects/03-Data-Analytics 2.md",
     "2026-01-30.md",
     "Untitled.canvas",
@@ -200,8 +214,6 @@
     "Projects/03-Data-Analytics/Scripts/e-mail sorter v2 copy 2",
     "Projects/03-Data-Analytics/Scripts/e-mail sorter v2 copy",
     "Projects/03-Data-Analytics/Scripts/e-mail sorter v2",
-    "Projects/03-Data-Analytics/Scripts/e-mail sorter",
-    "Projects/03-Data-Analytics/Scripts/e-mail parser v1.2",
     "Projects/01-CNC-Laser 4.md",
     "README.md",
     "Projects/01-CNC-Laser/Design/technical-spec-template.md",
