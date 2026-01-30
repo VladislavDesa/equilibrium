@@ -1,20 +1,40 @@
+# 🧠 Equilibrium
+
+> «Единая система знаний — основа инженерного мастерства»  
+> — Владислав & Александр
+
 ---
-tags:
-  - home
-  - dashboard
-status: active
-last_updated: 2026-01-30
----
 
-#  Добро пожаловать в Equilibrium!
+## 📊 Статус проектов
 
-> Единая база знаний для всех наших проектов.
+```dataviewjs
+const projects = dv.pages('"Projects"')
+  .where(p => p.file.name != "README")
+  .sort(p => p.file.name, 'asc');
 
-##  Наши проекты
+dv.table(["Проект", "Статус", "Приоритет"], 
+  projects.map(p => [
+    `[${p.file.name}](Projects/${p.file.name})`,
+    p.status ? p.status.replace("#status/", "") : "—",
+    p.priority ? p.priority.replace("#priority/", "") : "medium"
+  ])
+);
+```
 
-| Проект | Статус | Быстрый доступ |
-| :--- | :--- | :--- |
-| **01-CNC-Laser** | \#status/active\ | [Открыть](Projects/01-CNC-Laser/) |
-| **02-3D-Printer** | \#status/planning\ | [Открыть](Projects/02-3D-Printer/) |
-| **03-Data-Analytics** | \#status/active\ | [Открыть](Projects/03-Data-Analytics/) |
-| **04-AI-Assistant** | \#status/research\ | [Открыть](Projects/04-AI-Assistant/) |
+```button
+name ➕ Новая идея
+type command
+action Templater: Insert template in new file from cursor
+```
+
+```button
+name 📝 Новый проект
+type command
+action Templater: Insert template in new file from cursor
+```
+
+```button
+name ♻️ Синхронизировать
+type command
+action Git: Commit and push
+```

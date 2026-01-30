@@ -1,4 +1,9 @@
 [
   "obsidian-git",
-  "templater-obsidian"
+  "templater-obsidian",
+  "dataview",
+  "buttons",
+  "obsidian-admonition",
+  "tag-wrangler",
+  "obsidian-tasks-plugin"
 ]
