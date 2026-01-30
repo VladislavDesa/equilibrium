@@ -1,6 +1,7 @@
 ﻿# Obsidian
 .obsidian/workspace/*
 .obsidian/plugins/*
+.obsidian/workspace.json
 
 # Binary files
 *.ipt

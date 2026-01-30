@@ -21,6 +21,7 @@ dv.table(["Проект", "Статус", "Приоритет"],
 );
 ```
 
+<<<<<<< HEAD
 ```button
 name ➕ Новая идея
 type command
@@ -38,3 +39,12 @@ name ♻️ Синхронизировать
 type command
 action Git: Commit and push
 ```
+=======
+| Проект                | Статус             | Быстрый доступ                         |
+| :-------------------- | :----------------- | :------------------------------------- |
+| **01-CNC-Laser**      | \#status/active\   | [Открыть](Projects/01-CNC-Laser/)      |
+| **02-3D-Printer**     | \#status/planning\ | [Открыть](Projects/02-3D-Printer/)     |
+| **03-Data-Analytics** | \#status/active\   | [Открыть](Projects/03-Data-Analytics/) |
+| **04-AI-Assistant**   | \#status/research\ | [Открыть](Projects/04-AI-Assistant/)   |
+
+>>>>>>> origin/main
