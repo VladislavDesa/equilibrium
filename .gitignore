@@ -1,9 +1,7 @@
 ﻿# Obsidian
-.obsidian/workspace
+.obsidian/workspace.json
+.obsidian/workspace/*
 .obsidian/plugins/*
-
-# Private folders
-Private/Alexand/
 
 # API keys
 .env

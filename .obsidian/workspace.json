@@ -11,10 +11,10 @@
             "id": "4318530e78171565",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -183,10 +183,10 @@
   },
   "active": "4318530e78171565",
   "lastOpenFiles": [
+    "Projects/03-Data-Analytics 1.md",
     "Home.md",
     "conflict-files-obsidian-git.md",
     "Projects/03-Data-Analytics 2.md",
-    "Projects/03-Data-Analytics 1.md",
     "Private/Vlad",
     "Private",
     "2026-01-30.md",
