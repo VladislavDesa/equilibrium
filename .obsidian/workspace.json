@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "Projects/03-Data-Analytics 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "03-Data-Analytics 1"
             }
           }
         ]
@@ -187,6 +187,8 @@
   },
   "active": "1c8e12a1a6953111",
   "lastOpenFiles": [
+    "Home.md",
+    "Projects/03-Data-Analytics 1.md",
     "Projects/03-Data-Analytics/Scripts/FAQ",
     "Projects/03-Data-Analytics/Scripts/e-mail sorter v4.1",
     "Projects/03-Data-Analytics/Scripts/e-mail sorter v4",
@@ -197,9 +199,6 @@
     "Projects/03-Data-Analytics/Scripts/e-mail sorter v2",
     "Projects/03-Data-Analytics/Scripts/e-mail sorter",
     "Projects/03-Data-Analytics/Scripts/e-mail parser v1.2",
-    "Projects/03-Data-Analytics/Scripts/e-mail parser v4.1",
-    "Projects/03-Data-Analytics 1.md",
-    "Home.md",
     "Projects/01-CNC-Laser 4.md",
     "README.md",
     "Projects/01-CNC-Laser/Design/technical-spec-template.md",
