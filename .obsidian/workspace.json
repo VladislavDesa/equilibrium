@@ -11,17 +11,14 @@
             "id": "14b0a1296f1e8d96",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "WTF.canvas",
-                "viewState": {
-                  "x": -890,
-                  "y": -240,
-                  "zoom": 0
-                }
+                "file": "2026-01-30.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "WTF"
+              "icon": "lucide-file",
+              "title": "2026-01-30"
             }
           }
         ]
@@ -182,18 +179,22 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-kanban:Create new board": false
     }
   },
   "active": "14b0a1296f1e8d96",
   "lastOpenFiles": [
+    "_AFK_ZONE.md",
+    "WTF.canvas",
     "Projects/03-Data-Analytics.md",
     "Untitled.canvas",
     "Archive/e-mail sorter/e-mail sorter v2.md",
     "Projects/03-Data-Analytics/Scripts/svod/parser.md",
     "Archive/e-mail sorter/e-mail sorter v3.md",
     "Archive/e-mail sorter/e-mail sorter v4.md",
-    "WTF.canvas",
     "Home.md",
     "Untitled.base",
     "Inbox/Idea.md",
@@ -205,7 +206,6 @@
     "Projects/03-Data-Analytics/Scripts/e-mail sorter v4.1.md",
     "Projects/03-Data-Analytics/Scripts/e-mail sorter v2.txt",
     "Projects/03-Data-Analytics/Raw_Data/svod key.md",
-    "_AFK_ZONE.md",
     "Projects/Kanban.md",
     "Projects/03-Data-Analytics/Scripts/svod",
     "README.md",
