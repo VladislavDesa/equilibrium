@@ -11,17 +11,14 @@
             "id": "34a552707be7aa5d",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "WTF.canvas",
-                "viewState": {
-                  "x": -650,
-                  "y": -240,
-                  "zoom": 0
-                }
+                "file": "Inbox/Idea.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "WTF"
+              "icon": "lucide-file",
+              "title": "Idea"
             }
           }
         ]
@@ -56,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#в-работе",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -189,10 +186,18 @@
   },
   "active": "34a552707be7aa5d",
   "lastOpenFiles": [
-    "Untitled 1.canvas",
-    "WTF.canvas",
-    "conflict-files-obsidian-git.md",
+    "Projects/03-Data-Analytics/Raw_Data/svod key.md",
+    "Inbox/Idea.md",
+    "Projects/03-Data-Analytics/Scripts/svod/svod.md",
+    "Projects/Kanban.md",
+    "Projects/03-Data-Analytics/Scripts/svod",
+    "Untitled",
+    "README.md",
     "Projects/FAQ.md",
+    "_AFK_ZONE.md",
+    "WTF.canvas",
+    "Untitled 1.canvas",
+    "conflict-files-obsidian-git.md",
     "Home.md",
     "2026-01-30.md",
     "Untitled.canvas",
@@ -205,28 +210,21 @@
     "logseq/config.edn",
     "journals",
     "logseq",
-    "Projects/Kanban.md",
-    "README.md",
-    "_AFK_ZONE.md",
     "Projects/04-AI-Assistant.md",
     "Projects/01-CNC-Laser.md",
     "Docs/Integration-Ideas.md",
     "Docs/System-Evolution.md",
-    "Docs",
     "Projects/04-AI-Assistant 1.md",
     "Untitled 2.canvas",
     "Projects/04-AI-Assistant/README.md",
     "Projects/03-Data-Analytics/README.md",
     "Projects/02-3D-Printer/README.md",
     "Projects/01-CNC-Laser/README.md",
-    "Inbox/Idea.md",
     "Projects/03-Data-Analytics/Reports/README.md",
     "Projects/03-Data-Analytics/Scripts/FAQ.md",
     "Projects/01-CNC-Laser/Docs/FAQ.md",
-    "Projects/01-CNC-Laser/Docs/FAQ",
     "Projects/01-CNC-Laser 1.md",
     "Projects/03-Data-Analytics 1.md",
-    "Projects/03-Data-Analytics 3.md",
-    "Projects/03-Data-Analytics 2.md"
+    "Projects/03-Data-Analytics 3.md"
   ]
 }
