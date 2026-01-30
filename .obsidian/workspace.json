@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-01-30.md",
+                "file": "Inbox/Idea.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-01-30"
+              "title": "Idea"
             }
           }
         ]
@@ -187,12 +187,16 @@
   },
   "active": "14b0a1296f1e8d96",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
-    "2026-01-30.md",
+    "Projects/04-AI-Assistant/Local-assistant.md",
+    "Inbox/Idea.md",
+    "Projects/04-AI-Assistant/TG-bot.md",
+    "Projects/04-AI-Assistant/AI-variant.md",
+    "WTF.canvas",
     "Home.md",
+    "2026-01-30.md",
+    "conflict-files-obsidian-git.md",
     "README.md",
     "_AFK_ZONE.md",
-    "WTF.canvas",
     "Projects/03-Data-Analytics.md",
     "Untitled.canvas",
     "Archive/e-mail sorter/e-mail sorter v2.md",
@@ -200,7 +204,6 @@
     "Archive/e-mail sorter/e-mail sorter v3.md",
     "Archive/e-mail sorter/e-mail sorter v4.md",
     "Untitled.base",
-    "Inbox/Idea.md",
     "Untitled 1.canvas",
     "Untitled 2.canvas",
     "Projects/03-Data-Analytics/Scripts/svod/svod.md",
@@ -223,8 +226,6 @@
     "Projects/01-CNC-Laser.md",
     "Docs/Integration-Ideas.md",
     "Docs/System-Evolution.md",
-    "Projects/04-AI-Assistant 1.md",
-    "Projects/04-AI-Assistant/README.md",
-    "Projects/03-Data-Analytics/README.md"
+    "Projects/04-AI-Assistant 1.md"
   ]
 }
