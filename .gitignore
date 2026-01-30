@@ -1,10 +1,6 @@
 ﻿# Obsidian
-.obsidian/workspace.json
 .obsidian/workspace/*
 .obsidian/plugins/*
-
-# API keys
-.env
 
 # Binary files
 *.ipt

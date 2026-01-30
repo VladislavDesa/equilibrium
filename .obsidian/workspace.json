@@ -16,8 +16,23 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
+          },
+          {
+            "id": "76ea187fda9e8a45",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -181,16 +196,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "4318530e78171565",
+  "active": "76ea187fda9e8a45",
   "lastOpenFiles": [
+    "README.md",
+    "Untitled.canvas",
+    "conflict-files-obsidian-git.md",
     "Projects/03-Data-Analytics 1.md",
     "Home.md",
-    "conflict-files-obsidian-git.md",
     "Projects/03-Data-Analytics 2.md",
     "Private/Vlad",
     "Private",
     "2026-01-30.md",
-    "Untitled.canvas",
     "Projects/03-Data-Analytics/Scripts/FAQ",
     "Projects/03-Data-Analytics/Scripts/e-mail sorter v4.1",
     "Projects/03-Data-Analytics/Scripts/e-mail sorter v4",
@@ -200,7 +216,6 @@
     "Projects/03-Data-Analytics/Scripts/e-mail sorter v2 copy",
     "Projects/03-Data-Analytics/Scripts/e-mail sorter v2",
     "Projects/01-CNC-Laser 4.md",
-    "README.md",
     "Projects/01-CNC-Laser/Design/technical-spec-template.md",
     "Projects/01-CNC-Laser.md",
     "Projects/01-CNC-Laser 1.md",
