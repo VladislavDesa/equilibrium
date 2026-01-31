@@ -41,9 +41,16 @@
         "a": 1,
         "rgb": 1487193
       }
+    },
+    {
+      "query": "DATABASE",
+      "color": {
+        "a": 1,
+        "rgb": 7935
+      }
     }
   ],
-  "collapse-display": true,
+  "collapse-display": false,
   "showArrow": false,
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1.58020833333333,
@@ -53,6 +60,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.7514342322277562,
+  "scale": 1.0534979423868278,
   "close": false
 }
