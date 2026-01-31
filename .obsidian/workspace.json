@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/Idea.md",
+                "file": "2026-01-30.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Idea"
+              "title": "2026-01-30"
             }
           }
         ]
@@ -186,32 +186,32 @@
   },
   "active": "14b0a1296f1e8d96",
   "lastOpenFiles": [
-    "Inbox/Idea.md",
-    "WTF.canvas",
-    "Home.md",
-    "Projects/Kanban.md",
-    "Projects/03-Data-Analytics/Raw_Data/svod key.md",
-    "Projects/03-Data-Analytics/Scripts/svod/svod.md",
-    "README.md",
-    "Untitled.base",
-    "Projects/04-AI-Assistant/Local-assistant.md",
     "Projects/04-AI-Assistant/TG-bot.md",
+    "Projects/04-AI-Assistant/Local-assistant.md",
     "Projects/04-AI-Assistant/AI-variant.md",
-    "2026-01-30.md",
     "conflict-files-obsidian-git.md",
+    "2026-01-30.md",
+    "Home.md",
+    "README.md",
     "_AFK_ZONE.md",
+    "WTF.canvas",
     "Projects/03-Data-Analytics.md",
     "Untitled.canvas",
     "Archive/e-mail sorter/e-mail sorter v2.md",
     "Projects/03-Data-Analytics/Scripts/svod/parser.md",
     "Archive/e-mail sorter/e-mail sorter v3.md",
     "Archive/e-mail sorter/e-mail sorter v4.md",
+    "Untitled.base",
+    "Inbox/Idea.md",
     "Untitled 1.canvas",
     "Untitled 2.canvas",
+    "Projects/03-Data-Analytics/Scripts/svod/svod.md",
     "Archive/e-mail sorter",
     "Projects/03-Data-Analytics/Scripts/e-mail parser v1.2.md",
     "Projects/03-Data-Analytics/Scripts/e-mail sorter v4.1.md",
     "Projects/03-Data-Analytics/Scripts/e-mail sorter v2.txt",
+    "Projects/03-Data-Analytics/Raw_Data/svod key.md",
+    "Projects/Kanban.md",
     "Projects/03-Data-Analytics/Scripts/svod",
     "Projects/FAQ.md",
     "whiteboards/697c9d15-1c02-4b7f-b673-42b18e260e18.edn",
@@ -224,6 +224,7 @@
     "Projects/04-AI-Assistant.md",
     "Projects/01-CNC-Laser.md",
     "Docs/Integration-Ideas.md",
-    "Docs/System-Evolution.md"
+    "Docs/System-Evolution.md",
+    "Projects/04-AI-Assistant 1.md"
   ]
 }
