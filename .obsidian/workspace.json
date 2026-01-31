@@ -15,8 +15,8 @@
               "state": {
                 "file": "WTF.canvas",
                 "viewState": {
-                  "x": -691.3333740234375,
-                  "y": -191.66668701171875,
+                  "x": -890,
+                  "y": -200,
                   "zoom": 0
                 }
               },
@@ -189,10 +189,10 @@
   },
   "active": "14b0a1296f1e8d96",
   "lastOpenFiles": [
+    "Home.md",
     "WTF.canvas",
     "Untitled.base",
     "README.md",
-    "Home.md",
     "_AFK_ZONE.md",
     "Projects/01-CNC-Laser/README.md",
     "Archive/e-mail sorter/e-mail sorter v2.md",
