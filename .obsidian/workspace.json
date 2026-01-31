@@ -15,8 +15,8 @@
               "state": {
                 "file": "WTF.canvas",
                 "viewState": {
-                  "x": -724,
-                  "y": -188.66668701171875,
+                  "x": -890,
+                  "y": -200,
                   "zoom": 0
                 }
               },
@@ -189,8 +189,8 @@
   },
   "active": "14b0a1296f1e8d96",
   "lastOpenFiles": [
-    "Home.md",
     "WTF.canvas",
+    "Home.md",
     "Untitled.base",
     "README.md",
     "_AFK_ZONE.md",
