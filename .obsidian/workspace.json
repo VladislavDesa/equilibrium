@@ -11,10 +11,17 @@
             "id": "14b0a1296f1e8d96",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "canvas",
+              "state": {
+                "file": "WTF.canvas",
+                "viewState": {
+                  "x": -691.3333740234375,
+                  "y": -191.66668701171875,
+                  "zoom": 0
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "WTF"
             }
           }
         ]
