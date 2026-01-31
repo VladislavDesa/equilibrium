@@ -11,14 +11,17 @@
             "id": "7d40b744a9e8b0b2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Inbox/Idea.md",
-                "mode": "source",
-                "source": false
+                "file": "WTF.canvas",
+                "viewState": {
+                  "x": -976,
+                  "y": -185,
+                  "zoom": 0
+                }
               },
-              "icon": "lucide-file",
-              "title": "Idea"
+              "icon": "lucide-layout-dashboard",
+              "title": "WTF"
             }
           }
         ]
@@ -187,12 +190,13 @@
   },
   "active": "7d40b744a9e8b0b2",
   "lastOpenFiles": [
+    "Inbox/Idea.md",
+    "conflict-files-obsidian-git.md",
+    "WTF.canvas",
+    "Home.md",
     "pages/contents.md",
     "DATABASE.base",
     "config.yaml.md",
-    "Inbox/Idea.md",
-    "WTF.canvas",
-    "Home.md",
     "Projects/Kanban.md",
     "Projects/03-Data-Analytics/Raw_Data/svod key.md",
     "Projects/03-Data-Analytics/Scripts/svod/svod.md",
@@ -201,7 +205,6 @@
     "Projects/04-AI-Assistant/TG-bot.md",
     "Projects/04-AI-Assistant/AI-variant.md",
     "2026-01-30.md",
-    "conflict-files-obsidian-git.md",
     "_AFK_ZONE.md",
     "Projects/03-Data-Analytics.md",
     "Untitled.canvas",
