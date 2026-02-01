@@ -11,17 +11,14 @@
             "id": "14b0a1296f1e8d96",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "WTF.canvas",
-                "viewState": {
-                  "x": -890,
-                  "y": -200,
-                  "zoom": 0
-                }
+                "file": "README.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "WTF"
+              "icon": "lucide-file",
+              "title": "README"
             }
           }
         ]
@@ -189,9 +186,9 @@
   },
   "active": "14b0a1296f1e8d96",
   "lastOpenFiles": [
+    "WTF.canvas",
     "Projects/Kanban.md",
     "pages/contents.md",
-    "WTF.canvas",
     "Home.md",
     "Untitled.base",
     "README.md",
