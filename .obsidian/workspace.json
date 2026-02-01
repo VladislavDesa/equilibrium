@@ -23,23 +23,8 @@
               "icon": "lucide-layout-dashboard",
               "title": "WTF"
             }
-          },
-          {
-            "id": "25e1edff65cd38ad",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Inbox/Idea.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Idea"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -203,11 +188,11 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "25e1edff65cd38ad",
+  "active": "7d40b744a9e8b0b2",
   "lastOpenFiles": [
+    "Inbox/Idea.md",
     "conflict-files-obsidian-git.md",
     "WTF.canvas",
-    "Inbox/Idea.md",
     "Projects/TG-bot.md",
     "Projects/Local-assistant.md",
     "Projects/AI-variant.md",
