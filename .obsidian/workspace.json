@@ -28,29 +28,18 @@
             "id": "25e1edff65cd38ad",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-<<<<<<< HEAD
                 "file": "Inbox/Idea.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "Idea"
-=======
-                "file": "WTF.canvas",
-                "viewState": {
-                  "x": -890,
-                  "y": -200,
-                  "zoom": 0
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "WTF"
->>>>>>> origin/main
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -214,12 +203,11 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "7d40b744a9e8b0b2",
+  "active": "25e1edff65cd38ad",
   "lastOpenFiles": [
-<<<<<<< HEAD
-    "Inbox/Idea.md",
     "conflict-files-obsidian-git.md",
     "WTF.canvas",
+    "Inbox/Idea.md",
     "Projects/TG-bot.md",
     "Projects/Local-assistant.md",
     "Projects/AI-variant.md",
@@ -238,36 +226,10 @@
     "_AFK_ZONE.md",
     "Projects/03-Data-Analytics.md",
     "Untitled.canvas",
-=======
-    "README.md",
-    "WTF.canvas",
-    "Projects/Kanban.md",
-    "pages/contents.md",
-    "Home.md",
-    "Untitled.base",
-    "_AFK_ZONE.md",
-    "Projects/01-CNC-Laser/README.md",
->>>>>>> origin/main
     "Archive/e-mail sorter/e-mail sorter v2.md",
     "Projects/03-Data-Analytics/Scripts/svod/parser.md",
     "Archive/e-mail sorter/e-mail sorter v3.md",
     "Archive/e-mail sorter/e-mail sorter v4.md",
-<<<<<<< HEAD
-=======
-    "Projects/FAQ.md",
-    "Projects/Local-assistant.md",
-    "Projects/TG-bot.md",
-    "Projects/AI-variant.md",
-    "Projects/03-Data-Analytics.md",
-    "2026-01-30.md",
-    "Projects/04-AI-Assistant/TG-bot.md",
-    "Projects/04-AI-Assistant/Local-assistant.md",
-    "Projects/04-AI-Assistant/AI-variant.md",
-    "conflict-files-obsidian-git.md",
-    "Untitled.canvas",
-    "Projects/03-Data-Analytics/Scripts/svod/parser.md",
-    "Inbox/Idea.md",
->>>>>>> origin/main
     "Untitled 1.canvas",
     "Untitled 2.canvas",
     "Archive/e-mail sorter",
