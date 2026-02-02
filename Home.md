@@ -11,7 +11,7 @@
 ## 📊 Статус проектов
 
 ```dataview
-TABLE status AS "Статус", priority AS "Приоритет" team AS "Ответсвенные"
+TABLE status AS "Статус", priority AS "Приоритет", team AS "Ответсвенные"
 FROM "Projects"
 WHERE priority AND status
 SORT priority ASC
