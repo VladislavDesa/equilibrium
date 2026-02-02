@@ -13,7 +13,7 @@
 ```dataview
 TABLE status AS "Статус", priority AS "Приоритет"
 FROM "Projects"
-WHERE file.name != "README"
+WHERE file.name != "README" AND priority = "#priority/high"
 SORT file.name ASC
 ```
 

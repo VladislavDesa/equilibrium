@@ -1,7 +1,6 @@
 ```markdown
 %%
-#status/development
-#team/vlad
+#status/development 
 #priority/high
 %%
 ```
