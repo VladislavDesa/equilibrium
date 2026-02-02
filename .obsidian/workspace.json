@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/04-AI-Assistant/Docs/6 local AI.md",
+                "file": "Projects/04-AI-Assistant/Docs/AI-variant.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "6 local AI"
+              "title": "AI-variant"
             }
           }
         ]
@@ -187,15 +187,15 @@
   },
   "active": "7d40b744a9e8b0b2",
   "lastOpenFiles": [
-    "Inbox/Idea.md",
-    "Projects/04-AI-Assistant/Docs/6 local AI.md",
-    "Projects/03-Data-Analytics/Scripts/svod/svod.md",
+    "Projects/04-AI-Assistant/Docs/How to start AI.md",
     "Projects/04-AI-Assistant/Docs/AI-variant.md",
+    "Projects/04-AI-Assistant/Docs/6 local AI.md",
+    "Inbox/Idea.md",
+    "Projects/03-Data-Analytics/Scripts/svod/svod.md",
     "DATABASE.base",
     "Projects/03-Data-Analytics/Scripts/e-mail parser v1.2.md",
     "Projects/04-AI-Assistant/Docs/Self local AI.md",
     "Projects/04-AI-Assistant/Docs/Local-assistant.md",
-    "Projects/04-AI-Assistant/Docs/How to start AI.md",
     "WTF.canvas",
     "Inbox/Kanban.md",
     "Projects/04-AI-Assistant/Docs/Media/Pasted image 20260202220506.png",
