@@ -11,17 +11,10 @@
             "id": "14b0a1296f1e8d96",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "WTF.canvas",
-                "viewState": {
-                  "x": -1060,
-                  "y": -190,
-                  "zoom": 0
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "WTF"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -189,31 +182,23 @@
   },
   "active": "14b0a1296f1e8d96",
   "lastOpenFiles": [
-    "README.md",
-    "Projects/03-Data-Analytics.md",
-    "Projects/AI-variant.md",
+    "WTF.canvas",
+    "config.yaml.md",
     "Projects/TG-bot.md",
     "Projects/Local-assistant.md",
-    "Projects/Kanban.md",
-    "Projects/FAQ.md",
-    "WTF.canvas",
-    "Home.md",
-    "_AFK_ZONE.md",
-    "2026-01-30.md",
-    "config.yaml.md",
-    "DATABASE.base",
-    "pages/contents.md",
-    "Untitled.base",
-    "Projects/01-CNC-Laser/README.md",
-    "Archive/e-mail sorter/e-mail sorter v2.md",
-    "Archive/e-mail sorter/e-mail sorter v3.md",
-    "Archive/e-mail sorter/e-mail sorter v4.md",
+    "Projects/AI-variant.md",
     "Projects/04-AI-Assistant/TG-bot.md",
     "Projects/04-AI-Assistant/Local-assistant.md",
     "Projects/04-AI-Assistant/AI-variant.md",
-    "conflict-files-obsidian-git.md",
+    "DATABASE.base",
+    "Projects/03-Data-Analytics.md",
     "Untitled.canvas",
+    "Archive/e-mail sorter/e-mail sorter v2.md",
     "Projects/03-Data-Analytics/Scripts/svod/parser.md",
+    "Archive/e-mail sorter/e-mail sorter v3.md",
+    "Archive/e-mail sorter/e-mail sorter v4.md",
+    "Home.md",
+    "Untitled.base",
     "Inbox/Idea.md",
     "Untitled 1.canvas",
     "Untitled 2.canvas",
@@ -222,10 +207,18 @@
     "Projects/03-Data-Analytics/Scripts/e-mail parser v1.2.md",
     "Projects/03-Data-Analytics/Scripts/e-mail sorter v4.1.md",
     "Projects/03-Data-Analytics/Scripts/e-mail sorter v2.txt",
+    "Projects/03-Data-Analytics/Raw_Data/svod key.md",
+    "_AFK_ZONE.md",
+    "Projects/Kanban.md",
     "Projects/03-Data-Analytics/Scripts/svod",
+    "README.md",
+    "Projects/FAQ.md",
+    "conflict-files-obsidian-git.md",
+    "2026-01-30.md",
     "whiteboards/697c9d15-1c02-4b7f-b673-42b18e260e18.edn",
     "whiteboards",
     "logseq/custom.css",
+    "pages/contents.md",
     "pages",
     "logseq/config.edn"
   ]
