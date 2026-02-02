@@ -10,20 +10,12 @@
 
 ## 📊 Статус проектов
 
-```dataviewjs
-const projects = dv.pages('"Projects"')
-  .where(p => p.file.name != "README")
-  .sort(p => p.file.name, 'asc');
-
-dv.table(["Проект", "Статус", "Приоритет"], 
-  projects.map(p => [
-    `[${p.file.name}](Projects/${p.file.name})`,
-    p.status ? p.status.replace("#status/", "") : "—",
-    p.priority ? p.priority.replace("#priority/", "") : "medium"
-  ])
-);
+```dataview
+TABLE status AS "Статус", priority AS "Приоритет"
+FROM "Projects"
+WHERE file.name != "README"
+SORT file.name ASC
 ```
-
 
 ```button
 name ➕ Новая идея
@@ -39,6 +31,6 @@ action Templater: Insert template in new file from cursor
 
 ```button
 name ♻️ Синхронизировать
-Ctrl+Shift+G
+type command
 action Git: Commit and push
 ```
