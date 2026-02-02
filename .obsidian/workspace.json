@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Projects/01-CNC-Laser/01-CNC-Laser.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "01-CNC-Laser"
             }
           }
         ],
@@ -201,11 +201,11 @@
   },
   "active": "7cc7090f10f11a4e",
   "lastOpenFiles": [
-    "Inbox/Idea.md",
+    "Home.md",
     "README.md",
+    "Inbox/Idea.md",
     "Projects/01-CNC-Laser/01-CNC-Laser.md",
     "WTF.canvas",
-    "Home.md",
     "conflict-files-obsidian-git.md",
     "Projects/04-AI-Assistant/Docs/Local-assistant.md",
     "Projects/04-AI-Assistant/Docs/TG-bot.md",
