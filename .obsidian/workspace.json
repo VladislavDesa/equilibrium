@@ -27,15 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "README"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -198,20 +199,25 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "14b0a1296f1e8d96",
+  "active": "7cc7090f10f11a4e",
   "lastOpenFiles": [
+    "Inbox/Idea.md",
+    "README.md",
+    "Projects/01-CNC-Laser/01-CNC-Laser.md",
+    "WTF.canvas",
     "Home.md",
     "conflict-files-obsidian-git.md",
+    "Projects/04-AI-Assistant/Docs/Local-assistant.md",
+    "Projects/04-AI-Assistant/Docs/TG-bot.md",
+    "Projects/04-AI-Assistant/Docs/AI-variant.md",
+    "Projects/04-AI-Assistant/Docs",
+    "Projects/04-AI-Assistant/04-AI-Assistant.md",
     "DATABASE.base",
-    "README.md",
-    "Inbox/Idea.md",
     "Projects/03-Data-Analytics/03-Data-Analytics.md",
     "Projects/02-3D-Printer/02-3D-Printer.md",
-    "Projects/01-CNC-Laser/01-CNC-Laser.md",
     "Projects/Kanban.md",
     "Projects/FAQ.md",
     "Projects/AI-variant.md",
-    "WTF.canvas",
     "config.yaml.md",
     "Projects/TG-bot.md",
     "Projects/Local-assistant.md",
@@ -227,17 +233,12 @@
     "Untitled.base",
     "Untitled 1.canvas",
     "Untitled 2.canvas",
-    "Projects/03-Data-Analytics/Scripts/svod/svod.md",
     "Archive/e-mail sorter",
-    "Projects/03-Data-Analytics/Scripts/e-mail parser v1.2.md",
-    "Projects/03-Data-Analytics/Scripts/e-mail sorter v4.1.md",
     "Projects/03-Data-Analytics/Scripts/e-mail sorter v2.txt",
-    "Projects/03-Data-Analytics/Raw_Data/svod key.md",
     "Projects/03-Data-Analytics/Scripts/svod",
     "whiteboards/697c9d15-1c02-4b7f-b673-42b18e260e18.edn",
     "whiteboards",
     "logseq/custom.css",
-    "pages",
-    "logseq/config.edn"
+    "pages"
   ]
 }
