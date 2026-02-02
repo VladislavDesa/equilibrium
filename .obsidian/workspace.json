@@ -11,17 +11,14 @@
             "id": "7d40b744a9e8b0b2",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "WTF.canvas",
-                "viewState": {
-                  "x": -1060,
-                  "y": -190,
-                  "zoom": 0
-                }
+                "file": "Home.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "WTF"
+              "icon": "lucide-file",
+              "title": "Home"
             }
           }
         ]
@@ -190,10 +187,11 @@
   },
   "active": "7d40b744a9e8b0b2",
   "lastOpenFiles": [
+    "Projects/Kanban.md",
+    "Inbox/Idea.md",
+    "WTF.canvas",
     "README.md",
     "Home.md",
-    "WTF.canvas",
-    "Inbox/Idea.md",
     "conflict-files-obsidian-git.md",
     "Projects/TG-bot.md",
     "Projects/Local-assistant.md",
@@ -201,7 +199,6 @@
     "pages/contents.md",
     "DATABASE.base",
     "config.yaml.md",
-    "Projects/Kanban.md",
     "Projects/03-Data-Analytics/Raw_Data/svod key.md",
     "Projects/03-Data-Analytics/Scripts/svod/svod.md",
     "Projects/04-AI-Assistant/Local-assistant.md",
