@@ -11,14 +11,17 @@
             "id": "7d40b744a9e8b0b2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Projects/04-AI-Assistant/Docs/AI-variant.md",
-                "mode": "source",
-                "source": false
+                "file": "AI.canvas",
+                "viewState": {
+                  "x": -385.23966942148763,
+                  "y": 81.23966942148759,
+                  "zoom": -0.058416686225321916
+                }
               },
-              "icon": "lucide-file",
-              "title": "AI-variant"
+              "icon": "lucide-layout-dashboard",
+              "title": "AI"
             }
           }
         ]
@@ -187,16 +190,18 @@
   },
   "active": "7d40b744a9e8b0b2",
   "lastOpenFiles": [
-    "Projects/04-AI-Assistant/Docs/How to start AI.md",
+    "AI.canvas",
+    "WTF.canvas",
+    "DATABASE.base",
+    "Home.md",
     "Projects/04-AI-Assistant/Docs/AI-variant.md",
+    "Projects/04-AI-Assistant/Docs/How to start AI.md",
     "Projects/04-AI-Assistant/Docs/6 local AI.md",
     "Inbox/Idea.md",
     "Projects/03-Data-Analytics/Scripts/svod/svod.md",
-    "DATABASE.base",
     "Projects/03-Data-Analytics/Scripts/e-mail parser v1.2.md",
     "Projects/04-AI-Assistant/Docs/Self local AI.md",
     "Projects/04-AI-Assistant/Docs/Local-assistant.md",
-    "WTF.canvas",
     "Inbox/Kanban.md",
     "Projects/04-AI-Assistant/Docs/Media/Pasted image 20260202220506.png",
     "Projects/04-AI-Assistant/Docs/Media/Pasted image 20260202220833.png",
@@ -216,7 +221,6 @@
     "Projects/01-CNC-Laser/01-CNC-Laser.md",
     "Docs/System-Evolution.md",
     "Docs/Integration-Ideas.md",
-    "Home.md",
     "Projects/Tasks",
     "Projects/04-AI-Assistant/Docs/TG-bot.md",
     "Projects/04-AI-Assistant/Docs",
@@ -227,8 +231,6 @@
     "conflict-files-obsidian-git.md",
     "Projects/TG-bot.md",
     "Projects/Local-assistant.md",
-    "Projects/AI-variant.md",
-    "Untitled.canvas",
     "Untitled 1.canvas",
     "Untitled 2.canvas",
     "Archive/e-mail sorter",

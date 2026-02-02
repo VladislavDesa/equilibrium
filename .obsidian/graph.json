@@ -8,14 +8,7 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "AI",
-      "color": {
-        "a": 1,
-        "rgb": 14701138
-      }
-    },
-    {
-      "query": "home",
+      "query": "HOME",
       "color": {
         "a": 1,
         "rgb": 560138
@@ -26,6 +19,27 @@
       "color": {
         "a": 1,
         "rgb": 1844640
+      }
+    },
+    {
+      "query": "CNC",
+      "color": {
+        "a": 1,
+        "rgb": 13702421
+      }
+    },
+    {
+      "query": "E-MAIL",
+      "color": {
+        "a": 1,
+        "rgb": 14014483
+      }
+    },
+    {
+      "query": "AI",
+      "color": {
+        "a": 1,
+        "rgb": 0
       }
     }
   ],
