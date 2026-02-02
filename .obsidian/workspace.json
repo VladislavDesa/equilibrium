@@ -11,17 +11,14 @@
             "id": "14b0a1296f1e8d96",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "WTF.canvas",
-                "viewState": {
-                  "x": -1060,
-                  "y": -190,
-                  "zoom": 0
-                }
+                "file": "README.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "WTF"
+              "icon": "lucide-file",
+              "title": "README"
             }
           }
         ]
@@ -189,6 +186,8 @@
   },
   "active": "14b0a1296f1e8d96",
   "lastOpenFiles": [
+    "Home.md",
+    "WTF.canvas",
     "Projects/Tasks/Current-Tasks.md",
     "Projects/Tasks/Backlog.md",
     "Projects/Tasks",
@@ -208,8 +207,6 @@
     "Projects/Local-assistant.md",
     "Projects/Kanban.md",
     "Projects/FAQ.md",
-    "WTF.canvas",
-    "Home.md",
     "_AFK_ZONE.md",
     "2026-01-30.md",
     "config.yaml.md",
@@ -219,7 +216,6 @@
     "Projects/01-CNC-Laser/README.md",
     "Archive/e-mail sorter/e-mail sorter v2.md",
     "Archive/e-mail sorter/e-mail sorter v3.md",
-    "Archive/e-mail sorter/e-mail sorter v4.md",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "Untitled 2.canvas",
