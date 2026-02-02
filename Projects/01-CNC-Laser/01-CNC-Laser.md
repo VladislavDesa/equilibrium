@@ -1,6 +1,6 @@
 ---
 status: planing
-priority: 02-high
+priority: 04-low
 team: All
 ---
 # 01-CNC-Laser
