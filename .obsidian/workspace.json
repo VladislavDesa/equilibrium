@@ -11,17 +11,12 @@
             "id": "7d40b744a9e8b0b2",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "image",
               "state": {
-                "file": "CNC.canvas",
-                "viewState": {
-                  "x": -766,
-                  "y": -6,
-                  "zoom": 0
-                }
+                "file": "Pasted image 20260202222437.png"
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "CNC"
+              "icon": "lucide-image",
+              "title": "Pasted image 20260202222437"
             }
           }
         ]
@@ -188,7 +183,7 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "7d40b744a9e8b0b2",
+  "active": "18373721d63cd4be",
   "lastOpenFiles": [
     "CNC.canvas",
     "Projects/01-CNC-Laser/Docs/CNC self hands.md",
