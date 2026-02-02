@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "10fce83feb66bc6c",
+        "id": "f389ff06ed50ebc0",
         "type": "tabs",
         "children": [
           {
-            "id": "14b0a1296f1e8d96",
+            "id": "7d40b744a9e8b0b2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/Idea.md",
+                "file": "Home.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Idea"
-            }
-          },
-          {
-            "id": "7cc7090f10f11a4e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Projects/03-Data-Analytics/03-Data-Analytics.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "03-Data-Analytics"
+              "title": "Home"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -68,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#priority",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -195,42 +180,44 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "obsidian-kanban:Create new board": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7cc7090f10f11a4e",
+  "active": "7d40b744a9e8b0b2",
   "lastOpenFiles": [
-    "Home.md",
-    "Projects/03-Data-Analytics/03-Data-Analytics.md",
-    "Inbox/Idea.md",
-    "Projects/01-CNC-Laser/01-CNC-Laser.md",
-    "README.md",
-    "WTF.canvas",
-    "conflict-files-obsidian-git.md",
-    "Projects/04-AI-Assistant/Docs/Local-assistant.md",
-    "Projects/04-AI-Assistant/Docs/TG-bot.md",
-    "Projects/04-AI-Assistant/Docs/AI-variant.md",
-    "Projects/04-AI-Assistant/Docs",
+    "Projects/Tasks/Current-Tasks.md",
+    "Projects/Tasks/Backlog.md",
     "Projects/04-AI-Assistant/04-AI-Assistant.md",
+    "Home.md",
+    "WTF.canvas",
+    "README.md",
+    "Inbox/Idea.md",
+    "Projects/Tasks",
+    "Projects/03-Data-Analytics/Scripts/svod/svod.md",
+    "Projects/04-AI-Assistant/Docs/AI-variant.md",
+    "Inbox/Ideas.md",
+    "Inbox/Kanban.md",
+    "Docs/Integration-Ideas.md",
+    "Docs/System-Evolution.md",
+    "Projects/01-CNC-Laser/01-CNC-Laser.md",
+    "pages/contents.md",
+    "Projects/04-AI-Assistant/AI-variant.md",
+    "Projects/04-AI-Assistant/Docs/TG-bot.md",
+    "Projects/04-AI-Assistant/Docs/Local-assistant.md",
+    "Projects/04-AI-Assistant/Docs",
+    "Projects/04-AI-Assistant/Local-assistant.md",
+    "Projects/04-AI-Assistant/TG-bot.md",
+    "Projects/04-AI-Assistant/README.md",
+    "Projects/03-Data-Analytics.md",
+    "_AFK_ZONE.md",
     "DATABASE.base",
-    "Projects/02-3D-Printer/02-3D-Printer.md",
-    "Projects/Kanban.md",
+    "Projects/Local-assistant.md",
     "Projects/FAQ.md",
     "Projects/AI-variant.md",
-    "config.yaml.md",
     "Projects/TG-bot.md",
-    "Projects/Local-assistant.md",
-    "Projects/04-AI-Assistant/TG-bot.md",
-    "Projects/04-AI-Assistant/Local-assistant.md",
-    "Projects/04-AI-Assistant/AI-variant.md",
-    "Projects/03-Data-Analytics.md",
     "Untitled.canvas",
-    "Archive/e-mail sorter/e-mail sorter v2.md",
-    "Projects/03-Data-Analytics/Scripts/svod/parser.md",
-    "Archive/e-mail sorter/e-mail sorter v3.md",
-    "Archive/e-mail sorter/e-mail sorter v4.md",
-    "Untitled.base",
     "Untitled 1.canvas",
     "Untitled 2.canvas",
     "Archive/e-mail sorter",

@@ -1,10 +1,10 @@
 {
 	"nodes":[
-		{"id":"547d427b514f30cb","type":"file","file":"Home.md","x":-1500,"y":-700,"width":400,"height":920,"color":"6"},
 		{"id":"97954dd2eb827b88","type":"file","file":"README.md","x":-1000,"y":-700,"width":720,"height":920,"color":"5"},
 		{"id":"2b375c5fe6eb7b9d","type":"text","text":"Не ну ты тип конечно, добавь ниже плашку с текстом когда хоть посмотришь что тут происходит","x":-1840,"y":-700,"width":250,"height":160},
 		{"id":"deffeacc6e5f646f","type":"text","text":"Потужно","x":-1500,"y":260,"width":400,"height":60,"color":"1"},
-		{"id":"10874dcb10b63b1e","x":-1840,"y":-480,"width":250,"height":60,"type":"text","text":"А О А О, А"}
+		{"id":"10874dcb10b63b1e","type":"text","text":"А О А О, А","x":-1840,"y":-480,"width":250,"height":60},
+		{"id":"547d427b514f30cb","type":"file","file":"Home.md","x":-1575,"y":-700,"width":550,"height":920,"color":"6"}
 	],
 	"edges":[
 		{"id":"f7584182bdeceec5","fromNode":"547d427b514f30cb","fromSide":"top","toNode":"97954dd2eb827b88","toSide":"top","color":"3","label":"Зависимость"},
