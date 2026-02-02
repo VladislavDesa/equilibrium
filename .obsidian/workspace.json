@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "f389ff06ed50ebc0",
+        "id": "6662e8c2c0ea4d2b",
         "type": "tabs",
         "children": [
           {
-            "id": "7d40b744a9e8b0b2",
+            "id": "1c572e66746e805d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Inbox/Idea.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Idea"
+              "title": "New tab"
             }
           }
         ]
@@ -185,8 +181,9 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "7d40b744a9e8b0b2",
+  "active": "1c572e66746e805d",
   "lastOpenFiles": [
+    "Inbox/Idea.md",
     "Projects/01-CNC-Laser/Docs/Media/Pasted image 20260202222437.png",
     "Projects/01-CNC-Laser/Docs/Media/Pasted image 20260202222507.png",
     "Projects/01-CNC-Laser/Docs/Media",
@@ -205,7 +202,6 @@
     "Projects/04-AI-Assistant/Docs/AI-variant.md",
     "Projects/04-AI-Assistant/Docs/How to start AI.md",
     "Projects/04-AI-Assistant/Docs/6 local AI.md",
-    "Inbox/Idea.md",
     "Projects/03-Data-Analytics/Scripts/svod/svod.md",
     "Projects/03-Data-Analytics/Scripts/e-mail parser v1.2.md",
     "Projects/04-AI-Assistant/Docs/Self local AI.md",
