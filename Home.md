@@ -11,10 +11,10 @@
 ## 📊 Статус проектов
 
 ```dataview
-TABLE status AS "Статус", priority AS "Приоритет"
+TABLE status AS "Статус", priority AS "Приоритет", team AS "Ответсвенные"
 FROM "Projects"
-WHERE file.name != "README" AND priority = "high"
-SORT file.name ASC
+WHERE priority AND status
+SORT priority ASC
 ```
 
 ```button
