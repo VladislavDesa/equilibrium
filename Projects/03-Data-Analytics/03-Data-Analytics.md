@@ -1,4 +1,4 @@
 ---
 status: planing
-priority: 04-low
+priority: 01-critical
 ---
