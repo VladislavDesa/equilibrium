@@ -11,10 +11,14 @@
             "id": "7d40b744a9e8b0b2",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Home.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Home"
             }
           }
         ]
@@ -183,15 +187,15 @@
   },
   "active": "7d40b744a9e8b0b2",
   "lastOpenFiles": [
+    "README.md",
+    "Projects/01-CNC-Laser/01-CNC-Laser.md",
     "Projects/Local-assistant.md",
     "Projects/FAQ.md",
     "Projects/AI-variant.md",
     "Projects/TG-bot.md",
     "Home.md",
-    "README.md",
     "Projects/02-3D-Printer/02-3D-Printer.md",
     "WTF.canvas",
-    "Projects/01-CNC-Laser/01-CNC-Laser.md",
     "Projects/03-Data-Analytics/03-Data-Analytics.md",
     "DATABASE.base",
     "Projects/01-CNC-Laser/README.md",
