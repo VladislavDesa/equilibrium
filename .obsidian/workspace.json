@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Inbox/Idea.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Idea"
             }
           }
         ]
@@ -186,6 +186,9 @@
   },
   "active": "14b0a1296f1e8d96",
   "lastOpenFiles": [
+    "Inbox/Kanban.md",
+    "Inbox/Idea.md",
+    "README.md",
     "Home.md",
     "WTF.canvas",
     "Projects/Tasks/Current-Tasks.md",
@@ -199,8 +202,6 @@
     "Projects/03-Data-Analytics/03-Data-Analytics.md",
     "Projects/02-3D-Printer/02-3D-Printer.md",
     "Projects/01-CNC-Laser/01-CNC-Laser.md",
-    "Inbox/Kanban.md",
-    "README.md",
     "Projects/03-Data-Analytics.md",
     "Projects/AI-variant.md",
     "Projects/TG-bot.md",
