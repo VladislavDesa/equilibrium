@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "Projects/04-AI-Assistant/Research/AI start.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "AI start"
             }
           }
         ]
@@ -185,24 +185,36 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "18373721d63cd4be",
+  "active": "7d40b744a9e8b0b2",
   "lastOpenFiles": [
-    "Projects/Tasks/Current-Tasks.md",
+    "Pasted image 20260202220038.png",
+    "Pasted image 20260202220025.png",
+    "5f7372030a71488bbb64d1374f6d840c.webp",
+    "9f43f0afd4acb39f99c6b6fa07681918.webp",
+    "96e131559135737ddb068ae088e5164b.webp",
+    "301bfec2b564d13faa040ce538d4c529.webp",
+    "Pasted image 20260202215830.jpg",
+    "Pasted image 20260202215814.jpg",
     "Projects/Tasks/Backlog.md",
+    "Projects/04-AI-Assistant/Research/AI start.md",
+    "Projects/Tasks/Current-Tasks.md",
+    "Projects/04-AI-Assistant/04-AI-Assistant.md",
+    "Projects/01-CNC-Laser/Docs/FAQ.md",
+    "Projects/01-CNC-Laser/01-CNC-Laser.md",
+    "Inbox/Kanban.md",
+    "Inbox/Idea.md",
+    "Docs/System-Evolution.md",
+    "Docs/Integration-Ideas.md",
+    "WTF.canvas",
+    "Home.md",
     "Projects/Tasks",
     "Projects/04-AI-Assistant/Docs/TG-bot.md",
     "Projects/04-AI-Assistant/Docs/Local-assistant.md",
     "Projects/04-AI-Assistant/Docs/AI-variant.md",
     "Projects/04-AI-Assistant/Docs",
-    "Projects/04-AI-Assistant/04-AI-Assistant.md",
     "Projects/03-Data-Analytics/03-Data-Analytics.md",
     "Projects/02-3D-Printer/02-3D-Printer.md",
-    "Projects/01-CNC-Laser/01-CNC-Laser.md",
-    "Inbox/Kanban.md",
-    "WTF.canvas",
-    "Home.md",
     "Projects/Kanban.md",
-    "Inbox/Idea.md",
     "README.md",
     "conflict-files-obsidian-git.md",
     "Projects/TG-bot.md",
@@ -212,11 +224,6 @@
     "DATABASE.base",
     "config.yaml.md",
     "Projects/03-Data-Analytics/Raw_Data/svod key.md",
-    "Projects/03-Data-Analytics/Scripts/svod/svod.md",
-    "Projects/04-AI-Assistant/Local-assistant.md",
-    "Projects/04-AI-Assistant/TG-bot.md",
-    "Projects/04-AI-Assistant/AI-variant.md",
-    "2026-01-30.md",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "Untitled 2.canvas",
