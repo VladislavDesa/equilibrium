@@ -11,12 +11,14 @@
             "id": "7d40b744a9e8b0b2",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Projects/01-CNC-Laser/Docs/Media/Pasted image 20260202222437.png"
+                "file": "Inbox/Idea.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260202222437"
+              "icon": "lucide-file",
+              "title": "Idea"
             }
           }
         ]
@@ -183,10 +185,10 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "18373721d63cd4be",
+  "active": "7d40b744a9e8b0b2",
   "lastOpenFiles": [
-    "Projects/01-CNC-Laser/Docs/Media/Pasted image 20260202222507.png",
     "Projects/01-CNC-Laser/Docs/Media/Pasted image 20260202222437.png",
+    "Projects/01-CNC-Laser/Docs/Media/Pasted image 20260202222507.png",
     "Projects/01-CNC-Laser/Docs/Media",
     "CNC.canvas",
     "Projects/01-CNC-Laser/Docs/CNC self hands.md",
