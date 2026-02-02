@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_AFK_ZONE.md",
+                "file": "Projects/01-CNC-Laser/Docs/CNC self hands.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "_AFK_ZONE"
+              "title": "CNC self hands"
             }
           }
         ]
@@ -187,6 +187,14 @@
   },
   "active": "7d40b744a9e8b0b2",
   "lastOpenFiles": [
+    "Pasted image 20260202222621.png",
+    "Pasted image 20260202222609.png",
+    "Pasted image 20260202222600.jpg",
+    "Pasted image 20260202222545.jpg",
+    "Pasted image 20260202222507.png",
+    "Pasted image 20260202222437.png",
+    "_AFK_ZONE.md",
+    "Projects/01-CNC-Laser/Docs/CNC self hands.md",
     "1588393382122377164.webp",
     "AI.canvas",
     "WTF.canvas",
@@ -205,12 +213,6 @@
     "Projects/04-AI-Assistant/Docs/Media/Pasted image 20260202220833.png",
     "Projects/04-AI-Assistant/Docs/Media/Pasted image 20260202220810.png",
     "Projects/04-AI-Assistant/Docs/Media/Pasted image 20260202220758.png",
-    "Projects/04-AI-Assistant/Docs/Media/Pasted image 20260202220742.png",
-    "Projects/04-AI-Assistant/Docs/Media/Pasted image 20260202220716.png",
-    "Projects/04-AI-Assistant/Docs/Media/Pasted image 20260202220654.png",
-    "Projects/04-AI-Assistant/Docs/Media/Pasted image 20260202220645.png",
-    "Projects/04-AI-Assistant/Docs/Media/Pasted image 20260202220622.png",
-    "Projects/04-AI-Assistant/Docs/Media/Pasted image 20260202220559.png",
     "Projects/04-AI-Assistant/Docs/Media",
     "Projects/Tasks/Backlog.md",
     "Projects/Tasks/Current-Tasks.md",
@@ -227,8 +229,6 @@
     "Projects/Kanban.md",
     "README.md",
     "conflict-files-obsidian-git.md",
-    "Projects/TG-bot.md",
-    "Projects/Local-assistant.md",
     "Untitled 1.canvas",
     "Untitled 2.canvas",
     "Archive/e-mail sorter",
