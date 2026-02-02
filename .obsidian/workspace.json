@@ -11,17 +11,14 @@
             "id": "7d40b744a9e8b0b2",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "AI.canvas",
-                "viewState": {
-                  "x": -385.23966942148763,
-                  "y": 81.23966942148759,
-                  "zoom": -0.058416686225321916
-                }
+                "file": "_AFK_ZONE.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "AI"
+              "icon": "lucide-file",
+              "title": "_AFK_ZONE"
             }
           }
         ]
@@ -190,10 +187,11 @@
   },
   "active": "7d40b744a9e8b0b2",
   "lastOpenFiles": [
+    "1588393382122377164.webp",
     "AI.canvas",
     "WTF.canvas",
     "DATABASE.base",
-    "Home.md",
+    "HOME.md",
     "Projects/04-AI-Assistant/Docs/AI-variant.md",
     "Projects/04-AI-Assistant/Docs/How to start AI.md",
     "Projects/04-AI-Assistant/Docs/6 local AI.md",
