@@ -6,14 +6,14 @@
 
 [[WTF.canvas]]
 
----
+
 
 ## 📊 Статус проектов
 
 ```dataview
 TABLE status AS "Статус", priority AS "Приоритет"
 FROM "Projects"
-WHERE file.name != "README" AND priority = "#priority/high"
+WHERE file.name != "README" AND priority = "high"
 SORT file.name ASC
 ```
 
