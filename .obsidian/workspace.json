@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/04-AI-Assistant/Research/AI start.md",
+                "file": "Projects/04-AI-Assistant/Docs/Self local AI.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AI start"
+              "title": "Self local AI"
             }
           }
         ]
@@ -187,16 +187,23 @@
   },
   "active": "7d40b744a9e8b0b2",
   "lastOpenFiles": [
-    "Pasted image 20260202220038.png",
-    "Pasted image 20260202220025.png",
-    "5f7372030a71488bbb64d1374f6d840c.webp",
-    "9f43f0afd4acb39f99c6b6fa07681918.webp",
-    "96e131559135737ddb068ae088e5164b.webp",
-    "301bfec2b564d13faa040ce538d4c529.webp",
-    "Pasted image 20260202215830.jpg",
-    "Pasted image 20260202215814.jpg",
+    "Pasted image 20260202220833.png",
+    "Pasted image 20260202220810.png",
+    "Pasted image 20260202220758.png",
+    "Pasted image 20260202220742.png",
+    "Pasted image 20260202220716.png",
+    "Pasted image 20260202220654.png",
+    "Pasted image 20260202220645.png",
+    "Pasted image 20260202220622.png",
+    "Pasted image 20260202220559.png",
+    "Pasted image 20260202220506.png",
+    "Projects/04-AI-Assistant/Docs/How to start AI.md",
+    "Projects/04-AI-Assistant/Docs/Self local AI.md",
+    "WTF.canvas",
+    "Projects/04-AI-Assistant/Docs/AI-variant.md",
+    "Projects/04-AI-Assistant/Docs/Media/Pasted image 20260202215830.jpg",
+    "Projects/04-AI-Assistant/Docs/Media",
     "Projects/Tasks/Backlog.md",
-    "Projects/04-AI-Assistant/Research/AI start.md",
     "Projects/Tasks/Current-Tasks.md",
     "Projects/04-AI-Assistant/04-AI-Assistant.md",
     "Projects/01-CNC-Laser/Docs/FAQ.md",
@@ -205,12 +212,10 @@
     "Inbox/Idea.md",
     "Docs/System-Evolution.md",
     "Docs/Integration-Ideas.md",
-    "WTF.canvas",
     "Home.md",
     "Projects/Tasks",
     "Projects/04-AI-Assistant/Docs/TG-bot.md",
     "Projects/04-AI-Assistant/Docs/Local-assistant.md",
-    "Projects/04-AI-Assistant/Docs/AI-variant.md",
     "Projects/04-AI-Assistant/Docs",
     "Projects/03-Data-Analytics/03-Data-Analytics.md",
     "Projects/02-3D-Printer/02-3D-Printer.md",
@@ -223,7 +228,6 @@
     "pages/contents.md",
     "DATABASE.base",
     "config.yaml.md",
-    "Projects/03-Data-Analytics/Raw_Data/svod key.md",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "Untitled 2.canvas",
@@ -232,7 +236,6 @@
     "Projects/03-Data-Analytics/Scripts/svod",
     "whiteboards/697c9d15-1c02-4b7f-b673-42b18e260e18.edn",
     "whiteboards",
-    "logseq/custom.css",
-    "pages"
+    "logseq/custom.css"
   ]
 }
