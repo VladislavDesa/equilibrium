@@ -11,17 +11,14 @@
             "id": "7d40b744a9e8b0b2",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "WTF.canvas",
-                "viewState": {
-                  "x": -1060,
-                  "y": -190,
-                  "zoom": -0.22196387683875088
-                }
+                "file": "Projects/04-AI-Assistant/README.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "WTF"
+              "icon": "lucide-file",
+              "title": "README"
             }
           }
         ]
@@ -190,25 +187,27 @@
   },
   "active": "7d40b744a9e8b0b2",
   "lastOpenFiles": [
+    "Projects/FAQ.md",
+    "Projects/Local-assistant.md",
     "Home.md",
-    "README.md",
-    "WTF.canvas",
+    "DATABASE.base",
+    "Projects/04-AI-Assistant/README.md",
+    "Projects/04-AI-Assistant/Local-assistant.md",
+    "Projects/AI-variant.md",
+    "Projects/TG-bot.md",
     "Projects/Kanban.md",
+    "_AFK_ZONE.md",
+    "WTF.canvas",
+    "README.md",
     "Inbox/Idea.md",
     "conflict-files-obsidian-git.md",
-    "Projects/TG-bot.md",
-    "Projects/Local-assistant.md",
-    "Projects/AI-variant.md",
     "pages/contents.md",
-    "DATABASE.base",
     "config.yaml.md",
     "Projects/03-Data-Analytics/Raw_Data/svod key.md",
     "Projects/03-Data-Analytics/Scripts/svod/svod.md",
-    "Projects/04-AI-Assistant/Local-assistant.md",
     "Projects/04-AI-Assistant/TG-bot.md",
     "Projects/04-AI-Assistant/AI-variant.md",
     "2026-01-30.md",
-    "_AFK_ZONE.md",
     "Projects/03-Data-Analytics.md",
     "Untitled.canvas",
     "Archive/e-mail sorter/e-mail sorter v2.md",
@@ -219,10 +218,8 @@
     "Untitled 2.canvas",
     "Archive/e-mail sorter",
     "Projects/03-Data-Analytics/Scripts/e-mail parser v1.2.md",
-    "Projects/03-Data-Analytics/Scripts/e-mail sorter v4.1.md",
     "Projects/03-Data-Analytics/Scripts/e-mail sorter v2.txt",
     "Projects/03-Data-Analytics/Scripts/svod",
-    "Projects/FAQ.md",
     "whiteboards/697c9d15-1c02-4b7f-b673-42b18e260e18.edn",
     "whiteboards",
     "logseq/custom.css",
