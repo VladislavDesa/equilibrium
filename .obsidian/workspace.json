@@ -4,20 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "6662e8c2c0ea4d2b",
+        "id": "10fce83feb66bc6c",
         "type": "tabs",
         "children": [
           {
-            "id": "1c572e66746e805d",
+            "id": "14b0a1296f1e8d96",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Inbox/Idea.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Idea"
+            }
+          },
+          {
+            "id": "7cc7090f10f11a4e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Home.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Home"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -177,61 +196,61 @@
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
       "obsidian-git:Open Git source control": false,
-      "templater-obsidian:Templater": false,
-      "obsidian-kanban:Create new board": false
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "1c572e66746e805d",
+  "active": "7cc7090f10f11a4e",
   "lastOpenFiles": [
-    "Inbox/Idea.md",
-    "Projects/01-CNC-Laser/Docs/Media/Pasted image 20260202222437.png",
-    "Projects/01-CNC-Laser/Docs/Media/Pasted image 20260202222507.png",
-    "Projects/01-CNC-Laser/Docs/Media",
-    "CNC.canvas",
-    "Projects/01-CNC-Laser/Docs/CNC self hands.md",
-    "Projects/01-CNC-Laser/Docs/Media/Pasted image 20260202222621.png",
-    "Projects/01-CNC-Laser/Docs/Media/Pasted image 20260202222609.png",
-    "Projects/01-CNC-Laser/Docs/Media/Pasted image 20260202222600.jpg",
-    "Projects/01-CNC-Laser/Docs/Media/Pasted image 20260202222545.jpg",
-    "_AFK_ZONE.md",
-    "Projects/01-CNC-Laser/Docs/Media/1588393382122377164.webp",
-    "AI.canvas",
     "WTF.canvas",
-    "DATABASE.base",
-    "HOME.md",
-    "Projects/04-AI-Assistant/Docs/AI-variant.md",
-    "Projects/04-AI-Assistant/Docs/How to start AI.md",
-    "Projects/04-AI-Assistant/Docs/6 local AI.md",
-    "Projects/03-Data-Analytics/Scripts/svod/svod.md",
-    "Projects/03-Data-Analytics/Scripts/e-mail parser v1.2.md",
+    "Home.md",
+    "CNC.canvas",
+    "AI.canvas",
+    "_AFK_ZONE.md",
+    "Projects/Tasks/Current-Tasks.md",
+    "Projects/Tasks/Backlog.md",
+    "Inbox/Idea.md",
+    "Projects/03-Data-Analytics/03-Data-Analytics.md",
+    "Projects/Tasks",
     "Projects/04-AI-Assistant/Docs/Self local AI.md",
-    "Projects/04-AI-Assistant/Docs/Local-assistant.md",
-    "Inbox/Kanban.md",
-    "Projects/04-AI-Assistant/Docs/Media/Pasted image 20260202220506.png",
     "Projects/04-AI-Assistant/Docs/Media/Pasted image 20260202220833.png",
     "Projects/04-AI-Assistant/Docs/Media/Pasted image 20260202220810.png",
+    "Projects/04-AI-Assistant/Docs/Media/Pasted image 20260202220758.png",
+    "Projects/04-AI-Assistant/Docs/Media/Pasted image 20260202220742.png",
+    "Projects/04-AI-Assistant/Docs/Media/Pasted image 20260202220716.png",
+    "Projects/04-AI-Assistant/Docs/Media/Pasted image 20260202220654.png",
+    "Projects/04-AI-Assistant/Docs/Media/Pasted image 20260202220645.png",
+    "Projects/04-AI-Assistant/Docs/Media/Pasted image 20260202220622.png",
+    "Projects/04-AI-Assistant/Docs/Media/Pasted image 20260202220559.png",
+    "Projects/04-AI-Assistant/Docs/Media/Pasted image 20260202220506.png",
     "Projects/04-AI-Assistant/Docs/Media",
-    "Projects/Tasks/Backlog.md",
-    "Projects/Tasks/Current-Tasks.md",
-    "Projects/04-AI-Assistant/04-AI-Assistant.md",
-    "Projects/01-CNC-Laser/Docs/FAQ.md",
+    "Projects/04-AI-Assistant/Docs/How to start AI.md",
+    "Projects/04-AI-Assistant/Docs/6 local AI.md",
+    "Projects/01-CNC-Laser/Docs/Media",
+    "Projects/01-CNC-Laser/Docs/CNC self hands.md",
+    "Inbox/Kanban.md",
     "Projects/01-CNC-Laser/01-CNC-Laser.md",
-    "Docs/System-Evolution.md",
-    "Docs/Integration-Ideas.md",
-    "Projects/Tasks",
-    "Projects/04-AI-Assistant/Docs/TG-bot.md",
-    "Projects/04-AI-Assistant/Docs",
-    "Projects/03-Data-Analytics/03-Data-Analytics.md",
-    "Projects/02-3D-Printer/02-3D-Printer.md",
-    "Projects/Kanban.md",
     "README.md",
     "conflict-files-obsidian-git.md",
+    "Projects/04-AI-Assistant/Docs/Local-assistant.md",
+    "Projects/04-AI-Assistant/Docs/TG-bot.md",
+    "Projects/04-AI-Assistant/Docs/AI-variant.md",
+    "Projects/04-AI-Assistant/Docs",
+    "Projects/04-AI-Assistant/04-AI-Assistant.md",
+    "DATABASE.base",
+    "Projects/02-3D-Printer/02-3D-Printer.md",
+    "Projects/Kanban.md",
+    "Projects/FAQ.md",
+    "Projects/AI-variant.md",
+    "config.yaml.md",
+    "Projects/TG-bot.md",
+    "Projects/Local-assistant.md",
+    "Untitled.canvas",
+    "Untitled.base",
     "Untitled 1.canvas",
     "Untitled 2.canvas",
     "Archive/e-mail sorter",
     "Projects/03-Data-Analytics/Scripts/e-mail sorter v2.txt",
     "Projects/03-Data-Analytics/Scripts/svod",
-    "whiteboards/697c9d15-1c02-4b7f-b673-42b18e260e18.edn",
-    "whiteboards"
+    "whiteboards/697c9d15-1c02-4b7f-b673-42b18e260e18.edn"
   ]
 }
