@@ -6,7 +6,43 @@
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": true,
-  "colorGroups": [],
+  "colorGroups": [
+    {
+      "query": "HOME",
+      "color": {
+        "a": 1,
+        "rgb": 560138
+      }
+    },
+    {
+      "query": "DATABASE",
+      "color": {
+        "a": 1,
+        "rgb": 1844640
+      }
+    },
+    {
+      "query": "CNC",
+      "color": {
+        "a": 1,
+        "rgb": 13702421
+      }
+    },
+    {
+      "query": "E-MAIL",
+      "color": {
+        "a": 1,
+        "rgb": 14014483
+      }
+    },
+    {
+      "query": "AI",
+      "color": {
+        "a": 1,
+        "rgb": 0
+      }
+    }
+  ],
   "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": 0,

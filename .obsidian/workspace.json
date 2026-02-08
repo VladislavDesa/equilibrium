@@ -13,12 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< HEAD
                 "file": "Projects/Tasks/Current-Tasks.md",
+=======
+                "file": "Projects/01-CNC-Laser/01-CNC-Laser.md",
+>>>>>>> origin/main
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
+<<<<<<< HEAD
               "title": "Current-Tasks"
+=======
+              "title": "01-CNC-Laser"
+>>>>>>> origin/main
             }
           }
         ]
@@ -186,6 +194,7 @@
   },
   "active": "14b0a1296f1e8d96",
   "lastOpenFiles": [
+<<<<<<< HEAD
     "Projects/Tasks/Backlog.md",
     "Projects/Tasks/Current-Tasks.md",
     "Projects/01-CNC-Laser/Docs/FAQ.md",
@@ -201,30 +210,64 @@
     "Projects/04-AI-Assistant/Docs/Local-assistant.md",
     "Projects/04-AI-Assistant/Docs/AI-variant.md",
     "Projects/04-AI-Assistant/Docs",
+=======
+    "CNC.canvas",
+    "AI.canvas",
+    "_AFK_ZONE.md",
+    "Projects/Tasks/Current-Tasks.md",
+    "Projects/Tasks/Backlog.md",
+    "Inbox/Pathregist.md",
+    "Inbox/Kanban.md",
+    "Inbox/Idea.md",
+    "WTF.canvas",
+>>>>>>> origin/main
     "Projects/04-AI-Assistant/04-AI-Assistant.md",
+    "conflict-files-obsidian-git.md",
+    "Projects/04-AI-Assistant/Docs/04-AI-Assistant-Docs-FAST-TREVEL.md",
+    "Projects/04-AI-Assistant/Docs/Media/Pasted image 20260202220654.png",
+    "Projects/04-AI-Assistant/Docs/Media/Pasted image 20260202220622.png",
+    "Projects/04-AI-Assistant/Docs/Media/Pasted image 20260202220506.png",
+    "Projects/04-AI-Assistant/Docs/Media/Pasted image 20260202220025.png",
+    "Projects/04-AI-Assistant/Docs/Media/Pasted image 20260202215830.jpg",
+    "Projects/04-AI-Assistant/Docs/Media/301bfec2b564d13faa040ce538d4c529.webp",
+    "Projects/04-AI-Assistant/Docs/Media/96e131559135737ddb068ae088e5164b.webp",
+    "Projects/04-AI-Assistant/Docs/Media/9f43f0afd4acb39f99c6b6fa07681918.webp",
+    "Projects/04-AI-Assistant/Docs/Media/5f7372030a71488bbb64d1374f6d840c.webp",
+    "Projects/04-AI-Assistant/Docs/AI-variant.md",
+    "Projects/04-AI-Assistant/Docs/Self local AI.md",
+    "Projects/04-AI-Assistant/Docs/Local-assistant.md",
+    "Projects/04-AI-Assistant/Docs/How to start AI.md",
+    "Projects/04-AI-Assistant/Docs/6 local AI.md",
+    "Home.md",
     "Projects/03-Data-Analytics/03-Data-Analytics.md",
-    "Projects/02-3D-Printer/02-3D-Printer.md",
+    "Projects/Tasks",
+    "Projects/04-AI-Assistant/Docs/Media/Pasted image 20260202220833.png",
+    "Projects/04-AI-Assistant/Docs/Media",
+    "Projects/01-CNC-Laser/Docs/Media",
+    "Projects/01-CNC-Laser/Docs/CNC self hands.md",
     "Projects/01-CNC-Laser/01-CNC-Laser.md",
-    "Projects/03-Data-Analytics.md",
-    "Projects/AI-variant.md",
-    "Projects/TG-bot.md",
-    "Projects/Local-assistant.md",
+    "README.md",
+    "Projects/04-AI-Assistant/Docs/TG-bot.md",
+    "Projects/04-AI-Assistant/Docs",
+    "DATABASE.base",
+    "Projects/02-3D-Printer/02-3D-Printer.md",
     "Projects/Kanban.md",
     "Projects/FAQ.md",
-    "_AFK_ZONE.md",
-    "2026-01-30.md",
+    "Projects/AI-variant.md",
     "config.yaml.md",
+<<<<<<< HEAD
     "DATABASE.base",
     "pages/contents.md",
     "Untitled.base",
+=======
+>>>>>>> origin/main
     "Untitled.canvas",
+    "Untitled.base",
     "Untitled 1.canvas",
     "Untitled 2.canvas",
     "Archive/e-mail sorter",
     "Projects/03-Data-Analytics/Scripts/e-mail sorter v2.txt",
     "Projects/03-Data-Analytics/Scripts/svod",
-    "whiteboards/697c9d15-1c02-4b7f-b673-42b18e260e18.edn",
-    "whiteboards",
-    "logseq/custom.css"
+    "whiteboards/697c9d15-1c02-4b7f-b673-42b18e260e18.edn"
   ]
 }
