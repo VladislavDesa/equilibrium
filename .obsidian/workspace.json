@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/Idea.md",
+                "file": "Projects/Tasks/Current-Tasks.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Idea"
+              "title": "Current-Tasks"
             }
           }
         ]
@@ -186,13 +186,16 @@
   },
   "active": "14b0a1296f1e8d96",
   "lastOpenFiles": [
-    "Inbox/Kanban.md",
+    "Projects/Tasks/Backlog.md",
+    "Projects/Tasks/Current-Tasks.md",
+    "Projects/01-CNC-Laser/Docs/FAQ.md",
+    "Docs/System-Evolution.md",
+    "Docs/Integration-Ideas.md",
     "Inbox/Idea.md",
+    "Inbox/Kanban.md",
     "README.md",
     "Home.md",
     "WTF.canvas",
-    "Projects/Tasks/Current-Tasks.md",
-    "Projects/Tasks/Backlog.md",
     "Projects/Tasks",
     "Projects/04-AI-Assistant/Docs/TG-bot.md",
     "Projects/04-AI-Assistant/Docs/Local-assistant.md",
@@ -214,9 +217,6 @@
     "DATABASE.base",
     "pages/contents.md",
     "Untitled.base",
-    "Projects/01-CNC-Laser/README.md",
-    "Archive/e-mail sorter/e-mail sorter v2.md",
-    "Archive/e-mail sorter/e-mail sorter v3.md",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "Untitled 2.canvas",
