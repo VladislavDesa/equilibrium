@@ -11,14 +11,17 @@
             "id": "14b0a1296f1e8d96",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Projects/01-CNC-Laser/01-CNC-Laser.md",
-                "mode": "source",
-                "source": false
+                "file": "CNC.canvas",
+                "viewState": {
+                  "x": -800,
+                  "y": -30,
+                  "zoom": -0.0315177553072966
+                }
               },
-              "icon": "lucide-file",
-              "title": "01-CNC-Laser"
+              "icon": "lucide-layout-dashboard",
+              "title": "CNC"
             }
           }
         ]
@@ -186,6 +189,7 @@
   },
   "active": "14b0a1296f1e8d96",
   "lastOpenFiles": [
+    "Projects/01-CNC-Laser/01-CNC-Laser.md",
     "CNC.canvas",
     "AI.canvas",
     "_AFK_ZONE.md",
@@ -219,7 +223,6 @@
     "Projects/04-AI-Assistant/Docs/Media",
     "Projects/01-CNC-Laser/Docs/Media",
     "Projects/01-CNC-Laser/Docs/CNC self hands.md",
-    "Projects/01-CNC-Laser/01-CNC-Laser.md",
     "README.md",
     "Projects/04-AI-Assistant/Docs/TG-bot.md",
     "Projects/04-AI-Assistant/Docs",
