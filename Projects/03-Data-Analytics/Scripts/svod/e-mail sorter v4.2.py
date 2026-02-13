@@ -531,7 +531,7 @@ class ReportSorter:
                 preview_lines = []
                 for i, row in enumerate(sheet.iter_rows(min_row=1, max_row=10, values_only=True), 1):
                     row_data = [str(cell) for cell in row if cell]
-                    if row_
+                    if row: # <-- ИСПРАВЛЕНО: if row:
                         preview_lines.append(f"Строка {i}: {' | '.join(row_data[:5])}")
                 wb.close()
                 return '\n'.join(preview_lines)
@@ -562,7 +562,7 @@ class ReportSorter:
                 print("\nПервые 10 строк:")
                 for i, row in enumerate(sheet.iter_rows(min_row=1, max_row=10, values_only=True), 1):
                     row_data = [str(cell)[:50] for cell in row if cell]
-                    if row_
+                    if row: # <-- ИСПРАВЛЕНО: if row:
                         print(f"   {i:2}. {' | '.join(row_data)}")
                 wb.close()
             elif file_ext == '.pdf':
