@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/Pathregist.md",
+                "file": "Inbox/Idea.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Pathregist"
+              "title": "Idea"
             }
           }
         ]
@@ -186,15 +186,17 @@
   },
   "active": "71eab34f18010c86",
   "lastOpenFiles": [
+    "Projects/03-Data-Analytics/Scripts/svod/Организации.md",
+    "Projects/03-Data-Analytics/Scripts/svod/Организации",
+    "Projects/Tasks/Current-Tasks.md",
+    "Projects/Tasks/Backlog.md",
+    "Inbox/Pathregist.md",
     "Inbox/Kanban.md",
     "Inbox/Idea.md",
     "CNC.canvas",
     "Projects/01-CNC-Laser/01-CNC-Laser.md",
     "AI.canvas",
     "_AFK_ZONE.md",
-    "Projects/Tasks/Current-Tasks.md",
-    "Projects/Tasks/Backlog.md",
-    "Inbox/Pathregist.md",
     "WTF.canvas",
     "Projects/04-AI-Assistant/04-AI-Assistant.md",
     "conflict-files-obsidian-git.md",
@@ -235,7 +237,6 @@
     "Untitled 2.canvas",
     "Archive/e-mail sorter",
     "Projects/03-Data-Analytics/Scripts/e-mail sorter v2.txt",
-    "Projects/03-Data-Analytics/Scripts/svod",
-    "whiteboards/697c9d15-1c02-4b7f-b673-42b18e260e18.edn"
+    "Projects/03-Data-Analytics/Scripts/svod"
   ]
 }
