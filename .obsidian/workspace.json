@@ -11,13 +11,26 @@
             "id": "1c572e66746e805d",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "07ed7c1957d41a7a",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.7"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -181,7 +194,7 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "1c572e66746e805d",
+  "active": "07ed7c1957d41a7a",
   "lastOpenFiles": [
     "Inbox/Idea.md",
     "Projects/01-CNC-Laser/Docs/Media/Pasted image 20260202222437.png",
