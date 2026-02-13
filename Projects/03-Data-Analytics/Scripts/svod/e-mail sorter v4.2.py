@@ -17,17 +17,21 @@ logging.basicConfig(
 )
 
 class ReportSorter:
-    def __init__(self, source_folder, output_folder, report_names_file, interactive=False):
+    def __init__(self, source_folder, output_folder, report_names_file, interactive=False, organizations_file=None):
         self.source_folder = source_folder
         self.output_folder = output_folder
         self.report_names_file = report_names_file
         self.interactive = interactive
+        # Добавляем файл организаций
+        self.organizations_file = organizations_file
         os.makedirs(output_folder, exist_ok=True)
         # Основные форматы
         self.supported_formats = ['.xlsx', '.xls', '.pdf', '.docx', '.doc']
         # Словари для хранения: {ключ_поиска: (название_папки, тип_поиска)}
         # тип_поиска: 'content' или 'filename'
         self.search_to_folder = {}
+        # Новый словарь для организаций из отдельного файла
+        self.organizations_mapping = {}
         self.found_folders = set()
         # Статистика
         self.stats = {
@@ -38,8 +42,9 @@ class ReportSorter:
             'errors': 0,
             'moved': 0,
             'interactive_choices': 0,
-            'exact_matches': 0,
-            'name_matches': 0,
+            'exact_matches': 0, # Совпадения по содержимому
+            'name_matches': 0, # Совпадения по имени файла (включая организационные)
+            'org_name_matches': 0, # Совпадения по имени файла с использованием списка организаций
             'new_keys_added': 0
         }
         # Для хранения неотсортированных файлов
@@ -84,53 +89,97 @@ class ReportSorter:
             return "Неизвестно"
 
     def load_report_names(self):
-        """Загрузка ключей поиска и названий папок из файла"""
-        print(f"\n📋 Загрузка настроек из: {self.report_names_file}")
+        """Загрузка ключей поиска и названий папок из основного файла"""
+        print(f"\n📋 Загрузка основных настроек из: {self.report_names_file}")
         if not os.path.exists(self.report_names_file):
             print(f"❌ Файл не найден: {self.report_names_file}")
             return False
+
         try:
             with open(self.report_names_file, 'r', encoding='utf-8') as f:
                 lines = [line.strip() for line in f if line.strip()]
-                print(f"📄 Загружено строк: {len(lines)}")
-                for line in lines:
-                    parts = line.split('|', 2)
-                    if len(parts) == 3:
-                        search_key = parts[0].strip()
-                        folder_name = parts[1].strip()
-                        search_type = parts[2].strip().lower()
-                        if search_key and folder_name and search_type in ['content', 'filename']:
-                            self.search_to_folder[search_key] = (folder_name, search_type)
-                    elif len(parts) == 2:
+
+            print(f"📄 Загружено строк: {len(lines)}")
+            for line in lines:
+                parts = line.split('|', 2)
+                if len(parts) == 3:
+                    search_key = parts[0].strip()
+                    folder_name = parts[1].strip()
+                    search_type = parts[2].strip().lower()
+                    if search_key and folder_name and search_type in ['content', 'filename']:
+                        self.search_to_folder[search_key] = (folder_name, search_type)
+                elif len(parts) == 2:
+                    search_key = parts[0].strip()
+                    folder_name = parts[1].strip()
+                    if search_key and folder_name:
+                        self.search_to_folder[search_key] = (folder_name, 'content')
+                else:
+                    search_key = line.strip()
+                    if search_key:
+                        self.search_to_folder[search_key] = (search_key, 'content')
+
+            print(f"✅ Загружено основных ключей поиска: {len(self.search_to_folder)}")
+            print(f"✅ Будут созданы папки: {len(set([v[0] for v in self.search_to_folder.values()]))}")
+            return True
+        except Exception as e:
+            print(f"❌ Ошибка загрузки основных настроек: {e}")
+            return False
+
+    def load_organizations_list(self):
+        """Загрузка списка организаций из отдельного файла"""
+        # Инициализируем пустой словарь, даже если файл не указан или не найден
+        self.organizations_mapping = {}
+        if not self.organizations_file:
+            print(f"\n⚠️  Файл списка организаций не указан. Продолжаем без него.")
+            return True # Не считаем отсутствие файла за ошибку
+
+        print(f"\n📋 Загрузка списка организаций из: {self.organizations_file}")
+        if not os.path.exists(self.organizations_file):
+            print(f"⚠️  Файл списка организаций не найден: {self.organizations_file}. Продолжаем без него.")
+            return True # Не считаем отсутствие файла за ошибку
+
+        try:
+            with open(self.organizations_file, 'r', encoding='utf-8') as f:
+                lines = [line.strip() for line in f if line.strip()]
+
+            print(f"📄 Загружено строк из списка организаций: {len(lines)}")
+            for line in lines:
+                if '|' in line:
+                    parts = line.split('|', 1)
+                    if len(parts) == 2:
                         search_key = parts[0].strip()
                         folder_name = parts[1].strip()
                         if search_key and folder_name:
-                            self.search_to_folder[search_key] = (folder_name, 'content')
+                            # Используем ключ для поиска в имени файла
+                            self.organizations_mapping[search_key] = folder_name
                     else:
-                        search_key = line.strip()
-                        if search_key:
-                            self.search_to_folder[search_key] = (search_key, 'content')
-                print(f"✅ Загружено ключей поиска: {len(self.search_to_folder)}")
-                print(f"✅ Будут созданы папки: {len(set([v[0] for v in self.search_to_folder.values()]))}")
-
-                debug_file = os.path.join(self.output_folder, "настройки_поиска.txt")
-                with open(debug_file, 'w', encoding='utf-8') as f:
-                    f.write("НАСТРОЙКИ ПОИСКА И СОРТИРОВКИ:\n")
-                    f.write("="*80 + "\n")
-                    f.write("Формат: 'КЛЮЧ_ПОИСКА | НАЗВАНИЕ_ПАПКИ | ТИП_ПОИСКА'\n")
-                    f.write("ТИП_ПОИСКА: 'content' или 'filename'\n")
-                    f.write("ИЛИ просто 'КЛЮЧ_ПОИСКА' (ключ = имя папки, поиск в содержимом)\n")
-                    f.write("="*80 + "\n")
-                    f.write("📋 СПИСОК КЛЮЧЕЙ ДЛЯ ПОИСКА:\n")
-                    for search_key, (folder_name, search_type) in sorted(self.search_to_folder.items()):
-                        f.write(f"\n🔍 Ищем: '{search_key}' (тип: {search_type})")
-                        if search_key != folder_name:
-                            f.write(f" → 📁 Папка: '{folder_name}'")
-                        f.write("\n")
-                return True
+                        print(f"⚠️  Некорректная строка в файле организаций (нет '|'): {line}")
+                else:
+                    # Если строка не содержит '|', считаем её ключом (ключ = имя папки)
+                    search_key = line.strip()
+                    if search_key:
+                        self.organizations_mapping[search_key] = search_key
+                        print(f"⚠️  Строка '{search_key}' в файле организаций интерпретирована как 'ключ = папка'.")
+            print(f"✅ Загружено {len(self.organizations_mapping)} соответствий организаций.")
+            
+            # Сохраняем загруженные соответствия для отладки
+            debug_file = os.path.join(self.output_folder, "отладка_организаций.txt")
+            with open(debug_file, 'w', encoding='utf-8') as f:
+                f.write("ЛОГИКА ПОИСКА ПО СПИСКУ ОРГАНИЗАЦИЙ:\n")
+                f.write("Формат в файле: 'КЛЮЧ_ПОИСКА | НАЗВАНИЕ_ПАПКИ'\n")
+                f.write("Или просто 'КЛЮЧ_ПОИСКА' (ключ = имя папки)\n")
+                f.write("="*80 + "\n")
+                f.write("СПИСОК КЛЮЧЕЙ ДЛЯ ПОИСКА В ИМЕНИ ФАЙЛА:\n")
+                for search_key, folder_name in sorted(self.organizations_mapping.items()):
+                     f.write(f"'{search_key}' -> '{folder_name}'\n")
+            print(f"Отладочная информация сохранена в: {debug_file}")
+            
+            return True
         except Exception as e:
-            print(f"❌ Ошибка загрузки: {e}")
-            return False
+            print(f"❌ Ошибка загрузки файла организаций {self.organizations_file}: {e}")
+            # Даже при ошибке продолжаем, считая список пустым
+            self.organizations_mapping = {}
+            return True # Не считаем ошибку загрузки файла за критическую ошибку всей программы
 
     def save_report_names(self):
         """Сохранение ключей поиска в файл"""
@@ -193,19 +242,33 @@ class ReportSorter:
                             for line in pdf_lines:
                                 if search_key in line:
                                     return folder_name
-                return None
+            return None
+        except ImportError:
+            return None
         except Exception as e:
             self.log_detail(f"Ошибка PDF {filename}: {e}")
             return None
 
     def search_in_filename(self, filename):
-        """Поиск ключей в имени файла, учитывая тип поиска"""
+        """Поиск ключей в имени файла, учитывая тип поиска из основного словаря"""
         name_without_ext = os.path.splitext(filename)[0]
         clean_name = re.sub(r'[_\-.]', ' ', name_without_ext.lower())
+
         for search_key, (folder_name, search_type) in self.search_to_folder.items():
             if search_type == 'filename':
                 if search_key.lower() in clean_name:
                     return folder_name
+        return None
+
+    def search_in_filename_by_org_list(self, filename):
+        """Поиск ключей в имени файла, используя только список организаций"""
+        name_without_ext = os.path.splitext(filename)[0]
+        clean_name = re.sub(r'[_\-.]', ' ', name_without_ext.lower())
+
+        for search_key, folder_name in self.organizations_mapping.items():
+            # Ищем ключ из списка организаций в имени файла (без учета регистра и разделителей)
+            if search_key.lower() in clean_name:
+                return folder_name
         return None
 
     def identify_report_type(self, file_path):
@@ -221,7 +284,7 @@ class ReportSorter:
         return None
 
     def identify_report_type_with_filename(self, file_path):
-        """Поиск в содержимом файлов И в именах файлов (для ресортировки)"""
+        """Поиск в содержимом файлов И в именах файлов (для ресортировки, использует основной словарь)"""
         filename = os.path.basename(file_path)
         file_ext = os.path.splitext(filename)[1].lower()
         folder_name = self.search_in_filename(filename)
@@ -251,6 +314,7 @@ class ReportSorter:
                 print(f"  {i:2}. {folder}")
             if len(existing_folders) > 20:
                 print(f"  ... и еще {len(existing_folders) - 20} папок")
+
         print("\nВыберите действие:")
         print("  1. Создать новую папку")
         if existing_folders:
@@ -260,6 +324,7 @@ class ReportSorter:
         print("  5. Добавить новый ключ поиска в содержимое")
         print("  6. Добавить новый ключ поиска по имени файла")
         print("  7. Просмотреть содержимое файла")
+
         while True:
             choice = input("\nВаш выбор: ").strip()
             if choice == '1':
@@ -305,6 +370,7 @@ class ReportSorter:
         """Добавление нового ключа поиска с автоматической ресортировкой"""
         print(f"\n➕ ДОБАВЛЕНИЕ НОВОГО КЛЮЧА ПОИСКА ({'в содержимом' if search_type == 'content' else 'в имени файла'})")
         print(f"Файл: {filename}")
+
         print("\nСодержимое файла (первые 200 символов):")
         content_preview = self.get_file_preview(file_path, file_ext, max_chars=200)
         print(f"  {content_preview}")
@@ -334,7 +400,7 @@ class ReportSorter:
                     search_key = input("\nВведите текст для поиска в файлах: ").strip()
             else:
                 search_key = input("\nВведите текст для поиска в файлах: ").strip()
-        else:
+        else: # search_type == 'filename'
             print("\nВведите текст, который должен содержаться в имени файла:")
             print(f"  Текущее имя: {filename}")
             search_key = input("  Ключ поиска в имени файла: ").strip()
@@ -348,6 +414,7 @@ class ReportSorter:
         print("  2. Выбрать из существующих")
         folder_choice_input = input("  Ваш выбор (1 или 2): ").strip()
         folder_name = ""
+
         existing_folders = sorted(list(self.found_folders))
         if folder_choice_input == '2' and existing_folders:
             print("\nСуществующие папки:")
@@ -376,6 +443,7 @@ class ReportSorter:
         self.search_to_folder[search_key] = (folder_name, search_type)
         self.stats['new_keys_added'] += 1
         print(f"\n✅ Добавлен ключ поиска: '{search_key}' → папка '{folder_name}' (тип поиска: {search_type})")
+
         self.save_report_names()
 
         # Поиск в текущем файле
@@ -391,7 +459,6 @@ class ReportSorter:
             print(f"\n🔄 Запуск автоматической ресортировки неотсортированных файлов...")
             sorted_count = self.rescan_unsorted_by_search_type(search_key, search_type)
             print(f"✅ Ресортировано {sorted_count} файлов")
-
             # Если текущий файл не был найден — проверяем ещё раз
             if not found_in_current:
                 found_folder_after_rescan = self.find_folder_by_newest_key(file_path, search_type)
@@ -402,7 +469,6 @@ class ReportSorter:
         # Возвращаем результат для текущего файла
         if found_in_current:
             return found_in_current
-
         # Если ничего не найдено — спрашиваем, использовать ли папку
         print(f"\nКак поступить с текущим файлом '{filename}'?")
         action = input("  Создать папку для ключа (1) или выбрать другую папку (2)? ")
@@ -415,8 +481,9 @@ class ReportSorter:
         """Вспомогательная функция для поиска по типу только что добавленного ключа"""
         filename = os.path.basename(file_path)
         file_ext = os.path.splitext(filename)[1].lower()
+
         if added_search_type == 'filename':
-            return self.search_in_filename(filename)
+             return self.search_in_filename(filename)
         elif added_search_type == 'content':
             if file_ext in ['.xlsx', '.xls']:
                 return self.search_exact_in_excel(file_path, filename)
@@ -443,13 +510,12 @@ class ReportSorter:
             target_folder = None
 
             if search_type == 'filename':
-                name_without_ext = os.path.splitext(filename)[0]
-                clean_name = re.sub(r'[_\-.]', ' ', name_without_ext.lower())
-                if new_search_key.lower() in clean_name:
+                 name_without_ext = os.path.splitext(filename)[0]
+                 clean_name = re.sub(r'[_\-.]', ' ', name_without_ext.lower())
+                 if new_search_key.lower() in clean_name:
                     target_folder = self.search_to_folder[new_search_key][0]
                     found = True
                     self.stats['name_matches'] += 1
-
             elif search_type == 'content':
                 if file_ext in ['.xlsx', '.xls']:
                     wb = None
@@ -561,15 +627,18 @@ class ReportSorter:
 
     def rescan_unsorted_files(self):
         """Оригинальный метод — оставлен для совместимости (не используется в новой логике)"""
-        print(f"\n🔄 РЕСОРТИРОВКА НЕОТСОРТИРОВАННЫХ ФАЙЛОВ")
+        print(f"\n🔄 РЕСОРТИРОВКА НЕОТСОРТИРОВАННЫХ ФАЙЛОВ (основной словарь)")
         print(f"Неотсортированных файлов: {len(self.unsorted_files)}")
         sorted_count = 0
         unsorted_copy = self.unsorted_files.copy()
+
         for i, (file_path, rel_path, organization) in enumerate(unsorted_copy, 1):
             if not os.path.exists(file_path):
                 self.unsorted_files.remove((file_path, rel_path, organization))
                 continue
+
             folder_name = self.identify_report_type_with_filename(file_path)
+
             if folder_name:
                 if self.move_file_to_folder(file_path, folder_name, organization):
                     self.stats['sorted'] += 1
@@ -577,25 +646,83 @@ class ReportSorter:
                     self.unsorted_files.remove((file_path, rel_path, organization))
                     sorted_count += 1
             else:
-                pass
+                pass # Остается в списке неотсортированных
+
+        return sorted_count
+
+    def sort_by_organization_filename(self):
+        """Новая фаза сортировки: поиск ТОЛЬКО по имени файла с использованием списка организаций."""
+        print(f"\n🔄 ВТОРАЯ ФАЗА СОРТИРОВКИ: поиск по имени файла (список организаций)")
+        print(f"Файл списка организаций: {self.organizations_file or 'Не указан'}")
+        print(f"Ключей в списке: {len(self.organizations_mapping)}")
+        print(f"Неотсортированных файлов (до фазы): {len(self.unsorted_files)}")
+        
+        if not self.organizations_mapping:
+             print("⚠️  Список организаций пуст. Пропуск второй фазы.")
+             return 0
+
+        sorted_count = 0
+        unsorted_copy = self.unsorted_files.copy()
+
+        for i, (file_path, rel_path, organization) in enumerate(unsorted_copy, 1):
+            if not os.path.exists(file_path):
+                self.unsorted_files.remove((file_path, rel_path, organization))
+                continue
+
+            filename = os.path.basename(file_path)
+            # Используем только словарь организаций для поиска в имени
+            folder_name = self.search_in_filename_by_org_list(filename)
+
+            if folder_name:
+                print(f"   ✅ Найдено совпадение в имени файла с организацией! '{filename}' → '{folder_name}'")
+                # При перемещении используем имя файла из списка организаций как 'organization'
+                # для формирования имени файла. Это нужно для `create_final_filename`.
+                # Однако, в `move_file_to_folder` мы передаём `organization` из пути.
+                # Чтобы имя файла формировалось с названием из списка организаций,
+                # можно модифицировать `create_final_filename` или передавать другое значение.
+                # Пока оставим как есть, `organization` берётся из пути.
+                # Если нужно, чтобы имя файла начиналось с названия из списка организаций,
+                # нужно изменить `create_final_filename`.
+                # Пока просто перемещаем в папку, найденную по списку.
+                if self.move_file_to_folder(file_path, folder_name, organization): # organization по-прежнему из пути
+                    self.stats['sorted'] += 1
+                    self.stats['not_found'] -= 1
+                    self.stats['org_name_matches'] += 1 # Увеличиваем счётчик для этой фазы
+                    self.unsorted_files.remove((file_path, rel_path, organization))
+                    sorted_count += 1
+                else:
+                    print(f"   ❌ Ошибка перемещения файла '{filename}'")
+            else:
+                print(f"   ❌ Совпадений в имени файла с организацией не найдено для: '{filename}'")
+
+        print(f"✅ Вторая фаза завершена. Отсортировано: {sorted_count}")
+        print(f"Неотсортированных файлов (после фазы): {len(self.unsorted_files)}")
         return sorted_count
 
     def create_final_filename(self, original_filename, organization):
         """Создание окончательного имени файла с отправителем"""
+        # Очищаем название организации
         safe_org = re.sub(r'[<>:"/\\|?*]', '_', organization)
         safe_org = safe_org.strip('_')
+        # Если организация неизвестна, не добавляем префикс
         if safe_org == "Неизвестно" or not safe_org:
             return original_filename
+        # Получаем расширение файла
         name_without_ext, ext = os.path.splitext(original_filename)
+        # Формируем новое имя: [Организация]_оригинальное_имя.расширение
+        # Но если файл уже начинается с этой организации, не дублируем
         if original_filename.lower().startswith(safe_org.lower() + '_'):
             return original_filename
         new_filename = f"{safe_org}_{original_filename}"
+        # Ограничиваем длину (Windows ограничение - 260 символов)
         if len(new_filename) > 200:
-            max_name_len = 200 - len(ext) - len(safe_org) - 2
+            # Сокращаем имя файла, но оставляем организацию и расширение
+            max_name_len = 200 - len(ext) - len(safe_org) - 2  # -2 для подчеркиваний
             if max_name_len > 10:
                 name_part = name_without_ext[:max_name_len]
                 new_filename = f"{safe_org}_{name_part}{ext}"
             else:
+                # Если слишком длинно, оставляем только организацию и расширение
                 new_filename = f"{safe_org}{ext}"
         return new_filename
 
@@ -614,17 +741,22 @@ class ReportSorter:
         original_filename = os.path.basename(source_path)
         final_filename = self.create_final_filename(original_filename, organization)
         target_path = os.path.join(target_dir, final_filename)
+        # Если файл уже существует, добавляем номер
         counter = 1
         base_name, ext = os.path.splitext(target_path)
         while os.path.exists(target_path):
             target_path = f"{base_name}_{counter}{ext}"
             counter += 1
+
         try:
+            # ВАЖНО: ПЕРЕМЕЩАЕМ файл (не копируем!)
             shutil.move(source_path, target_path)
             self.stats['moved'] += 1
+            # Логируем
             log_msg = f"  ПЕРЕМЕЩЕН в: {safe_folder_name}/{os.path.basename(target_path)}"
             if counter > 1:
                 log_msg += f" (переименован с {original_filename})"
+            # Если имя изменилось, показываем старое и новое
             if final_filename != original_filename:
                 log_msg += f" [было: {original_filename}]"
             print(log_msg)
@@ -648,8 +780,10 @@ class ReportSorter:
                     file_path = os.path.join(root, file)
                     rel_path = os.path.relpath(root, self.source_folder)
                     all_files.append((file_path, rel_path))
+
         self.stats['total_files'] = len(all_files)
         print(f"✅ Найдено файлов: {self.stats['total_files']}")
+        # Сохраняем оригинальный список файлов
         self.all_files_original = all_files.copy()
         return all_files
 
@@ -660,29 +794,41 @@ class ReportSorter:
             self.stats['processed'] += 1
             current_num = self.stats['processed']
             total_files = self.stats['total_files']
+
+            # Вывод прогресса
             if current_num % 50 == 0:
                 print(f"📊 [{current_num:4}/{total_files:4}] "
                       f"Отсортировано: {self.stats['sorted']:4} | "
                       f"Точных совпадений: {self.stats['exact_matches']:4} | "
                       f"По имени: {self.stats['name_matches']:4} | "
                       f"Не найдено: {self.stats['not_found']:4}")
+
             filename = os.path.basename(file_path)
+
+            # Извлекаем организацию из пути
             organization = self.extract_organization_from_path(file_path, rel_path)
+
+            # ТОЛЬКО поиск в содержимом файла (оригинальная логика)
             folder_name = self.identify_report_type(file_path)
+
             if folder_name:
                 self.stats['exact_matches'] += 1
+                # Перемещаем файл с добавлением отправителя в имя
                 if self.move_file_to_folder(file_path, folder_name, organization):
                     self.stats['sorted'] += 1
                     return (file_path, folder_name, True, "Успешно перемещен", organization)
                 else:
                     return (file_path, None, False, "Ошибка перемещения", organization)
             else:
+                # Файл не распознан
                 if self.interactive:
+                    # Добавляем в список неотсортированных для интерактивной обработки
                     self.unsorted_files.append((file_path, rel_path, organization))
                     self.stats['not_found'] += 1
                     return (file_path, None, False, "Ожидает интерактивной обработки", organization)
                 else:
                     self.stats['not_found'] += 1
+                    # Автоматически перемещаем в НЕ_СОРТИРОВАННЫЕ
                     if self.move_file_to_folder(file_path, "НЕ_СОРТИРОВАННЫЕ", organization):
                         return (file_path, "НЕ_СОРТИРОВАННЫЕ", True, "Перемещен в НЕ_СОРТИРОВАННЫЕ", organization)
                     else:
@@ -699,36 +845,54 @@ class ReportSorter:
         print(f"\n🔧 ИНТЕРАКТИВНЫЙ РЕЖИМ")
         print(f"Файлов для ручной обработки: {len(self.unsorted_files)}")
         print("="*60)
+        # Создаем копию списка для безопасной итерации
         unsorted_copy = self.unsorted_files.copy()
+
         for i, (file_path, rel_path, organization) in enumerate(unsorted_copy, 1):
+            # Проверяем, не был ли файл уже перемещен
             if not os.path.exists(file_path):
                 print(f"\n⚠️  Файл уже перемещен, пропускаем")
                 continue
+
             filename = os.path.basename(file_path)
             file_ext = os.path.splitext(filename)[1].lower()
+
             print(f"\n📋 Файл {i}/{len(unsorted_copy)}: {filename}")
             print(f"   Организация: {organization}")
+
+            # Интерактивный выбор
             folder_choice = self.get_interactive_choice(filename, file_ext, file_path, organization)
+
             if folder_choice:
                 self.stats['interactive_choices'] += 1
                 if self.move_file_to_folder(file_path, folder_choice, organization):
                     self.stats['sorted'] += 1
-                    self.stats['not_found'] -= 1
+                    self.stats['not_found'] -= 1  # Уменьшаем счетчик нераспознанных
+                    # Удаляем из списка неотсортированных
                     if (file_path, rel_path, organization) in self.unsorted_files:
                         self.unsorted_files.remove((file_path, rel_path, organization))
                 else:
+                    # Если ошибка перемещения, оставляем в исходной папке
                     print(f"  ⚠️  Файл оставлен в исходной папке: {file_path}")
             else:
                 print(f"  ⚠️  Файл пропущен: {filename}")
+                # Файл остается в исходной папке и в списке неотсортированных
 
     def process_all_files(self, max_workers=4):
         """Обработка всех файлов"""
         if not self.load_report_names():
             return False
+
+        # Загружаем список организаций
+        if not self.load_organizations_list(): # Хотя load_organizations_list теперь не возвращает False при отсутствии файла
+             print("❌ Ошибка загрузки списка организаций.")
+             return False # Но на всякий случай оставим проверку, если логика изменится
+
         all_files = self.scan_all_files()
         if not all_files:
             print("⚠️ Файлы не найдены!")
             return False
+
         print(f"\n🚀 Начинаем обработку {len(all_files)} файлов...")
         print("="*60)
         print("⚠️  ВНИМАНИЕ: Ищем ТОЛЬКО в содержимом файлов (при первичной обработке)")
@@ -736,23 +900,35 @@ class ReportSorter:
         print("⚠️  К именам файлов будет добавлен отправитель")
         print("⚠️  Файлы ПЕРЕМЕЩАЮТСЯ (не копируются)!")
         print("="*60)
+
+        # Создаем папку для неотсортированных
         unsorted_folder = os.path.join(self.output_folder, "НЕ_СОРТИРОВАННЫЕ")
         os.makedirs(unsorted_folder, exist_ok=True)
         self.found_folders.add("НЕ_СОРТИРОВАННЫЕ")
+
+        # Обработка файлов
         results = []
+
         if self.interactive:
+            # В интерактивном режиме используем только один поток
             print("\n🔄 Обработка файлов в однопоточном режиме (интерактивный режим)...")
             for file_info in all_files:
                 file_path, rel_path = file_info
                 filename = os.path.basename(file_path)
+                # Обновляем прогресс
                 self.stats['processed'] += 1
                 if self.stats['processed'] % 10 == 0:
                     print(f"📊 [{self.stats['processed']:4}/{len(all_files):4}] "
                           f"Отсортировано: {self.stats['sorted']:4} "
                           f"Неотсортировано: {len(self.unsorted_files):4}")
+
                 organization = self.extract_organization_from_path(file_path, rel_path)
+
+                # Сначала пытаемся автоматически определить ТОЛЬКО по содержимому
                 folder_name = self.identify_report_type(file_path)
+
                 if folder_name:
+                    # Автоматическое перемещение
                     self.stats['exact_matches'] += 1
                     if self.move_file_to_folder(file_path, folder_name, organization):
                         self.stats['sorted'] += 1
@@ -760,14 +936,19 @@ class ReportSorter:
                     else:
                         results.append((file_path, None, False, "Ошибка перемещения", organization))
                 else:
+                    # Добавляем в список для интерактивной обработки
                     self.unsorted_files.append((file_path, rel_path, organization))
                     results.append((file_path, None, False, "Ожидает интерактивной обработки", organization))
                     self.stats['not_found'] += 1
+
+            # Обработка файлов в интерактивном режиме
             if self.unsorted_files:
                 self.process_interactive_files()
         else:
+            # Неинтерактивный режим - используем многопоточность
             with ThreadPoolExecutor(max_workers=max_workers) as executor:
-                future_to_file = {executor.submit(self.process_file, file_info): file_info for file_info in all_files}
+                future_to_file = {executor.submit(self.process_file, file_info): file_info
+                                  for file_info in all_files}
                 for future in as_completed(future_to_file):
                     try:
                         result = future.result()
@@ -776,12 +957,24 @@ class ReportSorter:
                         error_msg = f"Ошибка в потоке: {e}"
                         print(f"❌ {error_msg}")
                         self.log_detail(error_msg)
+
+            # --- НОВАЯ ФАЗА СОРТИРОВКИ ---
+            print(f"\n--- ЗАВЕРШЕНА ПЕРВИЧНАЯ СОРТИРОВКА ПО СОДЕРЖИМОМУ ---")
+            print(f"Осталось неотсортированных файлов: {len(self.unsorted_files)}")
+            print(f"Запускаю вторую фазу: поиск по имени файла (список организаций)...")
+            self.sort_by_organization_filename() # Вызов новой фазы
+
+            # --- КОНЕЦ НОВОЙ ФАЗЫ ---
+
+        # Генерация отчета
         self.generate_report(results)
         return True
 
     def generate_report(self, results):
         """Генерация итогового отчета"""
         report_file = os.path.join(self.output_folder, "ИТОГОВЫЙ_ОТЧЕТ.txt")
+
+        # Группируем результаты
         report_stats = {}
         organizations_used = set()
         for file_path, folder_name, success, message, organization in results:
@@ -789,6 +982,7 @@ class ReportSorter:
                 report_stats[folder_name] = report_stats.get(folder_name, 0) + 1
             if organization and organization != "Неизвестно":
                 organizations_used.add(organization)
+
         with open(report_file, 'w', encoding='utf-8') as f:
             f.write("="*80 + "\n")
             f.write("ИТОГОВЫЙ ОТЧЕТ СОРТИРОВКИ\n")
@@ -797,11 +991,13 @@ class ReportSorter:
             f.write(f"Исходная папка: {self.source_folder}\n")
             f.write(f"Выходная папка: {self.output_folder}\n")
             f.write(f"Файл с настройками: {self.report_names_file}\n")
+            f.write(f"Файл списка организаций: {self.organizations_file}\n") # Добавлено
             f.write(f"Интерактивный режим: {'Да' if self.interactive else 'Нет'}\n")
             if self.interactive:
                 f.write(f"Новых ключей добавлено: {self.stats['new_keys_added']}\n")
             f.write("⚠️  РЕЖИМ ПОИСКА (при первичной обработке): ТОЛЬКО В СОДЕРЖИМОМ ФАЙЛОВ\n")
-            f.write("⚠️  ИМЕНА ФАЙЛОВ ИГНОРИРУЮТСЯ!\n")
+            f.write("⚠️  РЕЖИМ ПОИСКА (вторая фаза): ТОЛЬКО В ИМЕНИ ФАЙЛА (список организаций)\n") # Добавлено
+            f.write("⚠️  ИМЕНА ФАЙЛОВ ИГНОРИРУЮТСЯ (на первом этапе)!\n")
             f.write("⚠️  К именам файлов добавлен отправитель (если известен)\n")
             f.write("⚠️  ФАЙЛЫ ПЕРЕМЕЩАЮТСЯ, А НЕ КОПИРУЮТСЯ!\n")
             f.write("="*80 + "\n")
@@ -811,37 +1007,47 @@ class ReportSorter:
             f.write(f"Обработано: {self.stats['processed']}\n")
             f.write(f"Успешно перемещено: {self.stats['moved']}\n")
             f.write(f"Точных совпадений в содержимом: {self.stats['exact_matches']}\n")
-            f.write(f"Совпадений по имени файла (после добавления ключей): {self.stats['name_matches']}\n")
+            f.write(f"Совпадений по имени файла (основной словарь): {self.stats['name_matches']}\n") # Обновлено описание
+            f.write(f"Совпадений по имени файла (список организаций): {self.stats['org_name_matches']}\n") # Добавлено
             if self.interactive:
                 f.write(f"Интерактивных выборов: {self.stats['interactive_choices']}\n")
                 f.write(f"Добавлено новых ключей: {self.stats['new_keys_added']}\n")
-                f.write(f"Не распознано: {self.stats['not_found']}\n")
+            f.write(f"Не распознано: {self.stats['not_found']}\n")
             f.write(f"Ошибок: {self.stats['errors']}\n")
             if self.interactive and self.unsorted_files:
                 f.write(f"⚠️  Осталось неотсортированных файлов: {len(self.unsorted_files)}\n")
+
+            # Детализация по папкам
             if report_stats:
                 f.write("="*80 + "\n")
                 f.write("РАСПРЕДЕЛЕНИЕ ФАЙЛОВ ПО ПАПКАМ\n")
                 f.write("="*80 + "\n")
+                # Сортируем по количеству файлов
                 sorted_stats = sorted(report_stats.items(), key=lambda x: x[1], reverse=True)
                 for folder_name, count in sorted_stats:
                     f.write(f"📁 {folder_name}: {count} файл(ов)\n")
+
+            # Информация об организациях
             if organizations_used:
                 f.write("\n" + "="*80 + "\n")
                 f.write("ИСПОЛЬЗОВАННЫЕ ОРГАНИЗАЦИИ-ОТПРАВИТЕЛИ\n")
                 f.write("="*80 + "\n")
                 for org in sorted(organizations_used):
                     f.write(f"🏢 {org}\n")
-            remaining_files = [(file_path, message) for file_path, folder_name, success, message, organization in results if not success or not folder_name or message == "Ожидает интерактивной обработки"]
+
+            # Файлы, оставшиеся в исходной папке
+            remaining_files = [(file_path, message) for file_path, folder_name, success, message, organization
+                               in results if not success or not folder_name or message == "Ожидает интерактивной обработки"]
             if remaining_files:
                 f.write("\n" + "="*80 + "\n")
                 f.write("ФАЙЛЫ, ОСТАВШИЕСЯ В ИСХОДНОЙ ПАПКЕ\n")
                 f.write("="*80 + "\n")
-                for file_path, message in remaining_files[:50]:
+                for file_path, message in remaining_files[:50]:  # Ограничиваем вывод
                     filename = os.path.basename(file_path)
                     f.write(f"❌ {filename}: {message}\n")
                 if len(remaining_files) > 50:
                     f.write(f"\n... и еще {len(remaining_files) - 50} файлов\n")
+
             f.write("\n" + "="*80 + "\n")
             f.write("ВНИМАНИЕ\n")
             f.write("="*80 + "\n")
@@ -849,19 +1055,25 @@ class ReportSorter:
             f.write("2. Исходные файлы больше не существуют в исходном расположении\n")
             f.write("3. Для отмены операции потребуется восстановление из бэкапа\n")
             f.write("4. Всегда делайте бэкап перед запуском сортировки!\n")
+
             if self.interactive and self.stats['new_keys_added'] > 0:
                 f.write(f"✅ Добавлено {self.stats['new_keys_added']} новых ключей поиска\n")
                 f.write("   Ключи сохранены в файле настроек\n")
                 f.write("   Их можно использовать при следующем запуске\n")
+
             f.write("✅ Сортировка завершена!\n")
+
         print(f"\n📊 Отчет сохранен: {report_file}")
         print(f"📝 Подробный лог: {self.log_file}")
+
+        # Вывод краткой статистики в консоль
         print("\n" + "="*60)
         print("ИТОГИ:")
         print(f"📁 Всего файлов: {self.stats['total_files']}")
         print(f"✅ Перемещено: {self.stats['moved']}")
         print(f"🎯 Точных совпадений в содержимом: {self.stats['exact_matches']}")
-        print(f"🎯 Совпадений по имени файла (после добавления ключей): {self.stats['name_matches']}")
+        print(f"🎯 Совпадений по имени файла (основной словарь): {self.stats['name_matches']}") # Обновлено
+        print(f"🎯 Совпадений по имени файла (список организаций): {self.stats['org_name_matches']}") # Добавлено
         if self.interactive:
             print(f"👤 Интерактивных выборов: {self.stats['interactive_choices']}")
             print(f"➕ Новых ключей добавлено: {self.stats['new_keys_added']}")
@@ -876,21 +1088,27 @@ def main():
     parser.add_argument('--source', required=True, help='Исходная папка с файлами')
     parser.add_argument('--output', required=True, help='Выходная папка для сортировки')
     parser.add_argument('--config', required=True, help='Файл с названиями отчетов и ключами поиска')
+    parser.add_argument('--org-list', required=False, help='Файл со списком организаций (ключ | папка)') # Новый аргумент
     parser.add_argument('--interactive', action='store_true', help='Интерактивный режим')
     parser.add_argument('--workers', type=int, default=4, help='Количество потоков (по умолчанию: 4)')
+
     args = parser.parse_args()
+
     print("="*80)
     print("📁 СОРТИРОВЩИК ОТЧЕТОВ ПО СОДЕРЖИМОМУ ФАЙЛОВ")
     print("="*80)
     print(f"Исходная папка: {args.source}")
     print(f"Выходная папка: {args.output}")
     print(f"Файл настроек: {args.config}")
+    print(f"Файл списка организаций: {args.org_list}") # Печатаем
     print(f"Интерактивный режим: {'Да' if args.interactive else 'Нет'}")
     print(f"Потоков обработки: {args.workers}")
     print("="*80)
     print("⚠️  ВНИМАНИЕ: Файлы будут ПЕРЕМЕЩЕНЫ, а не скопированы!")
     print("⚠️  Рекомендуется сделать резервную копию перед запуском!")
     print("="*80)
+
+    # Предупреждение
     if args.interactive:
         print("\n🔄 ИНТЕРАКТИВНЫЙ РЕЖИМ ВКЛЮЧЕН")
         print("Для каждого нераспознанного файла будет запрошено действие.")
@@ -899,34 +1117,45 @@ def main():
         if confirm != 'да':
             print("Отменено пользователем.")
             return
+
+    # Проверка исходной папки
     if not os.path.exists(args.source):
         print(f"❌ Исходная папка не существует: {args.source}")
         return
+
     if not os.path.exists(args.config):
         print(f"❌ Файл настроек не существует: {args.config}")
         return
+
+    # Создание экземпляра сортировщика
     sorter = ReportSorter(
         source_folder=args.source,
         output_folder=args.output,
         report_names_file=args.config,
+        organizations_file=args.org_list, # Передаём файл организаций
         interactive=args.interactive
     )
+
+    # Запуск обработки
     try:
         success = sorter.process_all_files(max_workers=args.workers if not args.interactive else 1)
         if success:
             print("\n✅ Сортировка завершена успешно!")
             print(f"\n📁 Результаты в папке: {args.output}")
+            # Показываем созданные папки
             if os.path.exists(args.output):
-                folders = [d for d in os.listdir(args.output) if os.path.isdir(os.path.join(args.output, d))]
+                folders = [d for d in os.listdir(args.output)
+                           if os.path.isdir(os.path.join(args.output, d))]
                 if folders:
                     print(f"\n📂 Создано папок: {len(folders)}")
                     print("Основные папки:")
-                    for folder in sorted(folders)[:10]:
+                    for folder in sorted(folders)[:10]:  # Показываем первые 10
                         print(f"  📁 {folder}")
                     if len(folders) > 10:
                         print(f"  ... и еще {len(folders) - 10} папок")
-                else:
-                    print("\n❌ Сортировка завершена с ошибками!")
+        else:
+            print("\n❌ Сортировка завершена с ошибками!")
+
     except KeyboardInterrupt:
         print("\n⚠️  Процесс прерван пользователем!")
         print("⚠️  Частичные результаты сохранены.")
