@@ -4,24 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "10fce83feb66bc6c",
+        "id": "d54e6b5c3dcf2855",
         "type": "tabs",
         "children": [
           {
-            "id": "14b0a1296f1e8d96",
+            "id": "71eab34f18010c86",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "CNC.canvas",
-                "viewState": {
-                  "x": -800,
-                  "y": -30,
-                  "zoom": -0.0315177553072966
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "CNC"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -187,10 +180,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "14b0a1296f1e8d96",
+  "active": "71eab34f18010c86",
   "lastOpenFiles": [
-    "Projects/01-CNC-Laser/01-CNC-Laser.md",
     "CNC.canvas",
+    "Projects/01-CNC-Laser/01-CNC-Laser.md",
     "AI.canvas",
     "_AFK_ZONE.md",
     "Projects/Tasks/Current-Tasks.md",
