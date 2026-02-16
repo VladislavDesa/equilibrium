@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "Idea"
             }
+          },
+          {
+            "id": "68c5f023b6f4f590",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -184,8 +199,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "14b0a1296f1e8d96",
+  "active": "68c5f023b6f4f590",
   "lastOpenFiles": [
+    "Inbox/Idea.md",
+    "conflict-files-obsidian-git.md",
     "CNC.canvas",
     "Projects/03-Data-Analytics/Scripts/svod/TXT/organization.md",
     "Projects/03-Data-Analytics/Scripts/svod/TXT/key.md",
@@ -201,7 +218,6 @@
     "Организации_и_письма/Медстатистики отдел/2026-02-09_1535/Медстатистики_отдел_Медпомощь_и_сантор-кур_лечение_ветераны_СВО_январь_2026.PDF",
     "Организации_и_письма/Медстатистики отдел/2026-02-09_1535/информация_о_письме.txt",
     "Projects/04-AI-Assistant/Docs/04-AI-Assistant-Docs-FAST-TREVEL.md",
-    "Inbox/Idea.md",
     "Projects/Tasks/Current-Tasks.md",
     "Projects/Tasks/Backlog.md",
     "Inbox/Pathregist.md",
@@ -211,7 +227,6 @@
     "_AFK_ZONE.md",
     "WTF.canvas",
     "Projects/04-AI-Assistant/04-AI-Assistant.md",
-    "conflict-files-obsidian-git.md",
     "Projects/04-AI-Assistant/Docs/Media/Pasted image 20260202220654.png",
     "Projects/04-AI-Assistant/Docs/Media/Pasted image 20260202220622.png",
     "Projects/04-AI-Assistant/Docs/Media/Pasted image 20260202220506.png",
