@@ -31,12 +31,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/04-AI-Assistant/04-AI-Assistant.md",
+                "file": "Projects/04-AI-Assistant/Docs/Local-assistant.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "04-AI-Assistant"
+              "title": "Local-assistant"
             }
           }
         ]
@@ -112,7 +112,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/04-AI-Assistant/04-AI-Assistant.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +121,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 04-AI-Assistant"
+              "title": "Backlinks"
             }
           },
           {
@@ -204,8 +203,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7d40b744a9e8b0b2",
+  "active": "905eb6ba4a9388fe",
   "lastOpenFiles": [
+    "Projects/04-AI-Assistant/Docs/Local-assistant.md",
+    "Projects/04-AI-Assistant/Docs/Self local AI.md",
+    "Projects/04-AI-Assistant/Docs/AI-variant.md",
+    "Projects/04-AI-Assistant/Docs/How to start AI.md",
+    "Projects/01-CNC-Laser/Docs/CNC self hands.md",
+    "Projects/04-AI-Assistant/04-AI-Assistant.md",
     "DATABASE.base",
     "AI.canvas",
     "README.md",
@@ -216,12 +221,7 @@
     "Projects/Tasks/Current-Tasks.md",
     "Projects/Tasks/Backlog.md",
     "Projects/04-AI-Assistant/Docs/04-AI-Assistant-Docs-FAST-TREVEL.md",
-    "Projects/04-AI-Assistant/Docs/AI-variant.md",
-    "Projects/04-AI-Assistant/04-AI-Assistant.md",
     "Projects/04-AI-Assistant/Docs/TG-bot.md",
-    "Projects/04-AI-Assistant/Docs/Self local AI.md",
-    "Projects/04-AI-Assistant/Docs/Local-assistant.md",
-    "Projects/04-AI-Assistant/Docs/How to start AI.md",
     "Projects/04-AI-Assistant/Docs/6 local AI.md",
     "CNC.canvas",
     "Projects/04-AI-Assistant/Docs/Media/Pasted image 20260202220833.png",
@@ -236,7 +236,6 @@
     "Projects/04-AI-Assistant/Docs/Media/Pasted image 20260202220506.png",
     "Projects/04-AI-Assistant/Docs/Media",
     "Projects/01-CNC-Laser/Docs/Media",
-    "Projects/01-CNC-Laser/Docs/CNC self hands.md",
     "WTF.canvas",
     "Projects/Tasks",
     "Projects/03-Data-Analytics/Scripts/svod/svod.md",
