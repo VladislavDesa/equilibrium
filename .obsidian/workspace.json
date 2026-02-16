@@ -4,19 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "6fcd9a61ec7d0989",
+        "id": "10fce83feb66bc6c",
         "type": "tabs",
         "children": [
           {
-            "id": "b86c8f7df02975d3",
+            "id": "14b0a1296f1e8d96",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
                 "file": "Houdini-Learning/Roadmap.canvas",
                 "viewState": {
-                  "x": 78,
-                  "y": -11,
+                  "x": -40,
+                  "y": -35,
                   "zoom": 0
                 }
               },
@@ -130,7 +130,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": false,
+                "useHierarchy": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
@@ -158,30 +158,20 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
-            }
-          },
-          {
-            "id": "dee4c0c5334116bf",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "title": "Outline of README"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
@@ -193,62 +183,62 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "templater-obsidian:Templater": false,
-      "obsidian-kanban:Create new board": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "b86c8f7df02975d3",
+  "active": "14b0a1296f1e8d96",
   "lastOpenFiles": [
     "Houdini-Learning/Practice/01-Procedural-Box/task.md",
-    "Houdini-Learning/Progress/vlad-progress.md",
-    "Houdini-Learning/Progress/alexander-progress.md",
-    "Houdini-Learning/Practice/checklist-template.md",
-    "Houdini-Learning/Roadmap.canvas",
     "Houdini-Learning/Practice/01-Procedural-Box/notes.md",
-    "Houdini-Learning/Theory/01-Interface-Basics.md",
+    "Inbox/Idea.md",
+    "Init-HoudiniCanvas.ps1",
     "Houdini-Learning/Theory/04-VEX-Fundamentals.md",
     "Houdini-Learning/Theory/03-Geometry-Types.md",
     "Houdini-Learning/Theory/02-Nodes-and-Networks.md",
-    "Houdini-Learning/Practice/05-VEX-Attribute-Edit/task.md",
-    "Houdini-Learning/Practice/04-Particles-Snow/task.md",
-    "Houdini-Learning/Practice/03-RBD-Fracture/task.md",
-    "Houdini-Learning/Practice/03-RBD-Fracture/notes.md",
-    "Houdini-Learning/Practice/02-Scatter-and-Copy/task.md",
-    "Houdini-Learning/Practice/02-Scatter-and-Copy/notes.md",
-    "Houdini-Learning/Resources/Free-Courses.md",
-    "Houdini-Learning/Resources/Glossary-RU.md",
-    "Houdini-Learning/Resources/YouTube-Playlists.md",
-    "Houdini-Learning/Practice/07-3DPrint-Preview/notes.md",
-    "Houdini-Learning/Practice/07-3DPrint-Preview/task.md",
-    "Houdini-Learning/Practice/06-CNC-Toolpath-Vis/notes.md",
-    "Houdini-Learning/Practice/06-CNC-Toolpath-Vis/task.md",
-    "Houdini-Learning/Practice/05-VEX-Attribute-Edit/notes.md",
-    "Houdini-Learning/Practice/04-Particles-Snow/notes.md",
-    "Init-HoudiniCanvas.ps1",
-    "Новый текстовый документ.txt",
-    "Houdini-Learning/Practice/07-3DPrint-Preview",
-    "Houdini-Learning/Practice/05-VEX-Attribute-Edit",
-    "Houdini-Learning/Practice/06-CNC-Toolpath-Vis",
-    "Houdini-Learning/Practice/03-RBD-Fracture",
-    "Houdini-Learning/Practice/04-Particles-Snow",
-    "Houdini-Learning/Practice/02-Scatter-and-Copy",
-    "Houdini-Learning/Practice/01-Procedural-Box",
+    "Houdini-Learning/Theory/01-Interface-Basics.md",
     "Houdini-Learning/Theory",
-    "Houdini-Learning/Roadmap.md",
+    "Houdini-Learning/Roadmap.canvas",
+    "Houdini-Learning/Resources/YouTube-Playlists.md",
+    "Houdini-Learning/Resources/Glossary-RU.md",
+    "Houdini-Learning/Resources/Free-Courses.md",
+    "Houdini-Learning/Resources",
+    "Houdini-Learning/Progress/vlad-progress.md",
+    "Houdini-Learning/Progress/alexander-progress.md",
+    "Houdini-Learning/Progress",
+    "Houdini-Learning/Practice/checklist-template.md",
+    "Houdini-Learning/Practice/07-3DPrint-Preview/task.md",
+    "Houdini-Learning/Practice/07-3DPrint-Preview/notes.md",
+    "Houdini-Learning/Practice/07-3DPrint-Preview",
+    "Houdini-Learning/Practice/06-CNC-Toolpath-Vis/task.md",
+    "Houdini-Learning/Practice/06-CNC-Toolpath-Vis/notes.md",
+    "Houdini-Learning/Practice/06-CNC-Toolpath-Vis",
+    "Houdini-Learning/Practice/05-VEX-Attribute-Edit/task.md",
+    "Houdini-Learning/Practice/05-VEX-Attribute-Edit/notes.md",
+    "Houdini-Learning/Practice/05-VEX-Attribute-Edit",
+    "Houdini-Learning/Practice/04-Particles-Snow/task.md",
+    "Houdini-Learning/Practice/04-Particles-Snow/notes.md",
+    "Houdini-Learning/Practice/03-RBD-Fracture/task.md",
+    "Houdini-Learning/Practice/02-Scatter-and-Copy/task.md",
+    "Houdini-Learning/Practice/03-RBD-Fracture/notes.md",
+    "Houdini-Learning/Practice/02-Scatter-and-Copy/notes.md",
+    "Houdini-Learning/Practice/04-Particles-Snow",
+    "Houdini-Learning/Practice/03-RBD-Fracture",
+    "Houdini-Learning/Practice/02-Scatter-and-Copy",
+    "conflict-files-obsidian-git.md",
     "CNC.canvas",
-    "WTF.canvas",
     "AI.canvas",
-    "Projects/04-AI-Assistant/Docs/Media/Pasted image 20260202220833.png",
-    "Projects/04-AI-Assistant/Docs/Media/Pasted image 20260202220810.png",
-    "Projects/04-AI-Assistant/Docs/Media/Pasted image 20260202220758.png",
-    "Projects/04-AI-Assistant/Docs/Media/Pasted image 20260202220742.png",
-    "Projects/04-AI-Assistant/Docs/Media/Pasted image 20260202220716.png",
+    "WTF.canvas",
     "Projects/04-AI-Assistant/Docs/Media/Pasted image 20260202220654.png",
-    "Projects/04-AI-Assistant/Docs/Media/Pasted image 20260202220645.png",
     "Projects/04-AI-Assistant/Docs/Media/Pasted image 20260202220622.png",
-    "Projects/04-AI-Assistant/Docs/Media/Pasted image 20260202220559.png",
     "Projects/04-AI-Assistant/Docs/Media/Pasted image 20260202220506.png",
+    "Projects/04-AI-Assistant/Docs/Media/Pasted image 20260202220025.png",
+    "Projects/04-AI-Assistant/Docs/Media/Pasted image 20260202215830.jpg",
+    "Projects/04-AI-Assistant/Docs/Media/301bfec2b564d13faa040ce538d4c529.webp",
+    "Projects/04-AI-Assistant/Docs/Media/96e131559135737ddb068ae088e5164b.webp",
+    "Projects/04-AI-Assistant/Docs/Media/9f43f0afd4acb39f99c6b6fa07681918.webp",
+    "Projects/04-AI-Assistant/Docs/Media/5f7372030a71488bbb64d1374f6d840c.webp",
+    "Projects/04-AI-Assistant/Docs/Media/Pasted image 20260202220833.png",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "Untitled 2.canvas"

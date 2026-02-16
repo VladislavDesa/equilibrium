@@ -5,8 +5,6 @@
 		{"id":"t2","type":"file","file":"Houdini-Learning/Theory/02-Nodes-and-Networks.md","x":-150,"y":-230,"width":220,"height":60},
 		{"id":"p2a","type":"file","file":"Houdini-Learning/Practice/02-Scatter-and-Copy/task.md","x":-150,"y":-150,"width":220,"height":60},
 		{"id":"p2b","type":"file","file":"Houdini-Learning/Practice/03-RBD-Fracture/task.md","x":-150,"y":-70,"width":220,"height":60},
-		{"id":"stage3_label","type":"text","text":"🟠 Этап 3: Динамика","x":200,"y":-280,"width":180,"height":40},
-		{"id":"t3","type":"file","file":"Houdini-Learning/Theory/03-Geometry-Types.md","x":200,"y":-230,"width":220,"height":60},
 		{"id":"p3","type":"file","file":"Houdini-Learning/Practice/04-Particles-Snow/task.md","x":200,"y":-150,"width":220,"height":60},
 		{"id":"stage4_label","type":"text","text":"🟣 Этап 4: VEX","x":-300,"y":50,"width":150,"height":40},
 		{"id":"t4","type":"file","file":"Houdini-Learning/Theory/04-VEX-Fundamentals.md","x":-300,"y":100,"width":220,"height":60},
@@ -17,9 +15,11 @@
 		{"id":"res","type":"file","file":"Houdini-Learning/Resources/Glossary-RU.md","x":-500,"y":300,"width":160,"height":50},
 		{"id":"vlad","type":"file","file":"Houdini-Learning/Progress/vlad-progress.md","x":-300,"y":300,"width":140,"height":50},
 		{"id":"alex","type":"file","file":"Houdini-Learning/Progress/alexander-progress.md","x":-140,"y":300,"width":140,"height":50},
-		{"id":"stage2_label","type":"text","text":"🟡 Этап 2: Моделирование","x":-150,"y":-320,"width":200,"height":40},
 		{"id":"stage1_label","type":"text","text":"🟢 Этап 1: Основы","x":-480,"y":-300,"width":150,"height":40},
-		{"id":"title","type":"text","text":"## Houdini Learning Path\nEquilibrium Project • 2025–2026","x":-260,"y":-420,"width":500,"height":80}
+		{"id":"title","type":"text","text":"## Houdini Learning Path\nEquilibrium Project • 2025–2026","x":-260,"y":-580,"width":500,"height":120},
+		{"id":"stage2_label","type":"text","text":"🟡 Этап 2: Моделирование","x":-260,"y":-440,"width":500,"height":80},
+		{"id":"stage3_label","type":"text","text":"🟠 Этап 3: Динамика","x":280,"y":-440,"width":540,"height":80},
+		{"id":"t3","type":"file","file":"Houdini-Learning/Theory/03-Geometry-Types.md","x":280,"y":-310,"width":540,"height":80}
 	],
 	"edges":[
 		{"id":"e1","fromNode":"p1","fromSide":"right","toNode":"t2","toSide":"left"},
