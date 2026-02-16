@@ -6,24 +6,6 @@
       {
         "id": "f389ff06ed50ebc0",
         "type": "tabs",
-        "dimension": 33.756345177664976,
-        "children": [
-          {
-            "id": "905eb6ba4a9388fe",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          }
-        ]
-      },
-      {
-        "id": "af7fbb1e93be3cf2",
-        "type": "tabs",
-        "dimension": 66.24365482233503,
         "children": [
           {
             "id": "7d40b744a9e8b0b2",
@@ -203,7 +185,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "905eb6ba4a9388fe",
+  "active": "7d40b744a9e8b0b2",
   "lastOpenFiles": [
     "Projects/04-AI-Assistant/Docs/Local-assistant.md",
     "Projects/04-AI-Assistant/Docs/Self local AI.md",
