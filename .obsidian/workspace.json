@@ -11,17 +11,14 @@
             "id": "14b0a1296f1e8d96",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Houdini-Learning/Roadmap.canvas",
-                "viewState": {
-                  "x": -40,
-                  "y": -35,
-                  "zoom": 0
-                }
+                "file": "Houdini-Learning/Theory/01-Interface-Basics.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Roadmap"
+              "icon": "lucide-file",
+              "title": "01-Interface-Basics"
             }
           }
         ]
@@ -189,6 +186,7 @@
   },
   "active": "14b0a1296f1e8d96",
   "lastOpenFiles": [
+    "Houdini-Learning/Roadmap.canvas",
     "Houdini-Learning/Practice/01-Procedural-Box/task.md",
     "Houdini-Learning/Practice/01-Procedural-Box/notes.md",
     "Inbox/Idea.md",
@@ -198,7 +196,6 @@
     "Houdini-Learning/Theory/02-Nodes-and-Networks.md",
     "Houdini-Learning/Theory/01-Interface-Basics.md",
     "Houdini-Learning/Theory",
-    "Houdini-Learning/Roadmap.canvas",
     "Houdini-Learning/Resources/YouTube-Playlists.md",
     "Houdini-Learning/Resources/Glossary-RU.md",
     "Houdini-Learning/Resources/Free-Courses.md",
@@ -225,7 +222,6 @@
     "Houdini-Learning/Practice/04-Particles-Snow",
     "Houdini-Learning/Practice/03-RBD-Fracture",
     "Houdini-Learning/Practice/02-Scatter-and-Copy",
-    "conflict-files-obsidian-git.md",
     "CNC.canvas",
     "AI.canvas",
     "WTF.canvas",
