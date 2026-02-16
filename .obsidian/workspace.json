@@ -15,8 +15,8 @@
               "state": {
                 "file": "Houdini-Learning/Roadmap.canvas",
                 "viewState": {
-                  "x": -50,
-                  "y": -155,
+                  "x": -40,
+                  "y": -25,
                   "zoom": 0
                 }
               },
@@ -203,9 +203,10 @@
     "Houdini-Learning/Practice/01-Procedural-Box/task.md",
     "Houdini-Learning/Progress/vlad-progress.md",
     "Houdini-Learning/Progress/alexander-progress.md",
+    "Houdini-Learning/Practice/checklist-template.md",
+    "Houdini-Learning/Roadmap.canvas",
     "Houdini-Learning/Practice/01-Procedural-Box/notes.md",
     "Houdini-Learning/Theory/01-Interface-Basics.md",
-    "Houdini-Learning/Roadmap.canvas",
     "Houdini-Learning/Theory/04-VEX-Fundamentals.md",
     "Houdini-Learning/Theory/03-Geometry-Types.md",
     "Houdini-Learning/Theory/02-Nodes-and-Networks.md",
@@ -235,7 +236,6 @@
     "Houdini-Learning/Practice/01-Procedural-Box",
     "Houdini-Learning/Theory",
     "Houdini-Learning/Roadmap.md",
-    "Houdini-Learning/Progress/Дорожная карта обучения — Владислав.md",
     "CNC.canvas",
     "WTF.canvas",
     "AI.canvas",
