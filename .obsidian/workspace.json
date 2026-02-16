@@ -174,7 +174,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -192,6 +193,8 @@
   },
   "active": "18373721d63cd4be",
   "lastOpenFiles": [
+    "Projects/03-Data-Analytics/Scripts/e-mail parser v1.2.md",
+    "DATABASE.base",
     "Projects/04-AI-Assistant/Docs/Local-assistant.md",
     "Projects/Tasks/Backlog.md",
     "Home.md",
@@ -200,7 +203,6 @@
     "2026-02-16.md",
     "conflict-files-obsidian-git.md",
     "CNC.canvas",
-    "DATABASE.base",
     "WTF.canvas",
     "Projects/03-Data-Analytics/Scripts/svod/Организации.md",
     "Projects/03-Data-Analytics/Scripts/svod/TXT/key.md",
@@ -238,7 +240,6 @@
     "Projects/01-CNC-Laser/Docs/Media",
     "Projects/Tasks",
     "Projects/03-Data-Analytics/Scripts/svod/svod.md",
-    "Inbox/Ideas.md",
     "Projects/04-AI-Assistant/Docs",
     "Untitled.canvas",
     "Untitled 1.canvas",
