@@ -11,17 +11,14 @@
             "id": "b86c8f7df02975d3",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Houdini-Learning/Roadmap.canvas",
-                "viewState": {
-                  "x": 78,
-                  "y": -11,
-                  "zoom": 0
-                }
+                "file": "Houdini-Learning/Theory/01-Interface-Basics.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Roadmap"
+              "icon": "lucide-file",
+              "title": "01-Interface-Basics"
             }
           }
         ]
@@ -200,16 +197,17 @@
   },
   "active": "b86c8f7df02975d3",
   "lastOpenFiles": [
+    "Houdini-Learning/Resources/YouTube-Playlists.md",
+    "Houdini-Learning/Theory/01-Interface-Basics.md",
+    "Houdini-Learning/Theory/02-Nodes-and-Networks.md",
+    "Houdini-Learning/Theory/03-Geometry-Types.md",
+    "Houdini-Learning/Theory/04-VEX-Fundamentals.md",
+    "Houdini-Learning/Roadmap.canvas",
     "Houdini-Learning/Practice/01-Procedural-Box/task.md",
     "Houdini-Learning/Progress/vlad-progress.md",
     "Houdini-Learning/Progress/alexander-progress.md",
     "Houdini-Learning/Practice/checklist-template.md",
-    "Houdini-Learning/Roadmap.canvas",
     "Houdini-Learning/Practice/01-Procedural-Box/notes.md",
-    "Houdini-Learning/Theory/01-Interface-Basics.md",
-    "Houdini-Learning/Theory/04-VEX-Fundamentals.md",
-    "Houdini-Learning/Theory/03-Geometry-Types.md",
-    "Houdini-Learning/Theory/02-Nodes-and-Networks.md",
     "Houdini-Learning/Practice/05-VEX-Attribute-Edit/task.md",
     "Houdini-Learning/Practice/04-Particles-Snow/task.md",
     "Houdini-Learning/Practice/03-RBD-Fracture/task.md",
@@ -218,7 +216,6 @@
     "Houdini-Learning/Practice/02-Scatter-and-Copy/notes.md",
     "Houdini-Learning/Resources/Free-Courses.md",
     "Houdini-Learning/Resources/Glossary-RU.md",
-    "Houdini-Learning/Resources/YouTube-Playlists.md",
     "Houdini-Learning/Practice/07-3DPrint-Preview/notes.md",
     "Houdini-Learning/Practice/07-3DPrint-Preview/task.md",
     "Houdini-Learning/Practice/06-CNC-Toolpath-Vis/notes.md",
