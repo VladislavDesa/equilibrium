@@ -1,0 +1,18 @@
+{
+	"nodes":[
+		{"id":"foundations","type":"group","x":-500,"y":-200,"width":300,"height":300,"color":"#FFD700","label":"Foundations"},
+		{"id":"modeling","type":"group","x":-100,"y":-200,"width":300,"height":200,"color":"#90EE90","label":"Procedural Modeling"},
+		{"id":"simulation","type":"group","x":300,"y":-200,"width":300,"height":200,"color":"#87CEFA","label":"Dynamics & Simulation"},
+		{"id":"integration","type":"group","x":100,"y":150,"width":350,"height":150,"color":"#FFB6C1","label":"Integration with Equilibrium"},
+		{"id":"coding","type":"group","x":-300,"y":150,"width":300,"height":150,"color":"#DDA0DD","label":"VEX & Automation"},
+		{"id":"header","type":"text","text":"## Equilibrium: Houdini Learning Map\n","font":"bold","x":-300,"y":-400,"width":450,"height":60,"color":"#2D2D2D"},
+		{"id":"n1","type":"file","file":"Theory/01-Interface-Basics.md","x":-450,"y":-160,"width":200,"height":60},
+		{"id":"n4","type":"file","file":"Practice/01-Procedural-Box/task.md","x":-50,"y":-180,"width":200,"height":90},
+		{"id":"n6","type":"file","file":"Practice/03-RBD-Fracture/task.md","x":350,"y":-150,"width":200,"height":60},
+		{"id":"n8","type":"file","file":"Theory/04-VEX-Fundamentals.md","x":-250,"y":180,"width":200,"height":60},
+		{"id":"n10","type":"file","file":"Practice/06-CNC-Toolpath-Vis/task.md","x":150,"y":180,"width":250,"height":60}
+	],
+	"edges":[
+		{"fromNode":"n6","fromSide":"bottom","toNode":"n10","toSide":"top"}
+	]
+}
