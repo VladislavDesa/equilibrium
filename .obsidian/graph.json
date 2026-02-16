@@ -6,53 +6,17 @@
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": true,
-  "colorGroups": [
-    {
-      "query": "HOME",
-      "color": {
-        "a": 1,
-        "rgb": 560138
-      }
-    },
-    {
-      "query": "DATABASE",
-      "color": {
-        "a": 1,
-        "rgb": 1844640
-      }
-    },
-    {
-      "query": "CNC",
-      "color": {
-        "a": 1,
-        "rgb": 13702421
-      }
-    },
-    {
-      "query": "E-MAIL",
-      "color": {
-        "a": 1,
-        "rgb": 14014483
-      }
-    },
-    {
-      "query": "AI",
-      "color": {
-        "a": 1,
-        "rgb": 0
-      }
-    }
-  ],
+  "colorGroups": [],
   "collapse-display": true,
-  "showArrow": true,
-  "textFadeMultiplier": 0.4,
-  "nodeSizeMultiplier": 1.04427083333333,
-  "lineSizeMultiplier": 0.3296875,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
   "collapse-forces": true,
-  "centerStrength": 0.1875,
-  "repelStrength": 7.39583333333333,
-  "linkStrength": 0,
-  "linkDistance": 351,
-  "scale": 0.5087618855792576,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 10,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 1,
   "close": false
 }

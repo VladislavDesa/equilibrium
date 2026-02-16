@@ -20,8 +20,19 @@
               "icon": "lucide-file",
               "title": "Local-assistant"
             }
+          },
+          {
+            "id": "61db3c8e52304208",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -185,11 +196,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7d40b744a9e8b0b2",
+  "active": "61db3c8e52304208",
   "lastOpenFiles": [
+    "Inbox/Kanban.md",
+    "Inbox/Pathregist.md",
+    "Projects/04-AI-Assistant/Docs/6 local AI.md",
+    "Projects/04-AI-Assistant/Docs/AI-variant.md",
+    "Projects/04-AI-Assistant/Docs/04-AI-Assistant-Docs-FAST-TREVEL.md",
+    "conflict-files-obsidian-git.md",
     "Projects/04-AI-Assistant/Docs/Local-assistant.md",
     "Projects/04-AI-Assistant/Docs/Self local AI.md",
-    "Projects/04-AI-Assistant/Docs/AI-variant.md",
     "Projects/04-AI-Assistant/Docs/How to start AI.md",
     "Projects/01-CNC-Laser/Docs/CNC self hands.md",
     "Projects/04-AI-Assistant/04-AI-Assistant.md",
@@ -198,13 +214,9 @@
     "README.md",
     "Home.md",
     "Inbox/Idea.md",
-    "Inbox/Kanban.md",
-    "Inbox/Pathregist.md",
     "Projects/Tasks/Current-Tasks.md",
     "Projects/Tasks/Backlog.md",
-    "Projects/04-AI-Assistant/Docs/04-AI-Assistant-Docs-FAST-TREVEL.md",
     "Projects/04-AI-Assistant/Docs/TG-bot.md",
-    "Projects/04-AI-Assistant/Docs/6 local AI.md",
     "CNC.canvas",
     "Projects/04-AI-Assistant/Docs/Media/Pasted image 20260202220833.png",
     "Projects/04-AI-Assistant/Docs/Media/Pasted image 20260202220810.png",
