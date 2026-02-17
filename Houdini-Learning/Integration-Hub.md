@@ -6,10 +6,10 @@
 
 - **CNC / Лазер**:  
   - Теория: [[Houdini-Learning/Theory/05-VEX-Fundamentals]]  
-  - Практика: [[Houdini-Learning/Practice/06-CNC-Toolpath-Vis/task]]
+  - Практика: [[CNC-Toolpath-Vis]]
 
 - **3D-печать**:  
-  - Практика: [[Houdini-Learning/Practice/07-3DPrint-Preview/task]]
+  - Практика: [[3DPrint-Preview]]
 
 - **Обратные ссылки**:  
   - [[01-CNC-Laser]]  
