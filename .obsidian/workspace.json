@@ -11,17 +11,14 @@
             "id": "b86c8f7df02975d3",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Houdini-Learning/Roadmap.canvas",
-                "viewState": {
-                  "x": 475.8902284263961,
-                  "y": -107.95241116751274,
-                  "zoom": -0.8430043483747994
-                }
+                "file": "Houdini-Learning/Progress/Vlad-progress.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Roadmap"
+              "icon": "lucide-file",
+              "title": "Vlad-progress"
             }
           }
         ]
@@ -200,6 +197,7 @@
   },
   "active": "b86c8f7df02975d3",
   "lastOpenFiles": [
+    "Houdini-Learning/Progress/Alex-progress.md",
     "Houdini-Learning/Roadmap.canvas",
     "Houdini-Learning/Integration-Hub.md",
     "Home.md",
@@ -220,8 +218,7 @@
     "Houdini-Learning/Practice/06-CNC-Toolpath-Vis/Notes-CNC-Toolpath-Vis.md",
     "Houdini-Learning/Practice/05-VEX-Basics/VEX-Basics.md",
     "Houdini-Learning/Practice/04-Particles-Snow/Particles-Snow.md",
-    "Houdini-Learning/Progress/alexander-progress.md",
-    "Houdini-Learning/Progress/vlad-progress.md",
+    "Houdini-Learning/Progress/Vlad-progress.md",
     "Houdini-Learning/Practice/03-RBD-Fracture/RBD-Fracture.md",
     "Houdini-Learning/Practice/02-Scatter-and-Copy/Scatter-and-Copy.md",
     "Houdini-Learning/Practice/05-VEX-Basics/Notes-VEX-Basics.md",

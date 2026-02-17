@@ -40,6 +40,6 @@
 - [ ] Все шаги выполнены
 - [ ] Заметки добавлены в [[Notes-Scatter-and-Copy]]
 - [ ] Прогресс обновлён в:
-  - [ ] [[Progress/vlad-progress.md]]
-  - [ ] [[Progress/alexander-progress.md]]
+  - [ ] [[Vlad-progress]]
+  - [ ] [[Alex-progress]]
 - [ ] (Опционально) Сделан скриншот результата

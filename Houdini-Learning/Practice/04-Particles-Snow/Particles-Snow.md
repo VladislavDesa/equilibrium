@@ -46,5 +46,5 @@
 - [ ] Частицы падают и сталкиваются с землёй
 - [ ] Заметки в  [[Notes-Particles-Snow]]
 - [ ] Прогресс обновлён в:
-    - [ ] [[Progress/vlad-progress.md]]
-    - [ ] [[Progress/alexander-progress.md]]
+    - [ ] [[Vlad-progress]]
+    - [ ] [[Alex-progress]]
