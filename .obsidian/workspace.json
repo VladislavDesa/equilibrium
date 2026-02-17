@@ -25,10 +25,14 @@
             "id": "0c806ef7b8b933b1",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Projects/01-CNC-Laser/01-CNC-Laser.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "01-CNC-Laser"
             }
           }
         ],
@@ -208,8 +212,9 @@
   },
   "active": "0c806ef7b8b933b1",
   "lastOpenFiles": [
-    "Houdini-Learning/Theory/05-VEX-Fundamentals.md",
+    "Houdini-Learning/Roadmap.canvas",
     "Houdini-Learning/Integration-Hub.md",
+    "Houdini-Learning/Theory/05-VEX-Fundamentals.md",
     "Houdini-Learning/Practice/07-3DPrint-Preview/3DPrint-Preview.md",
     "Houdini-Learning/Practice/06-CNC-Toolpath-Vis/CNC-Toolpath-Vis.md",
     "Houdini-Learning/Practice/06-CNC-Toolpath-Vis/Notes-CNC-Toolpath-Vis.md",
@@ -237,8 +242,6 @@
     "03-Houdini-Learning/Practice/06-CNC-Toolpath-Vis",
     "03-Houdini-Learning/Practice",
     "03-Houdini-Learning",
-    "Houdini-Learning/Roadmap.canvas",
-    "conflict-files-obsidian-git.md",
     "Houdini-Learning/Practice/05-VEX-Basics",
     "WTF.canvas",
     "CNC.canvas",
