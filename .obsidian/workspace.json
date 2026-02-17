@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e7119179f4c6a170",
+        "id": "fb5718e8a9e5a163",
         "type": "tabs",
         "children": [
           {
-            "id": "33a9fc2e5e6a59f0",
+            "id": "7d6cfb88638332d7",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -181,7 +181,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "18373721d63cd4be",
+  "active": "7d6cfb88638332d7",
   "lastOpenFiles": [
     "WTF.canvas",
     "conflict-files-obsidian-git.md",
