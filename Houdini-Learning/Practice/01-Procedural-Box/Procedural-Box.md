@@ -51,6 +51,6 @@
 - [ ] Все шаги выполнены
 - [ ] Заметки добавлены в [[Notes-Procedural-Box]]
 - [ ] Прогресс обновлён в:
-  - [ ] [[Progress/vlad-progress.md]]
-  - [ ] [[Progress/alexander-progress.md]]
+  - [ ] [[Vlad-progress]]
+  - [ ] [[Alex-progress]]
 - [ ] (Опционально) Сделан скриншот результата

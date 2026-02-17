@@ -68,6 +68,6 @@ addprim(0, "polyline", pts);
 - [ ] Файл сохранён как solution.hipnc
 - [ ] Заметки добавлены в [[Notes-CNC-Toolpath-Vis]]
 - [ ] Прогресс обновлён в:
-    - [ ] [[Progress/vlad-progress.md]]
-    - [ ] [[Progress/alexander-progress.md]]
+    - [ ] [[Vlad-progress]]
+    - [ ] [[Alex-progress]]
 - [ ] (Опционально) Реальный G-code импортирован и отображён

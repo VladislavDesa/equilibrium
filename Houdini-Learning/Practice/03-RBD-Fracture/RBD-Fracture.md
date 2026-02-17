@@ -47,6 +47,6 @@
 - [ ] Все шаги выполнены
 - [ ] Заметки добавлены в [[Notes-RBD-Fracture]]
 - [ ] Прогресс обновлён в:
-  - [ ] [[Progress/vlad-progress.md]]
-  - [ ] [[Progress/alexander-progress.md]]
+  - [ ] [[Vlad-progress]]
+  - [ ] [[Alex-progress]]
 - [ ] (Опционально) Сделан скриншот разрушенного куба
