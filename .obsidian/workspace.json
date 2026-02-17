@@ -25,17 +25,14 @@
             "id": "a2affe4fa7dc4661",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "WTF.canvas",
-                "viewState": {
-                  "x": -1060,
-                  "y": -74.02034883720928,
-                  "zoom": -0.6519024161307811
-                }
+                "file": "Home.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "WTF"
+              "icon": "lucide-file",
+              "title": "Home"
             }
           }
         ],
@@ -214,6 +211,7 @@
   },
   "active": "a2affe4fa7dc4661",
   "lastOpenFiles": [
+    "WTF.canvas",
     "Houdini-Learning/Roadmap.canvas",
     "Houdini-Learning/Theory/01-Interface-Basics.md",
     "conflict-files-obsidian-git.md",
@@ -251,7 +249,6 @@
     "Houdini-Learning/Practice/01-Procedural-Box",
     "Houdini-Learning/Theory",
     "CNC.canvas",
-    "WTF.canvas",
     "AI.canvas",
     "Projects/04-AI-Assistant/Docs/Media/Pasted image 20260202220833.png",
     "Projects/04-AI-Assistant/Docs/Media/Pasted image 20260202220810.png",
