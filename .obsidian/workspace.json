@@ -27,15 +27,15 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Houdini-Learning/Roadmap.canvas",
+                "file": "WTF.canvas",
                 "viewState": {
-                  "x": 569.9741462029535,
-                  "y": -570.4881535655691,
-                  "zoom": -0.7553640126419534
+                  "x": -1060,
+                  "y": -74.02034883720928,
+                  "zoom": -0.6519024161307811
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "Roadmap"
+              "title": "WTF"
             }
           }
         ],
@@ -214,9 +214,9 @@
   },
   "active": "a2affe4fa7dc4661",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "Houdini-Learning/Roadmap.canvas",
     "Houdini-Learning/Theory/01-Interface-Basics.md",
+    "conflict-files-obsidian-git.md",
     "Houdini-Learning/Resources/YouTube-Playlists.md",
     "Houdini-Learning/Resources/Glossary-RU.md",
     "Houdini-Learning/Resources/Free-Courses.md",
