@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Houdini-Learning/Resources/Glossary-RU.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -197,6 +197,8 @@
   },
   "active": "b86c8f7df02975d3",
   "lastOpenFiles": [
+    "Houdini-Learning/Practice/checklist-template.md",
+    "Houdini-Learning/Resources/Glossary-RU.md",
     "Houdini-Learning/Roadmap.canvas",
     "Houdini-Learning/Practice/07-3DPrint-Preview/3DPrint-Preview.md",
     "Houdini-Learning/Practice/07-3DPrint-Preview/Notes-3DPrint-Preview.md",
@@ -228,7 +230,6 @@
     "Test-Note-Toolbar.md",
     "Projects/01-CNC-Laser/01-CNC-Laser.md",
     "Houdini-Learning/Practice/05-VEX-Basics/Notes-VEX-Basics.md",
-    "Houdini-Learning/Practice/03-RBD-Fracture/Notes-RBD-Fracture.md",
     "03-Houdini-Learning/Theory",
     "03-Houdini-Learning/Practice/06-CNC-Toolpath-Vis",
     "03-Houdini-Learning/Practice",
