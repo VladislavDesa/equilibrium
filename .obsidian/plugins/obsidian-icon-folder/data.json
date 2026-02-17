@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "LiArchive",
-      "LiAlbum",
-      "LiAreaChart",
-      "LiAnvil",
-      "LiAlignLeft"
+      "LiAsteriskSquare",
+      "LiAtom",
+      "LiAperture",
+      "LiArchiveRestore",
+      "LiArchive"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -37,9 +37,22 @@
   "Houdini-Learning": "LiAlignLeft",
   "Houdini-Learning/Practice": "LiAnvil",
   "Houdini-Learning/Progress": "LiAreaChart",
-  "Houdini-Learning/Resources": "LiArchive",
+  "Houdini-Learning/Resources": "LiAperture",
   "Houdini-Learning/Theory": {
     "iconName": "LiAlbum",
     "iconColor": "#0300bd"
-  }
+  },
+  "Inbox": {
+    "iconName": "LiArchiveRestore",
+    "iconColor": "#0036d6"
+  },
+  "Archive": {
+    "iconName": "LiArchive",
+    "iconColor": "#ffffff"
+  },
+  "Projects/01-CNC-Laser": {
+    "iconName": "LiAtom",
+    "iconColor": "#004cff"
+  },
+  "Projects/04-AI-Assistant": "LiAsteriskSquare"
 }
