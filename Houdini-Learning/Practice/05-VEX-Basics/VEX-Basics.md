@@ -43,7 +43,7 @@ if (@P.x > 0) {
 ### ✅ Критерии завершения
 - [ ] Все 3 задания выполнены
 - [ ] Файл сохранён как `solution.hipnc` в этой папке
-- [ ] Заметки о трудностях и идеях добавлены в `notes.md`
+- [ ] Заметки о трудностях и идеях добавлены в [[Notes-VEX-Basics]]
 - [ ] Прогресс обновлён в:
-  - [ ]  `Progress/vlad-progress.md`
-  - [ ]  `Progress/alexander-progress.md`
+  - [ ]  [[Progress/vlad-progress.md]]
+  - [ ]  [[Progress/alexander-progress.md]]

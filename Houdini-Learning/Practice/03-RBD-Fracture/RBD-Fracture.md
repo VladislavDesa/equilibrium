@@ -45,8 +45,8 @@
 
 - [ ] Файл `.hipnc` сохранён в папке задания
 - [ ] Все шаги выполнены
-- [ ] Заметки добавлены в `notes.md`
+- [ ] Заметки добавлены в [[Notes-RBD-Fracture]]
 - [ ] Прогресс обновлён в:
-  - [ ] `Progress/vlad-progress.md`
-  - [ ] `Progress/alexander-progress.md`
+  - [ ] [[Progress/vlad-progress.md]]
+  - [ ] [[Progress/alexander-progress.md]]
 - [ ] (Опционально) Сделан скриншот разрушенного куба

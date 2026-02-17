@@ -66,8 +66,8 @@ addprim(0, "polyline", pts);
 - [ ] Создан файл toolpath.txt
 - [ ] Путь визуализирован как линия и/или точки с «головкой»
 - [ ] Файл сохранён как solution.hipnc
-- [ ] Заметки добавлены в notes.md
+- [ ] Заметки добавлены в [[Notes-CNC-Toolpath-Vis]]
 - [ ] Прогресс обновлён в:
-    - [ ] Progress/vlad-progress.md
-    - [ ] Progress/alexander-progress.md
+    - [ ] [[Progress/vlad-progress.md]]
+    - [ ] [[Progress/alexander-progress.md]]
 - [ ] (Опционально) Реальный G-code импортирован и отображён
