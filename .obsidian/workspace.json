@@ -13,15 +13,15 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Houdini-Learning/Roadmap.canvas",
+                "file": "CNC.canvas",
                 "viewState": {
-                  "x": 993,
-                  "y": -605,
-                  "zoom": 0
+                  "x": -800,
+                  "y": -30,
+                  "zoom": -0.5098051411524167
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "Roadmap"
+              "title": "CNC"
             }
           }
         ]
@@ -200,11 +200,15 @@
   },
   "active": "b86c8f7df02975d3",
   "lastOpenFiles": [
+    "DATABASE.base",
+    "WTF.canvas",
+    "CNC.canvas",
+    "AI.canvas",
+    "Houdini-Learning/Roadmap.canvas",
     "Test-Note-Toolbar.md",
     "Houdini-Learning/Practice/01-Procedural-Box/Procedural-Box.md",
     "Houdini-Learning/Practice/01-Procedural-Box/Notes-Procedural-Box.md",
     "Projects/01-CNC-Laser/01-CNC-Laser.md",
-    "Houdini-Learning/Roadmap.canvas",
     "Houdini-Learning/Integration-Hub.md",
     "Houdini-Learning/Theory/05-VEX-Fundamentals.md",
     "Houdini-Learning/Practice/07-3DPrint-Preview/3DPrint-Preview.md",
@@ -227,14 +231,10 @@
     "Houdini-Learning/Theory/01-Interface-Basics.md",
     "03-Houdini-Learning/Theory/05-VEX-Fundamentals.md",
     "03-Houdini-Learning/Theory",
-    "03-Houdini-Learning/Practice/06-CNC-Toolpath-Vis/task.md",
     "03-Houdini-Learning/Practice/06-CNC-Toolpath-Vis",
     "03-Houdini-Learning/Practice",
     "03-Houdini-Learning",
     "Houdini-Learning/Practice/05-VEX-Basics",
-    "WTF.canvas",
-    "CNC.canvas",
-    "AI.canvas",
     "Init-HoudiniCanvas.ps1",
     "Новый текстовый документ.txt",
     "Houdini-Learning/Practice/07-3DPrint-Preview",
