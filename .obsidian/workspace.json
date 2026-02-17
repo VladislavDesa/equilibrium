@@ -13,15 +13,15 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "CNC.canvas",
+                "file": "WTF.canvas",
                 "viewState": {
-                  "x": -800,
-                  "y": -30,
-                  "zoom": -0.5098051411524167
+                  "x": -1060,
+                  "y": -190,
+                  "zoom": -0.22196387683875088
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "CNC"
+              "title": "WTF"
             }
           }
         ]
@@ -200,10 +200,10 @@
   },
   "active": "b86c8f7df02975d3",
   "lastOpenFiles": [
+    "AI.canvas",
+    "CNC.canvas",
     "DATABASE.base",
     "WTF.canvas",
-    "CNC.canvas",
-    "AI.canvas",
     "Houdini-Learning/Roadmap.canvas",
     "Test-Note-Toolbar.md",
     "Houdini-Learning/Practice/01-Procedural-Box/Procedural-Box.md",
@@ -239,7 +239,6 @@
     "Новый текстовый документ.txt",
     "Houdini-Learning/Practice/07-3DPrint-Preview",
     "Houdini-Learning/Practice/05-VEX-Attribute-Edit",
-    "Houdini-Learning/Practice/06-CNC-Toolpath-Vis",
     "Projects/04-AI-Assistant/Docs/Media/Pasted image 20260202220833.png",
     "Projects/04-AI-Assistant/Docs/Media/Pasted image 20260202220810.png",
     "Projects/04-AI-Assistant/Docs/Media/Pasted image 20260202220758.png",
