@@ -4,6 +4,7 @@
 > Контекст: SOP → Attribute Wrangle  
 > Время: 1.5–2 часа  
 > Зависит от: [[03-Geometry-Types.md]]
+> 💡 VEX используется для анализа overhangs в 3D-печати: [[02-3D-Printer]]
 
 ---
 
@@ -63,7 +64,7 @@ if (@P.y < 0) removepoint(0, @ptnum);
 ## 📚 Ресурсы
 
 - [SideFX:VEX Quick Reference](https://www.sidefx.com/docs/houdini/vex/snippets.html?spm=a2ty_o01.29997173.0.0.715d5171H6RN8n)
-- [Entagma:VEX Basics Playlist](https://entigma.com/category/vex/?spm=a2ty_o01.29997173.0.0.715d5171H6RN8n)
+- [Applied Houdini — Scene 4: VEX Basics](https://www.sidefx.com/tutorials/applied-houdini-scene-4-vex-basics/?spm=a2ty_o01.29997173.0.0.715d5171H6RN8n)
 
 ## ✅ Критерии завершения
 - [ ] Создан хотя бы один рабочий `Wrangle`
