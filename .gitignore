@@ -1,22 +1,21 @@
-﻿# Obsidian — синхронизируем всё, кроме локальных данных
+﻿# === Obsidian: синхронизируем настройки, но не локальные данные ===
+
+# Игнорируем workspace (индивидуальный layout)
 .obsidian/workspace/*
-!.obsidian/community-plugins.json
-!.obsidian/app.json
-!.obsidian/appearance.json
-!.obsidian/core-plugins.json
-
-# Плагины: синхронизируем ТОЛЬКО настройки
-!.obsidian/plugins/
-.obsidian/plugins/*/
-!.obsidian/plugins/*/data.json
-!.obsidian/plugins/*/settings.json
-
-# Локальные данные — НЕ синхронизируем
 .obsidian/workspace.json
-.obsidian/hotkeys.json
-.obsidian/graph.json
-.obsidian/backlink.json
+
+# Игнорируем кэш и временные файлы
 .obsidian/cache/
+.obsidian/backlink.json
+.obsidian/graph.json
+.obsidian/hotkeys.json  # если хоткейи разные
+
+# НО разрешаем всё остальное в .obsidian/ — включая плагины!
+!.obsidian/
+!.obsidian/*.json
+!.obsidian/plugins/
+!.obsidian/plugins/*/
+!.obsidian/plugins/*/*.json
 
 # Binary files
 *.ipt
