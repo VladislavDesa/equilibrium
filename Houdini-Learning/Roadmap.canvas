@@ -9,22 +9,16 @@
 		{"id":"p2a","type":"file","file":"Houdini-Learning/Practice/02-Scatter-and-Copy/Scatter-and-Copy.md","x":-225,"y":-380,"width":385,"height":90,"color":"5"},
 		{"id":"vlad","type":"file","file":"Houdini-Learning/Progress/vlad-progress.md","x":-225,"y":-810,"width":385,"height":50,"color":"5"},
 		{"id":"stage2_label","type":"text","text":"# 🟡 Этап 2: Моделирование","x":-225,"y":-620,"width":385,"height":50,"color":"5"},
-<<<<<<< HEAD
 		{"id":"p4","type":"file","file":"Houdini-Learning/Practice/05-VEX-Attribute-Edit/task.md","x":1140,"y":-540,"width":380,"height":240,"color":"5"},
-=======
 		{"id":"p4","type":"file","file":"Houdini-Learning/Practice/05-VEX-Basics/VEX-Basics.md","x":1140,"y":-540,"width":380,"height":80,"color":"5"},
 		{"id":"p5a","type":"file","file":"Houdini-Learning/Practice/06-CNC-Toolpath-Vis/CNC-Toolpath-Vis.md","x":1140,"y":-385,"width":380,"height":95,"color":"5"},
->>>>>>> origin/main
 		{"id":"stage3_label","type":"text","text":"# 🟠 Этап 3: Динамика","x":280,"y":-620,"width":330,"height":50,"color":"5"},
 		{"id":"stage4_label","type":"text","text":"# 🟣 Этап 4: VEX","x":700,"y":-620,"width":330,"height":50,"color":"5"},
 		{"id":"stage5_label","type":"text","text":"# 🔴 Этап 5: Интеграция","x":1140,"y":-620,"width":380,"height":50,"color":"5"},
 		{"id":"t3","type":"file","file":"Houdini-Learning/Theory/03-Geometry-Types.md","x":280,"y":-540,"width":330,"height":80,"color":"5"},
-<<<<<<< HEAD
 		{"id":"t4","type":"file","file":"Houdini-Learning/Theory/04-VEX-Fundamentals.md","x":700,"y":-540,"width":330,"height":250,"color":"5"},
-=======
 		{"id":"t4","type":"file","file":"Houdini-Learning/Theory/04-Particles-and-DOP.md","x":700,"y":-540,"width":330,"height":80,"color":"5"},
 		{"id":"p3","type":"file","file":"Houdini-Learning/Practice/04-Particles-Snow/Particles-Snow.md","x":700,"y":-380,"width":330,"height":90,"color":"5"},
->>>>>>> origin/main
 		{"id":"alex","type":"file","file":"Houdini-Learning/Progress/alexander-progress.md","x":280,"y":-810,"width":330,"height":50,"color":"5"},
 		{"id":"res","type":"file","file":"Houdini-Learning/Resources/Glossary-RU.md","x":1140,"y":-810,"width":380,"height":50,"color":"5"},
 		{"id":"p3","type":"file","file":"Houdini-Learning/Practice/04-Particles-Snow/Particles-Snow.md","x":700,"y":-80,"width":330,"height":90,"color":"5"},
