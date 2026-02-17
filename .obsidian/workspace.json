@@ -11,32 +11,20 @@
             "id": "b86c8f7df02975d3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Houdini-Learning/Practice/06-CNC-Toolpath-Vis/CNC-Toolpath-Vis.md",
-                "mode": "source",
-                "source": false
+                "file": "Houdini-Learning/Roadmap.canvas",
+                "viewState": {
+                  "x": 993,
+                  "y": -605,
+                  "zoom": 0
+                }
               },
-              "icon": "lucide-file",
-              "title": "CNC-Toolpath-Vis"
-            }
-          },
-          {
-            "id": "0c806ef7b8b933b1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Projects/01-CNC-Laser/01-CNC-Laser.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "01-CNC-Laser"
+              "icon": "lucide-layout-dashboard",
+              "title": "Roadmap"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -210,8 +198,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0c806ef7b8b933b1",
+  "active": "b86c8f7df02975d3",
   "lastOpenFiles": [
+    "Test-Note-Toolbar.md",
+    "Houdini-Learning/Practice/01-Procedural-Box/Procedural-Box.md",
+    "Houdini-Learning/Practice/01-Procedural-Box/Notes-Procedural-Box.md",
+    "Projects/01-CNC-Laser/01-CNC-Laser.md",
     "Houdini-Learning/Roadmap.canvas",
     "Houdini-Learning/Integration-Hub.md",
     "Houdini-Learning/Theory/05-VEX-Fundamentals.md",
@@ -224,10 +216,8 @@
     "Houdini-Learning/Progress/vlad-progress.md",
     "Houdini-Learning/Practice/03-RBD-Fracture/RBD-Fracture.md",
     "Houdini-Learning/Practice/02-Scatter-and-Copy/Scatter-and-Copy.md",
-    "Houdini-Learning/Practice/01-Procedural-Box/Procedural-Box.md",
     "Houdini-Learning/Practice/05-VEX-Basics/Notes-VEX-Basics.md",
     "Houdini-Learning/Practice/07-3DPrint-Preview/Notes-3DPrint-Preview.md",
-    "Houdini-Learning/Practice/01-Procedural-Box/Notes-Procedural-Box.md",
     "Houdini-Learning/Practice/02-Scatter-and-Copy/Notes-Scatter-and-Copy.md",
     "Houdini-Learning/Practice/03-RBD-Fracture/Notes-RBD-Fracture.md",
     "Houdini-Learning/Practice/04-Particles-Snow/Notes-Particles-Snow.md",
@@ -237,7 +227,6 @@
     "Houdini-Learning/Theory/01-Interface-Basics.md",
     "03-Houdini-Learning/Theory/05-VEX-Fundamentals.md",
     "03-Houdini-Learning/Theory",
-    "Projects/01-CNC-Laser/01-CNC-Laser.md",
     "03-Houdini-Learning/Practice/06-CNC-Toolpath-Vis/task.md",
     "03-Houdini-Learning/Practice/06-CNC-Toolpath-Vis",
     "03-Houdini-Learning/Practice",
