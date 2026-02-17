@@ -13,30 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Houdini-Learning/Theory/01-Interface-Basics.md",
+                "file": "Houdini-Learning/Theory/05-VEX-Fundamentals.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01-Interface-Basics"
-            }
-          },
-          {
-            "id": "a2affe4fa7dc4661",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Home.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Home"
+              "title": "05-VEX-Fundamentals"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -209,35 +194,37 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a2affe4fa7dc4661",
+  "active": "b86c8f7df02975d3",
   "lastOpenFiles": [
-    "WTF.canvas",
-    "Houdini-Learning/Roadmap.canvas",
+    "Houdini-Learning/Theory/03-Geometry-Types.md",
+    "Houdini-Learning/Theory/02-Nodes-and-Networks.md",
     "Houdini-Learning/Theory/01-Interface-Basics.md",
+    "Houdini-Learning/Theory/05-VEX-Fundamentals.md",
+    "Houdini-Learning/Roadmap.canvas",
+    "Houdini-Learning/Practice/04-Particles-Snow/task.md",
+    "Houdini-Learning/Theory/04-VEX-Fundamentals.md",
+    "Houdini-Learning/Practice/04-Particles-Snow/notes.md",
+    "Houdini-Learning/Practice/02-Scatter-and-Copy/task.md",
+    "Houdini-Learning/Practice/01-Procedural-Box/task.md",
+    "Houdini-Learning/Practice/01-Procedural-Box/notes.md",
+    "Houdini-Learning/Practice/checklist-template.md",
+    "Houdini-Learning/Progress/vlad-progress.md",
+    "Houdini-Learning/Progress/alexander-progress.md",
+    "WTF.canvas",
+    "Home.md",
+    "README.md",
+    "_AFK_ZONE.md",
+    "CNC.canvas",
+    "AI.canvas",
     "conflict-files-obsidian-git.md",
     "Houdini-Learning/Resources/YouTube-Playlists.md",
     "Houdini-Learning/Resources/Glossary-RU.md",
     "Houdini-Learning/Resources/Free-Courses.md",
-    "Houdini-Learning/Progress/alexander-progress.md",
-    "Houdini-Learning/Progress/vlad-progress.md",
-    "Houdini-Learning/Practice/01-Procedural-Box/task.md",
-    "Houdini-Learning/Practice/01-Procedural-Box/notes.md",
-    "Houdini-Learning/Theory/02-Nodes-and-Networks.md",
-    "Houdini-Learning/Theory/03-Geometry-Types.md",
-    "Houdini-Learning/Theory/04-VEX-Fundamentals.md",
-    "Houdini-Learning/Practice/checklist-template.md",
     "Houdini-Learning/Practice/05-VEX-Attribute-Edit/task.md",
-    "Houdini-Learning/Practice/04-Particles-Snow/task.md",
     "Houdini-Learning/Practice/03-RBD-Fracture/task.md",
     "Houdini-Learning/Practice/03-RBD-Fracture/notes.md",
-    "Houdini-Learning/Practice/02-Scatter-and-Copy/task.md",
     "Houdini-Learning/Practice/02-Scatter-and-Copy/notes.md",
     "Houdini-Learning/Practice/07-3DPrint-Preview/notes.md",
-    "Houdini-Learning/Practice/07-3DPrint-Preview/task.md",
-    "Houdini-Learning/Practice/06-CNC-Toolpath-Vis/notes.md",
-    "Houdini-Learning/Practice/06-CNC-Toolpath-Vis/task.md",
-    "Houdini-Learning/Practice/05-VEX-Attribute-Edit/notes.md",
-    "Houdini-Learning/Practice/04-Particles-Snow/notes.md",
     "Init-HoudiniCanvas.ps1",
     "Новый текстовый документ.txt",
     "Houdini-Learning/Practice/07-3DPrint-Preview",
@@ -248,8 +235,6 @@
     "Houdini-Learning/Practice/02-Scatter-and-Copy",
     "Houdini-Learning/Practice/01-Procedural-Box",
     "Houdini-Learning/Theory",
-    "CNC.canvas",
-    "AI.canvas",
     "Projects/04-AI-Assistant/Docs/Media/Pasted image 20260202220833.png",
     "Projects/04-AI-Assistant/Docs/Media/Pasted image 20260202220810.png",
     "Projects/04-AI-Assistant/Docs/Media/Pasted image 20260202220758.png",
