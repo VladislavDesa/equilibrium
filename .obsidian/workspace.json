@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Houdini-Learning/Practice/01-Procedural-Box/notes.md",
+                "file": "Houdini-Learning/Practice/01-Procedural-Box/task.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "notes"
+              "title": "task"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Houdini-Learning/Practice/01-Procedural-Box/notes.md",
+                "file": "Houdini-Learning/Practice/01-Procedural-Box/task.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for notes"
+              "title": "Backlinks for task"
             }
           },
           {
@@ -187,13 +187,13 @@
   },
   "active": "14b0a1296f1e8d96",
   "lastOpenFiles": [
+    "Houdini-Learning/Practice/01-Procedural-Box/notes.md",
     "Houdini-Learning/Progress/alexander-progress.md",
     "Houdini-Learning/Progress/vlad-progress.md",
     "Houdini-Learning/Practice/07-3DPrint-Preview/task.md",
     "Houdini-Learning/Practice/07-3DPrint-Preview/notes.md",
     "Houdini-Learning/Practice/checklist-template.md",
     "Houdini-Learning/Practice/01-Procedural-Box/task.md",
-    "Houdini-Learning/Practice/01-Procedural-Box/notes.md",
     "Docs/Integration-Ideas.md",
     "Docs/System-Evolution.md",
     "Houdini-Learning/Resources/YouTube-Playlists.md",
