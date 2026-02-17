@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Houdini-Learning/Practice/07-3DPrint-Preview/3DPrint-Preview.md",
+                "file": "Houdini-Learning/Resources/Glossary-RU.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3DPrint-Preview"
+              "title": "Glossary-RU"
             }
           }
         ]
@@ -195,8 +195,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "18373721d63cd4be",
+  "active": "b86c8f7df02975d3",
   "lastOpenFiles": [
+    "Houdini-Learning/Roadmap.canvas",
+    "Houdini-Learning/Practice/07-3DPrint-Preview/3DPrint-Preview.md",
     "Houdini-Learning/Practice/07-3DPrint-Preview/Notes-3DPrint-Preview.md",
     "Houdini-Learning/Practice/06-CNC-Toolpath-Vis/CNC-Toolpath-Vis.md",
     "Houdini-Learning/Practice/06-CNC-Toolpath-Vis/Notes-CNC-Toolpath-Vis.md",
@@ -212,7 +214,6 @@
     "Houdini-Learning/Theory/03-Geometry-Types.md",
     "Houdini-Learning/Theory/02-Nodes-and-Networks.md",
     "Houdini-Learning/Theory/01-Interface-Basics.md",
-    "Houdini-Learning/Roadmap.canvas",
     "Houdini-Learning/Integration-Hub.md",
     "Houdini-Learning/Progress/Vlad-progress.md",
     "Houdini-Learning/Progress/Alex-progress.md",
@@ -226,10 +227,8 @@
     "CNC.canvas",
     "Test-Note-Toolbar.md",
     "Projects/01-CNC-Laser/01-CNC-Laser.md",
-    "Houdini-Learning/Practice/07-3DPrint-Preview/3DPrint-Preview.md",
     "Houdini-Learning/Practice/05-VEX-Basics/Notes-VEX-Basics.md",
     "Houdini-Learning/Practice/03-RBD-Fracture/Notes-RBD-Fracture.md",
-    "Houdini-Learning/Practice/04-Particles-Snow/Notes-Particles-Snow.md",
     "03-Houdini-Learning/Theory",
     "03-Houdini-Learning/Practice/06-CNC-Toolpath-Vis",
     "03-Houdini-Learning/Practice",
