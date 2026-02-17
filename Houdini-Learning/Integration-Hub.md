@@ -1,0 +1,17 @@
+# Хаб интеграции: Houdini ↔ Проекты Equilibrium
+
+Этот файл объединяет обучение Houdini и прикладные проекты.
+
+## 🔗 Связи
+
+- **CNC / Лазер**:  
+  - Теория: [[03-Houdini-Learning/Theory/05-VEX-Fundamentals]]  
+  - Практика: [[03-Houdini-Learning/Practice/06-CNC-Toolpath-Vis/task]]
+
+- **3D-печать**:  
+  - Практика: [[03-Houdini-Learning/Practice/07-3DPrint-Preview/task]]
+
+- **Обратные ссылки**:  
+  - [[01-CNC-Laser]]  
+  - [[02-3D-Printer]]
+
