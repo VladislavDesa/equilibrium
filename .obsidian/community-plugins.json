@@ -8,5 +8,7 @@
   "obsidian-tasks-plugin",
   "obsidian-kanban",
   "note-toolbar",
-  "editing-toolbar"
+  "editing-toolbar",
+  "obsidian-emoji-toolbar",
+  "obsidian-icon-folder"
 ]
