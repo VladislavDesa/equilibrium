@@ -8,4 +8,4 @@ team: All
 [[CNC self hands]] 
 ## Визуализация траектории
 Для preview G-code используем Houdini:  
-→ см. [[03-Houdini-Learning/Practice/06-CNC-Toolpath-Vis/task]]
+→ см. [[Houdini-Learning/Practice/06-CNC-Toolpath-Vis/task]]
