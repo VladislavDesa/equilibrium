@@ -4,17 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "fb5718e8a9e5a163",
+        "id": "6fcd9a61ec7d0989",
         "type": "tabs",
         "children": [
           {
-            "id": "7d6cfb88638332d7",
+            "id": "b86c8f7df02975d3",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "canvas",
+              "state": {
+                "file": "Houdini-Learning/Roadmap.canvas",
+                "viewState": {
+                  "x": 475.8902284263961,
+                  "y": -107.95241116751274,
+                  "zoom": -0.8430043483747994
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Roadmap"
             }
           }
         ]
@@ -90,17 +97,16 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Home"
+              "title": "Backlinks"
             }
           },
           {
@@ -124,7 +130,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true,
+                "useHierarchy": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
@@ -152,25 +158,34 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of README"
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "dee4c0c5334116bf",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-kanban:Create new board": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -178,61 +193,64 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "obsidian-kanban:Create new board": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7d6cfb88638332d7",
+  "active": "b86c8f7df02975d3",
   "lastOpenFiles": [
+    "Houdini-Learning/Roadmap.canvas",
+    "Houdini-Learning/Integration-Hub.md",
+    "Home.md",
+    "README.md",
+    "DATABASE.base",
     "WTF.canvas",
-    "conflict-files-obsidian-git.md",
     "Projects/04-AI-Assistant/AI.canvas",
     "Projects/01-CNC-Laser/CNC.canvas",
-    "README.md",
-    "Home.md",
-    "Houdini-Learning/Theory/05-VEX-Fundamentals.md",
-    "Houdini-Learning/Progress/vlad-progress.md",
-    "Houdini-Learning/Progress/alexander-progress.md",
-    "Houdini-Learning/Resources/YouTube-Playlists.md",
-    "Houdini-Learning/Resources/Glossary-RU.md",
-    "Houdini-Learning/Resources/Free-Courses.md",
-    "Houdini-Learning/Practice/05-VEX-Basics/VEX-Basics.md",
-    "Houdini-Learning/Practice/04-Particles-Snow/Particles-Snow.md",
-    "Houdini-Learning/Practice/04-Particles-Snow/Notes-Particles-Snow.md",
-    "Houdini-Learning/Practice/07-3DPrint-Preview/3DPrint-Preview.md",
-    "Houdini-Learning/Practice/06-CNC-Toolpath-Vis/CNC-Toolpath-Vis.md",
-    "Houdini-Learning/Practice/07-3DPrint-Preview/Notes-3DPrint-Preview.md",
-    "Houdini-Learning/Roadmap.canvas",
-    "Houdini-Learning/Theory/03-Geometry-Types.md",
-    "Houdini-Learning/Theory/02-Nodes-and-Networks.md",
-    "Houdini-Learning/Theory/01-Interface-Basics.md",
+    "AI.canvas",
+    "CNC.canvas",
+    "Test-Note-Toolbar.md",
     "Houdini-Learning/Practice/01-Procedural-Box/Procedural-Box.md",
     "Houdini-Learning/Practice/01-Procedural-Box/Notes-Procedural-Box.md",
-    "Houdini-Learning/Integration-Hub.md",
-    "Houdini-Learning/Practice/05-VEX-Attribute-Edit/task.md",
+    "Projects/01-CNC-Laser/01-CNC-Laser.md",
+    "Houdini-Learning/Theory/05-VEX-Fundamentals.md",
+    "Houdini-Learning/Practice/07-3DPrint-Preview/3DPrint-Preview.md",
+    "Houdini-Learning/Practice/06-CNC-Toolpath-Vis/CNC-Toolpath-Vis.md",
     "Houdini-Learning/Practice/06-CNC-Toolpath-Vis/Notes-CNC-Toolpath-Vis.md",
-    "Houdini-Learning/Practice/05-VEX-Basics/Notes-VEX-Basics.md",
-    "Houdini-Learning/Practice/05-VEX-Basics",
+    "Houdini-Learning/Practice/05-VEX-Basics/VEX-Basics.md",
+    "Houdini-Learning/Practice/04-Particles-Snow/Particles-Snow.md",
+    "Houdini-Learning/Progress/alexander-progress.md",
+    "Houdini-Learning/Progress/vlad-progress.md",
     "Houdini-Learning/Practice/03-RBD-Fracture/RBD-Fracture.md",
-    "03-Houdini-Learning/Practice/06-CNC-Toolpath-Vis",
+    "Houdini-Learning/Practice/02-Scatter-and-Copy/Scatter-and-Copy.md",
+    "Houdini-Learning/Practice/05-VEX-Basics/Notes-VEX-Basics.md",
+    "Houdini-Learning/Practice/07-3DPrint-Preview/Notes-3DPrint-Preview.md",
+    "Houdini-Learning/Practice/02-Scatter-and-Copy/Notes-Scatter-and-Copy.md",
+    "Houdini-Learning/Practice/03-RBD-Fracture/Notes-RBD-Fracture.md",
+    "Houdini-Learning/Practice/04-Particles-Snow/Notes-Particles-Snow.md",
+    "Houdini-Learning/Theory/04-Particles-and-DOP.md",
+    "Houdini-Learning/Theory/03-Geometry-Types.md",
+    "Houdini-Learning/Theory/02-Nodes-and-Networks.md",
     "03-Houdini-Learning/Theory",
+    "03-Houdini-Learning/Practice/06-CNC-Toolpath-Vis",
     "03-Houdini-Learning/Practice",
     "03-Houdini-Learning",
-    "DATABASE.base",
+    "Houdini-Learning/Practice/05-VEX-Basics",
     "Init-HoudiniCanvas.ps1",
-    "Houdini-Learning/Theory",
-    "Houdini-Learning/Resources",
-    "Houdini-Learning/Progress",
-    "Projects/04-AI-Assistant/Docs/Media/Pasted image 20260202220654.png",
-    "Projects/04-AI-Assistant/Docs/Media/Pasted image 20260202220622.png",
-    "Projects/04-AI-Assistant/Docs/Media/Pasted image 20260202220506.png",
-    "Projects/04-AI-Assistant/Docs/Media/Pasted image 20260202220025.png",
-    "Projects/04-AI-Assistant/Docs/Media/Pasted image 20260202215830.jpg",
-    "Projects/04-AI-Assistant/Docs/Media/301bfec2b564d13faa040ce538d4c529.webp",
-    "Projects/04-AI-Assistant/Docs/Media/96e131559135737ddb068ae088e5164b.webp",
-    "Projects/04-AI-Assistant/Docs/Media/9f43f0afd4acb39f99c6b6fa07681918.webp",
-    "Projects/04-AI-Assistant/Docs/Media/5f7372030a71488bbb64d1374f6d840c.webp",
+    "Новый текстовый документ.txt",
+    "Houdini-Learning/Practice/07-3DPrint-Preview",
+    "Houdini-Learning/Practice/05-VEX-Attribute-Edit",
     "Projects/04-AI-Assistant/Docs/Media/Pasted image 20260202220833.png",
+    "Projects/04-AI-Assistant/Docs/Media/Pasted image 20260202220810.png",
+    "Projects/04-AI-Assistant/Docs/Media/Pasted image 20260202220758.png",
+    "Projects/04-AI-Assistant/Docs/Media/Pasted image 20260202220742.png",
+    "Projects/04-AI-Assistant/Docs/Media/Pasted image 20260202220716.png",
+    "Projects/04-AI-Assistant/Docs/Media/Pasted image 20260202220654.png",
+    "Projects/04-AI-Assistant/Docs/Media/Pasted image 20260202220645.png",
+    "Projects/04-AI-Assistant/Docs/Media/Pasted image 20260202220622.png",
+    "Projects/04-AI-Assistant/Docs/Media/Pasted image 20260202220559.png",
+    "Projects/04-AI-Assistant/Docs/Media/Pasted image 20260202220506.png",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "Untitled 2.canvas"
