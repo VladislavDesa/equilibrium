@@ -27,8 +27,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Houdini-Learning/Practice/01-Procedural-Box/task.md",
-                "mode": "preview",
+                "file": "Houdini-Learning/Practice/07-3DPrint-Preview/task.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -211,13 +211,13 @@
   },
   "active": "0c806ef7b8b933b1",
   "lastOpenFiles": [
+    "Houdini-Learning/Practice/06-CNC-Toolpath-Vis/task.md",
+    "Houdini-Learning/Practice/05-VEX-Basics/task.md",
+    "Houdini-Learning/Practice/01-Procedural-Box/task.md",
     "Houdini-Learning/Practice/02-Scatter-and-Copy/task.md",
     "Houdini-Learning/Practice/03-RBD-Fracture/task.md",
     "Houdini-Learning/Practice/04-Particles-Snow/task.md",
-    "Houdini-Learning/Practice/05-VEX-Basics/task.md",
     "conflict-files-obsidian-git.md",
-    "Houdini-Learning/Practice/01-Procedural-Box/task.md",
-    "Houdini-Learning/Practice/06-CNC-Toolpath-Vis/task.md",
     "Houdini-Learning/Practice/07-3DPrint-Preview/task.md",
     "Houdini-Learning/Practice/05-VEX-Basics/notes.md",
     "Houdini-Learning/Practice/07-3DPrint-Preview/notes.md",
