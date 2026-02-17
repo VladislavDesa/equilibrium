@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiActivity",
       "LiAsteriskSquare",
       "LiAtom",
       "LiAperture",
-      "LiArchiveRestore",
-      "LiArchive"
+      "LiArchiveRestore"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -54,5 +54,7 @@
     "iconName": "LiAtom",
     "iconColor": "#004cff"
   },
-  "Projects/04-AI-Assistant": "LiAsteriskSquare"
+  "Projects/04-AI-Assistant": "LiAsteriskSquare",
+  "Houdini-Learning/Progress/Alex-progress.md": "LiActivity",
+  "Houdini-Learning/Progress/Vlad-progress.md": "LiActivity"
 }

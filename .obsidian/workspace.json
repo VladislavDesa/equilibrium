@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Houdini-Learning/Progress/Vlad-progress.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -198,6 +198,7 @@
   "active": "b86c8f7df02975d3",
   "lastOpenFiles": [
     "Houdini-Learning/Progress/Alex-progress.md",
+    "Houdini-Learning/Progress/Vlad-progress.md",
     "Houdini-Learning/Roadmap.canvas",
     "Houdini-Learning/Integration-Hub.md",
     "Home.md",
@@ -218,7 +219,6 @@
     "Houdini-Learning/Practice/06-CNC-Toolpath-Vis/Notes-CNC-Toolpath-Vis.md",
     "Houdini-Learning/Practice/05-VEX-Basics/VEX-Basics.md",
     "Houdini-Learning/Practice/04-Particles-Snow/Particles-Snow.md",
-    "Houdini-Learning/Progress/Vlad-progress.md",
     "Houdini-Learning/Practice/03-RBD-Fracture/RBD-Fracture.md",
     "Houdini-Learning/Practice/02-Scatter-and-Copy/Scatter-and-Copy.md",
     "Houdini-Learning/Practice/05-VEX-Basics/Notes-VEX-Basics.md",
