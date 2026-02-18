@@ -11,17 +11,14 @@
             "id": "b86c8f7df02975d3",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "WTF.canvas",
-                "viewState": {
-                  "x": -927.5,
-                  "y": -240,
-                  "zoom": -0.07310049092426843
-                }
+                "file": "Houdini-Learning/Practice/01-Procedural-Box/Procedural-Box.md",
+                "mode": "preview",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "WTF"
+              "icon": "lucide-file",
+              "title": "Procedural-Box"
             }
           }
         ]
@@ -200,10 +197,13 @@
   },
   "active": "b86c8f7df02975d3",
   "lastOpenFiles": [
+    "Houdini-Learning/Practice/01-Procedural-Box/Notes-Procedural-Box.md",
+    "Houdini-Learning/Practice/01-Procedural-Box/Procedural-Box.md",
+    "Houdini-Learning/Practice/checklist-template.md",
+    "WTF.canvas",
     "Houdini-Learning/Resources/Glossary-RU.md",
     "conflict-files-obsidian-git.md",
     "Home.md",
-    "Houdini-Learning/Practice/checklist-template.md",
     "Houdini-Learning/Roadmap.canvas",
     "Houdini-Learning/Practice/07-3DPrint-Preview/3DPrint-Preview.md",
     "Houdini-Learning/Practice/07-3DPrint-Preview/Notes-3DPrint-Preview.md",
@@ -213,9 +213,7 @@
     "Houdini-Learning/Practice/04-Particles-Snow/Particles-Snow.md",
     "Houdini-Learning/Practice/03-RBD-Fracture/RBD-Fracture.md",
     "Houdini-Learning/Practice/02-Scatter-and-Copy/Scatter-and-Copy.md",
-    "Houdini-Learning/Practice/01-Procedural-Box/Procedural-Box.md",
     "Houdini-Learning/Practice/02-Scatter-and-Copy/Notes-Scatter-and-Copy.md",
-    "Houdini-Learning/Practice/01-Procedural-Box/Notes-Procedural-Box.md",
     "Houdini-Learning/Theory/05-VEX-Fundamentals.md",
     "Houdini-Learning/Theory/04-Particles-and-DOP.md",
     "Houdini-Learning/Theory/03-Geometry-Types.md",
@@ -226,13 +224,11 @@
     "Houdini-Learning/Progress/Alex-progress.md",
     "README.md",
     "DATABASE.base",
-    "WTF.canvas",
     "Projects/04-AI-Assistant/AI.canvas",
     "Projects/01-CNC-Laser/CNC.canvas",
     "AI.canvas",
     "CNC.canvas",
     "Test-Note-Toolbar.md",
-    "Projects/01-CNC-Laser/01-CNC-Laser.md",
     "03-Houdini-Learning/Theory",
     "03-Houdini-Learning/Practice/06-CNC-Toolpath-Vis",
     "03-Houdini-Learning/Practice",
