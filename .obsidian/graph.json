@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
       "query": "Alex",
@@ -40,6 +40,13 @@
       "color": {
         "a": 1,
         "rgb": 16711680
+      }
+    },
+    {
+      "query": "Houdini",
+      "color": {
+        "a": 1,
+        "rgb": 4980991
       }
     }
   ],

@@ -7,12 +7,12 @@
 
 ## 📚 Оглавление
 
-- [General Concepts](#general-concepts)
-- [Geometry and Structure](#geometry-and-structure)
-- [VEX and Scripting](#vex-and-scripting)
-- [Dynamics and Simulations](#dynamics-and-simulations)
-- [Integration and Export](#integration-and-export)
-- [System and Performance](#system-and-performance)
+- [[#General Concepts]]
+- [[#Geometry and Structure]]
+- [[#VEX and Scripting]]
+- [[#Dynamics and Simulations]]
+- [[#Integration and Export]]
+- [[#System and Performance]]
 
 ---
 
