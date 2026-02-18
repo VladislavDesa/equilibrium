@@ -4,24 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d60dc50036f2e3e2",
+        "id": "254c9f6fbf3074e5",
         "type": "tabs",
         "children": [
           {
-            "id": "63f545510eea74d8",
+            "id": "b50bad7356f41a9f",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "WTF.canvas",
-                "viewState": {
-                  "x": -958.5,
-                  "y": -131,
-                  "zoom": 0
-                }
+                "file": "Docs/Tasks/Backlog.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "WTF"
+              "icon": "lucide-file",
+              "title": "Backlog"
             }
           }
         ]
@@ -175,6 +172,26 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "d7e07c7fc671ede1",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_nodes",
+              "state": {},
+              "icon": "ag-node-list",
+              "title": "Juggl nodes"
+            }
+          },
+          {
+            "id": "ee00a3998302207b",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_style",
+              "state": {},
+              "icon": "ag-style",
+              "title": "Juggl style"
+            }
           }
         ],
         "currentTab": 5
@@ -195,19 +212,23 @@
       "bases:Create new base": false,
       "templater-obsidian:Templater": false,
       "obsidian-kanban:Create new board": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "juggl:Juggl global graph": false
     }
   },
-  "active": "63f545510eea74d8",
+  "active": "b50bad7356f41a9f",
   "lastOpenFiles": [
+    "WTF.canvas",
+    "Home.md",
+    "Houdini-Learning/Roadmap.canvas",
+    "Docs/Tasks/Idea.md",
+    "Docs/Tasks/Current-Tasks.md",
+    "Docs/Tasks/Backlog.md",
     "Tasks.md",
     "Docs/System-Evolution.md",
     "Docs/Integration-Ideas.md",
-    "Docs/Tasks/Current-Tasks.md",
-    "Docs/Tasks/Backlog.md",
     "Docs/Tasks",
     "Inbox/Pathregist.md",
-    "Docs/Tasks/Idea.md",
     "Inbox/Kanban.md",
     "_AFK_ZONE.md",
     "Projects/04-AI-Assistant/Docs/AI-variant.md",
@@ -215,10 +236,8 @@
     "Houdini-Learning/Resources/Glossary-RU.md",
     "Houdini-Learning/Resources/Free-Courses.md",
     "Houdini-Learning/Resources/YouTube-Playlists.md",
-    "WTF.canvas",
     "Projects/01-CNC-Laser/Docs/CNC self hands.md",
     "Projects/01-CNC-Laser/Docs/FAQ.md",
-    "Houdini-Learning/Roadmap.canvas",
     "Houdini-Learning/Progress/vlad-progress.md",
     "Houdini-Learning/Progress/Alex-progress.md",
     "Houdini-Learning/Practice/02-Scatter-and-Copy/Scatter-and-Copy.md",
@@ -227,8 +246,6 @@
     "Houdini-Learning/Practice/01-Procedural-Box/Procedural-Box.md",
     "Houdini-Learning/Practice/01-Procedural-Box/Notes-Procedural-Box.md",
     "Houdini-Learning/Practice/07-3DPrint-Preview/3DPrint-Preview.md",
-    "Houdini-Learning/Practice/07-3DPrint-Preview/Notes-3DPrint-Preview.md",
-    "Houdini-Learning/Practice/06-CNC-Toolpath-Vis/CNC-Toolpath-Vis.md",
     "DATABASE.base",
     "Projects/04-AI-Assistant/AI.canvas",
     "Projects/01-CNC-Laser/CNC.canvas",
