@@ -11,14 +11,17 @@
             "id": "b86c8f7df02975d3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Houdini-Learning/Resources/Glossary-RU.md",
-                "mode": "preview",
-                "source": false
+                "file": "WTF.canvas",
+                "viewState": {
+                  "x": -927.5,
+                  "y": -240,
+                  "zoom": -0.07310049092426843
+                }
               },
-              "icon": "lucide-file",
-              "title": "Glossary-RU"
+              "icon": "lucide-layout-dashboard",
+              "title": "WTF"
             }
           }
         ]
