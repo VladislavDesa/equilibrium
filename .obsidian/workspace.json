@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "254c9f6fbf3074e5",
+        "id": "f251a300325642e9",
         "type": "tabs",
         "children": [
           {
-            "id": "b50bad7356f41a9f",
+            "id": "5ba42b67cf37455c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_AFK_ZONE.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "_AFK_ZONE"
+              "title": "New tab"
             }
           }
         ]
@@ -216,8 +212,9 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "b50bad7356f41a9f",
+  "active": "5ba42b67cf37455c",
   "lastOpenFiles": [
+    "_AFK_ZONE.md",
     "Tasks.md",
     "Docs/Tasks/Current-Tasks.md",
     "conflict-files-obsidian-git.md",
@@ -231,7 +228,6 @@
     "Docs/Tasks",
     "Inbox/Pathregist.md",
     "Inbox/Kanban.md",
-    "_AFK_ZONE.md",
     "Projects/04-AI-Assistant/Docs/AI-variant.md",
     "Houdini-Learning/Resources/Glossary-RU.md",
     "Houdini-Learning/Resources/Free-Courses.md",
