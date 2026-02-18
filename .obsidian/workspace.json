@@ -11,14 +11,17 @@
             "id": "63f545510eea74d8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Inbox/Idea.md",
-                "mode": "source",
-                "source": false
+                "file": "WTF.canvas",
+                "viewState": {
+                  "x": -958.5,
+                  "y": -131,
+                  "zoom": 0
+                }
               },
-              "icon": "lucide-file",
-              "title": "Idea"
+              "icon": "lucide-layout-dashboard",
+              "title": "WTF"
             }
           }
         ]
@@ -198,13 +201,17 @@
   "active": "63f545510eea74d8",
   "lastOpenFiles": [
     "Tasks.md",
-    "Projects/04-AI-Assistant/Docs/AI-variant.md",
-    "Inbox/Idea.md",
-    "Inbox/Kanban.md",
-    "Projects/Tasks/Current-Tasks.md",
-    "Projects/Tasks/Backlog.md",
-    "conflict-files-obsidian-git.md",
+    "Docs/System-Evolution.md",
+    "Docs/Integration-Ideas.md",
+    "Docs/Tasks/Current-Tasks.md",
+    "Docs/Tasks/Backlog.md",
+    "Docs/Tasks",
     "Inbox/Pathregist.md",
+    "Docs/Tasks/Idea.md",
+    "Inbox/Kanban.md",
+    "_AFK_ZONE.md",
+    "Projects/04-AI-Assistant/Docs/AI-variant.md",
+    "conflict-files-obsidian-git.md",
     "Houdini-Learning/Resources/Glossary-RU.md",
     "Houdini-Learning/Resources/Free-Courses.md",
     "Houdini-Learning/Resources/YouTube-Playlists.md",
@@ -222,9 +229,6 @@
     "Houdini-Learning/Practice/07-3DPrint-Preview/3DPrint-Preview.md",
     "Houdini-Learning/Practice/07-3DPrint-Preview/Notes-3DPrint-Preview.md",
     "Houdini-Learning/Practice/06-CNC-Toolpath-Vis/CNC-Toolpath-Vis.md",
-    "Houdini-Learning/Practice/06-CNC-Toolpath-Vis/Notes-CNC-Toolpath-Vis.md",
-    "Houdini-Learning/Practice/05-VEX-Basics/VEX-Basics.md",
-    "Houdini-Learning/Practice/04-Particles-Snow/Particles-Snow.md",
     "DATABASE.base",
     "Projects/04-AI-Assistant/AI.canvas",
     "Projects/01-CNC-Laser/CNC.canvas",
@@ -238,7 +242,6 @@
     "Init-HoudiniCanvas.ps1",
     "Новый текстовый документ.txt",
     "Houdini-Learning/Practice/07-3DPrint-Preview",
-    "Houdini-Learning/Practice/05-VEX-Attribute-Edit",
     "Projects/04-AI-Assistant/Docs/Media/Pasted image 20260202220833.png",
     "Projects/04-AI-Assistant/Docs/Media/Pasted image 20260202220810.png",
     "Projects/04-AI-Assistant/Docs/Media/Pasted image 20260202220758.png",
