@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiBackpack",
+      "LiAreaChart",
       "LiApple",
       "LiActivity",
-      "LiAsteriskSquare",
-      "LiAtom",
-      "LiAperture"
+      "LiAsteriskSquare"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -34,9 +34,12 @@
     "debugMode": false,
     "useInternalPlugins": false
   },
-  "Houdini-Learning": "LiAlignLeft",
+  "Houdini-Learning": {
+    "iconName": "LiAlignLeft",
+    "iconColor": "#3503ab"
+  },
   "Houdini-Learning/Practice": "LiAnvil",
-  "Houdini-Learning/Progress": "LiAreaChart",
+  "Houdini-Learning/Progress": "LiBackpack",
   "Houdini-Learning/Resources": "LiAperture",
   "Houdini-Learning/Theory": {
     "iconName": "LiAlbum",
@@ -104,5 +107,9 @@
   "Houdini-Learning/Practice/05-VEX-Basics": {
     "iconName": "LiApple",
     "iconColor": "#a6440b"
+  },
+  "Projects/03-Data-Analytics": {
+    "iconName": "LiAreaChart",
+    "iconColor": "#ff0000"
   }
 }

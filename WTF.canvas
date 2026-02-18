@@ -1,14 +1,12 @@
 {
 	"nodes":[
-		{"id":"97954dd2eb827b88","type":"file","file":"README.md","x":-1000,"y":-700,"width":720,"height":920,"color":"5"},
-		{"id":"2b375c5fe6eb7b9d","type":"text","text":"Не ну ты тип конечно, добавь ниже плашку с текстом когда хоть посмотришь что тут происходит","x":-1840,"y":-700,"width":250,"height":160},
-		{"id":"deffeacc6e5f646f","type":"text","text":"### <center>Потужно</center>","x":-1575,"y":260,"width":550,"height":60,"color":"1"},
-		{"id":"10874dcb10b63b1e","type":"text","text":"А О А О, А","x":-1840,"y":-480,"width":250,"height":60},
 		{"id":"547d427b514f30cb","type":"file","file":"Home.md","x":-1575,"y":-700,"width":550,"height":920,"color":"6"},
-		{"id":"20c208b657ea4ed9","type":"file","file":"Projects/01-CNC-Laser/CNC.canvas","x":-2080,"y":-400,"width":490,"height":400},
-		{"id":"bd8b40ee3a67fc0b","type":"file","file":"Projects/04-AI-Assistant/AI.canvas","x":-2080,"y":20,"width":490,"height":400}
+		{"id":"97954dd2eb827b88","type":"file","file":"README.md","x":-1000,"y":-700,"width":720,"height":920,"color":"5"}
 	],
-	"edges":[
-		{"id":"9c50e25de4fe5780","fromNode":"2b375c5fe6eb7b9d","fromSide":"bottom","toNode":"10874dcb10b63b1e","toSide":"top"}
-	]
+	"edges":[],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{},
+		"startNode":"62b56d357c4581cd"
+	}
 }
