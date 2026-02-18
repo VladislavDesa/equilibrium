@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Houdini-Learning/Resources/Glossary-RU.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -197,11 +197,12 @@
   },
   "active": "b3652c249c47d438",
   "lastOpenFiles": [
+    "Houdini-Learning/Resources/Free-Courses.md",
+    "Houdini-Learning/Resources/YouTube-Playlists.md",
+    "Houdini-Learning/Resources/Glossary-RU.md",
     "WTF.canvas",
     "Projects/01-CNC-Laser/Docs/CNC self hands.md",
     "Projects/01-CNC-Laser/Docs/FAQ.md",
-    "Houdini-Learning/Resources/Glossary-RU.md",
-    "Houdini-Learning/Resources/Free-Courses.md",
     "Houdini-Learning/Roadmap.canvas",
     "conflict-files-obsidian-git.md",
     "Houdini-Learning/Progress/vlad-progress.md",
