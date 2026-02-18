@@ -4,24 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "84a83a489bf9b15b",
+        "id": "3cd33e3d841e7fa7",
         "type": "tabs",
         "children": [
           {
-            "id": "0e6bd8451531b9b0",
+            "id": "b3652c249c47d438",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "WTF.canvas",
-                "viewState": {
-                  "x": -549.8473618940046,
-                  "y": -144.55976234823112,
-                  "zoom": 0.06594864425982794
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "WTF"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -198,7 +191,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0e6bd8451531b9b0",
+  "active": "b3652c249c47d438",
   "lastOpenFiles": [
     "WTF.canvas",
     "Projects/01-CNC-Laser/Docs/CNC self hands.md",
