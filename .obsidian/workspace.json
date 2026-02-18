@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
-                "mode": "preview",
+                "file": "Houdini-Learning/Resources/Glossary-RU.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "Glossary-RU"
             }
           }
         ]
@@ -197,6 +197,7 @@
   },
   "active": "b86c8f7df02975d3",
   "lastOpenFiles": [
+    "Home.md",
     "Houdini-Learning/Resources/Glossary-RU.md",
     "Houdini-Learning/Practice/checklist-template.md",
     "Houdini-Learning/Roadmap.canvas",
@@ -219,7 +220,6 @@
     "Houdini-Learning/Integration-Hub.md",
     "Houdini-Learning/Progress/Vlad-progress.md",
     "Houdini-Learning/Progress/Alex-progress.md",
-    "Home.md",
     "README.md",
     "DATABASE.base",
     "WTF.canvas",
