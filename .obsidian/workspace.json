@@ -4,6 +4,7 @@
     "type": "split",
     "children": [
       {
+<<<<<<< HEAD
         "id": "16884055c0344880",
         "type": "tabs",
         "children": [
@@ -15,9 +16,55 @@
               "state": {},
               "icon": "lucide-file",
               "title": "New tab"
+=======
+        "id": "6fcd9a61ec7d0989",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b86c8f7df02975d3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Inbox/Kanban.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Kanban"
+            }
+          },
+          {
+            "id": "292f1c19c5c3446b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          },
+          {
+            "id": "03b9acd86638933e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tasks.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Tasks"
+>>>>>>> origin/main
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -191,6 +238,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
+<<<<<<< HEAD
   "active": "59139bd2015d5492",
   "lastOpenFiles": [
     "Inbox/Idea.md",
@@ -203,24 +251,47 @@
     "Projects/01-CNC-Laser/Docs/CNC self hands.md",
     "Projects/01-CNC-Laser/Docs/FAQ.md",
     "Houdini-Learning/Roadmap.canvas",
+=======
+  "active": "03b9acd86638933e",
+  "lastOpenFiles": [
+>>>>>>> origin/main
     "conflict-files-obsidian-git.md",
-    "Houdini-Learning/Progress/vlad-progress.md",
+    "Tasks.md",
+    "_AFK_ZONE.md",
+    "README.md",
+    "Home.md",
+    "Inbox/Kanban.md",
+    "Projects/Tasks/Backlog.md",
+    "Docs/Templates/houdini-task.md",
+    "Projects/Tasks/Current-Tasks.md",
+    "Houdini-Learning/Resources/Glossary-RU.md",
+    "Houdini-Learning/Resources/YouTube-Playlists.md",
+    "Houdini-Learning/Resources/Free-Courses.md",
+    "Houdini-Learning/Progress/Vlad-progress.md",
     "Houdini-Learning/Progress/Alex-progress.md",
-    "Houdini-Learning/Practice/02-Scatter-and-Copy/Scatter-and-Copy.md",
-    "Houdini-Learning/Practice/02-Scatter-and-Copy/Notes-Scatter-and-Copy.md",
-    "Houdini-Learning/Theory/01-Interface-Basics.md",
     "Houdini-Learning/Practice/01-Procedural-Box/Procedural-Box.md",
     "Houdini-Learning/Practice/01-Procedural-Box/Notes-Procedural-Box.md",
+    "Untitled.md",
+    "Houdini-Learning/Theory/01-Interface-Basics.md",
+    "Docs/Templates/update-progress.js",
+    "Docs/Templates",
+    "Docs/houdini-task.md",
+    "Houdini-Learning/Practice/checklist-template.md",
+    "WTF.canvas",
+    "Houdini-Learning/Roadmap.canvas",
     "Houdini-Learning/Practice/07-3DPrint-Preview/3DPrint-Preview.md",
     "Houdini-Learning/Practice/07-3DPrint-Preview/Notes-3DPrint-Preview.md",
     "Houdini-Learning/Practice/06-CNC-Toolpath-Vis/CNC-Toolpath-Vis.md",
     "Houdini-Learning/Practice/06-CNC-Toolpath-Vis/Notes-CNC-Toolpath-Vis.md",
     "Houdini-Learning/Practice/05-VEX-Basics/VEX-Basics.md",
     "Houdini-Learning/Practice/04-Particles-Snow/Particles-Snow.md",
+<<<<<<< HEAD
     "Houdini-Learning/Practice/03-RBD-Fracture/RBD-Fracture.md",
     "Houdini-Learning/Theory/05-VEX-Fundamentals.md",
     "Houdini-Learning/Theory/04-Particles-and-DOP.md",
     "Houdini-Learning/Theory/03-Geometry-Types.md",
+=======
+>>>>>>> origin/main
     "DATABASE.base",
     "Projects/04-AI-Assistant/AI.canvas",
     "Projects/01-CNC-Laser/CNC.canvas",
@@ -233,8 +304,6 @@
     "Houdini-Learning/Practice/05-VEX-Basics",
     "Init-HoudiniCanvas.ps1",
     "Новый текстовый документ.txt",
-    "Houdini-Learning/Practice/07-3DPrint-Preview",
-    "Houdini-Learning/Practice/05-VEX-Attribute-Edit",
     "Projects/04-AI-Assistant/Docs/Media/Pasted image 20260202220833.png",
     "Projects/04-AI-Assistant/Docs/Media/Pasted image 20260202220810.png",
     "Projects/04-AI-Assistant/Docs/Media/Pasted image 20260202220758.png",
