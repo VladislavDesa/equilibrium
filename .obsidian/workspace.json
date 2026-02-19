@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Houdini-Learning/Practice/10-Procedural-Cities/Notes-Procedural-Cities.md",
+                "file": "Tasks.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Notes-Procedural-Cities"
+              "title": "Tasks"
             }
           }
         ]
@@ -216,10 +216,12 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "18373721d63cd4be",
+  "active": "541a907592689155",
   "lastOpenFiles": [
-    "Houdini-Learning/Practice/10-Procedural-Cities/Procedural-Cities.md",
+    "WTF.canvas",
+    "Projects/04-AI-Assistant/Docs/TG-bot.md",
     "Houdini-Learning/Practice/10-Procedural-Cities/Notes-Procedural-Cities.md",
+    "Houdini-Learning/Practice/10-Procedural-Cities/Procedural-Cities.md",
     "Houdini-Learning/Theory/05-VEX-Fundamentals.md",
     "Houdini-Learning/Theory/04-Particles-and-DOP.md",
     "Houdini-Learning/Theory/08-Vellum-Fundamentals.md",
@@ -242,8 +244,6 @@
     "Houdini-Learning/Practice/04-Particles-Snow/Notes-Particles-Snow.md",
     "Houdini-Learning/Practice/04-Particles-Snow/Particles-Snow.md",
     "Houdini-Learning/Practice/03-RBD-Fracture/Notes-RBD-Fracture.md",
-    "Houdini-Learning/Practice/03-RBD-Fracture/RBD-Fracture.md",
-    "Houdini-Learning/Practice/02-Scatter-and-Copy/Notes-Scatter-and-Copy.md",
     "Houdini-Learning/Roadmap.canvas",
     "Houdini-Learning/test.canvas",
     "Houdini-Learning/Practice/10-Procedural-Cities",
@@ -251,7 +251,6 @@
     "Houdini-Learning/Practice/09-Pyro-Fire",
     "Houdini-Learning/Practice/08-Vellum-Cloth",
     "DATABASE.base",
-    "WTF.canvas",
     "Docs/Tasks",
     "Projects/04-AI-Assistant/AI.canvas",
     "Projects/01-CNC-Laser/CNC.canvas",
