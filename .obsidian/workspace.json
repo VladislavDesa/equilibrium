@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docs/Tasks/Idea.md",
+                "file": "Tasks.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Idea"
+              "title": "Tasks"
             }
           }
         ]
@@ -218,6 +218,7 @@
   },
   "active": "551e1132ac77bbe2",
   "lastOpenFiles": [
+    "Docs/Tasks/Idea.md",
     "conflict-files-obsidian-git.md",
     "Houdini-Learning/test.canvas",
     "Houdini-Learning/Theory/10-Procedural-Modeling.md",
@@ -237,7 +238,6 @@
     "DATABASE.base",
     "_AFK_ZONE.md",
     "Tasks.md",
-    "Docs/Tasks/Idea.md",
     "Docs/Tasks/Current-Tasks.md",
     "Docs/Tasks/Backlog.md",
     "Docs/System-Evolution.md",
