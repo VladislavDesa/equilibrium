@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiAsteriskSquare",
+      "LiAlertOctagon",
       "LiBackpack",
       "LiAreaChart",
-      "LiApple",
-      "LiActivity",
-      "LiAsteriskSquare"
+      "LiApple"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -135,5 +135,50 @@
   "Houdini-Learning/Theory/10-Procedural-Modeling.md": {
     "iconName": "LiApple",
     "iconColor": "#aa893d"
-  }
+  },
+  "Houdini-Learning/Practice/01-Procedural-Box/Procedural-Box.md": {
+    "iconName": "LiApple",
+    "iconColor": "#11850b"
+  },
+  "Houdini-Learning/Practice/01-Procedural-Box/Notes-Procedural-Box.md": "LiAsteriskSquare",
+  "Houdini-Learning/Practice/02-Scatter-and-Copy/Scatter-and-Copy.md": {
+    "iconName": "LiApple",
+    "iconColor": "#aba203"
+  },
+  "Houdini-Learning/Practice/02-Scatter-and-Copy/Notes-Scatter-and-Copy.md": "LiAsteriskSquare",
+  "Houdini-Learning/Practice/03-RBD-Fracture/RBD-Fracture.md": {
+    "iconName": "LiApple",
+    "iconColor": "#a6440b"
+  },
+  "Houdini-Learning/Practice/03-RBD-Fracture/Notes-RBD-Fracture.md": "LiAsteriskSquare",
+  "Houdini-Learning/Practice/04-Particles-Snow/Particles-Snow.md": {
+    "iconName": "LiApple",
+    "iconColor": "#a6440b"
+  },
+  "Houdini-Learning/Practice/04-Particles-Snow/Notes-Particles-Snow.md": "LiAsteriskSquare",
+  "Houdini-Learning/Practice/05-VEX-Basics/VEX-Basics.md": {
+    "iconName": "LiApple",
+    "iconColor": "#a6440b"
+  },
+  "Houdini-Learning/Practice/05-VEX-Basics/Notes-VEX-Basics.md": "LiAsteriskSquare",
+  "Houdini-Learning/Practice/06-CNC-Toolpath-Vis/CNC-Toolpath-Vis.md": {
+    "iconName": "LiApple",
+    "iconColor": "#9c0f1b"
+  },
+  "Houdini-Learning/Practice/06-CNC-Toolpath-Vis/Notes-CNC-Toolpath-Vis.md": "LiAsteriskSquare",
+  "Houdini-Learning/Practice/07-3DPrint-Preview/3DPrint-Preview.md": {
+    "iconName": "LiApple",
+    "iconColor": "#9c0f1b"
+  },
+  "Houdini-Learning/Practice/07-3DPrint-Preview/Notes-3DPrint-Preview.md": "LiAsteriskSquare",
+  "Houdini-Learning/Practice/08-Vellum-Cloth/08-Vellum-Cloth.md": {
+    "iconName": "LiApple",
+    "iconColor": "#9c0f1b"
+  },
+  "Houdini-Learning/Practice/08-Vellum-Cloth/Notes-08-Vellum-Cloth.md": "LiAsteriskSquare",
+  "Houdini-Learning/Practice/09-Pyro-Fire/09-Pyro-Fire.md": {
+    "iconName": "LiApple",
+    "iconColor": "#9c0f1b"
+  },
+  "Houdini-Learning/Practice/09-Pyro-Fire/Notes-09-Pyro-Fire.md": "LiAsteriskSquare"
 }
