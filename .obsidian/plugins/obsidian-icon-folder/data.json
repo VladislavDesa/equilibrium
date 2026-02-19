@@ -180,5 +180,10 @@
     "iconName": "LiApple",
     "iconColor": "#9c0f1b"
   },
-  "Houdini-Learning/Practice/09-Pyro-Fire/Notes-09-Pyro-Fire.md": "LiAsteriskSquare"
+  "Houdini-Learning/Practice/09-Pyro-Fire/Notes-09-Pyro-Fire.md": "LiAsteriskSquare",
+  "Houdini-Learning/Practice/10-Procedural-Cities/Procedural-Cities.md": {
+    "iconName": "LiApple",
+    "iconColor": "#aba203"
+  },
+  "Houdini-Learning/Practice/10-Procedural-Cities/Notes-Procedural-Cities.md": "LiAsteriskSquare"
 }
