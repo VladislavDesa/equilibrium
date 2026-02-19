@@ -11,10 +11,14 @@
             "id": "c0e72987d1b8c2d8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Houdini-Learning/Practice/06-CNC-Toolpath-Vis/CNC-Toolpath-Vis.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "CNC-Toolpath-Vis"
             }
           }
         ]
@@ -214,6 +218,7 @@
   },
   "active": "c0e72987d1b8c2d8",
   "lastOpenFiles": [
+<<<<<<< HEAD
     "WTF.canvas",
     "Home.md",
     "DATABASE.base",
@@ -243,6 +248,43 @@
     "Houdini-Learning/Practice/01-Procedural-Box/Procedural-Box.md",
     "Houdini-Learning/Practice/01-Procedural-Box/Notes-Procedural-Box.md",
     "Houdini-Learning/Practice/07-3DPrint-Preview/3DPrint-Preview.md",
+=======
+    "Houdini-Learning/Practice/07-3DPrint-Preview/3DPrint-Preview.md",
+    "Houdini-Learning/Practice/08-Vellum-Cloth/08-Vellum-Cloth.md",
+    "Houdini-Learning/Practice/06-CNC-Toolpath-Vis/CNC-Toolpath-Vis.md",
+    "Houdini-Learning/Practice/07-3DPrint-Preview/Notes-3DPrint-Preview.md",
+    "Houdini-Learning/Practice/09-Pyro-Fire/09-Pyro-Fire.md",
+    "Houdini-Learning/Practice/09-Pyro-Fire/Notes-09-Pyro-Fire.md",
+    "Houdini-Learning/Practice/10-Procedural-Cities/Procedural-Cities.md",
+    "Houdini-Learning/Practice/10-Procedural-Cities/Notes-Procedural-Cities.md",
+    "Houdini-Learning/Practice/08-Vellum-Cloth/Notes-08-Vellum-Cloth.md",
+    "Houdini-Learning/Theory/05-VEX-Fundamentals.md",
+    "Houdini-Learning/Theory/08-Vellum-Fundamentals.md",
+    "Houdini-Learning/Theory/09-Pyro-Fundamentals.md",
+    "Houdini-Learning/Theory/10-Procedural-Modeling.md",
+    "Houdini-Learning/Roadmap.canvas",
+    "Houdini-Learning/test.canvas",
+    "Houdini-Learning/Practice/01-Procedural-Box/Procedural-Box.md",
+    "Houdini-Learning/Practice/checklist-template.md",
+    "Houdini-Learning/Practice/10-Procedural-Cities",
+    "Houdini-Learning/10-Procedural-Cities/Notes-Procedural-Cities.md",
+    "Houdini-Learning/10-Procedural-Cities/Procedural-Cities.md",
+    "Houdini-Learning/10-Procedural-Cities",
+    "Houdini-Learning/Practice/09-Pyro-Fire",
+    "Houdini-Learning/Practice/03-RBD-Fracture/RBD-Fracture.md",
+    "Houdini-Learning/Practice/08-Vellum-Cloth",
+    "DATABASE.base",
+    "Home.md",
+    "WTF.canvas",
+    "_AFK_ZONE.md",
+    "Tasks.md",
+    "Docs/Tasks/Current-Tasks.md",
+    "conflict-files-obsidian-git.md",
+    "Docs/Tasks/Idea.md",
+    "Docs/System-Evolution.md",
+    "Docs/Integration-Ideas.md",
+    "Docs/Tasks",
+>>>>>>> origin/main
     "Projects/04-AI-Assistant/AI.canvas",
     "Projects/01-CNC-Laser/CNC.canvas",
     "AI.canvas",
@@ -251,10 +293,6 @@
     "03-Houdini-Learning/Practice/06-CNC-Toolpath-Vis",
     "03-Houdini-Learning/Practice",
     "03-Houdini-Learning",
-    "Houdini-Learning/Practice/05-VEX-Basics",
-    "Init-HoudiniCanvas.ps1",
-    "Новый текстовый документ.txt",
-    "Houdini-Learning/Practice/07-3DPrint-Preview",
     "Projects/04-AI-Assistant/Docs/Media/Pasted image 20260202220833.png",
     "Projects/04-AI-Assistant/Docs/Media/Pasted image 20260202220810.png",
     "Projects/04-AI-Assistant/Docs/Media/Pasted image 20260202220758.png",
