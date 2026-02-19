@@ -111,5 +111,29 @@
   "Projects/03-Data-Analytics": {
     "iconName": "LiAreaChart",
     "iconColor": "#ff0000"
+  },
+  "Houdini-Learning/Practice/08-Vellum-Cloth": {
+    "iconName": "LiApple",
+    "iconColor": "#952130"
+  },
+  "Houdini-Learning/Practice/09-Pyro-Fire": {
+    "iconName": "LiApple",
+    "iconColor": "#952130"
+  },
+  "Houdini-Learning/Practice/10-Procedural-Cities": {
+    "iconName": "LiApple",
+    "iconColor": "#aa893d"
+  },
+  "Houdini-Learning/Theory/08-Vellum-Fundamentals.md": {
+    "iconName": "LiApple",
+    "iconColor": "#952130"
+  },
+  "Houdini-Learning/Theory/09-Pyro-Fundamentals.md": {
+    "iconName": "LiApple",
+    "iconColor": "#952130"
+  },
+  "Houdini-Learning/Theory/10-Procedural-Modeling.md": {
+    "iconName": "LiApple",
+    "iconColor": "#aa893d"
   }
 }
