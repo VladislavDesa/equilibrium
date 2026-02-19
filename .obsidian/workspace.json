@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tasks.md",
+                "file": "Docs/Integration-Ideas.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tasks"
+              "title": "Integration-Ideas"
             }
           }
         ]
@@ -218,6 +218,7 @@
   },
   "active": "551e1132ac77bbe2",
   "lastOpenFiles": [
+    "Tasks.md",
     "Docs/Tasks/Idea.md",
     "conflict-files-obsidian-git.md",
     "Houdini-Learning/test.canvas",
@@ -237,7 +238,6 @@
     "Home.md",
     "DATABASE.base",
     "_AFK_ZONE.md",
-    "Tasks.md",
     "Docs/Tasks/Current-Tasks.md",
     "Docs/Tasks/Backlog.md",
     "Docs/System-Evolution.md",
