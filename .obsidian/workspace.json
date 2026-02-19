@@ -11,17 +11,14 @@
             "id": "551e1132ac77bbe2",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Houdini-Learning/Roadmap.canvas",
-                "viewState": {
-                  "x": 1967.5,
-                  "y": 105,
-                  "zoom": -1.3555180699562175
-                }
+                "file": "Houdini-Learning/Theory/10-Procedural-Modeling.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Roadmap"
+              "icon": "lucide-file",
+              "title": "10-Procedural-Modeling"
             }
           }
         ]
@@ -221,6 +218,7 @@
   },
   "active": "551e1132ac77bbe2",
   "lastOpenFiles": [
+    "Houdini-Learning/Roadmap.canvas",
     "Docs/Integration-Ideas.md",
     "Tasks.md",
     "Docs/Tasks/Idea.md",
@@ -245,7 +243,6 @@
     "Docs/Tasks/Current-Tasks.md",
     "Docs/Tasks/Backlog.md",
     "Docs/System-Evolution.md",
-    "Houdini-Learning/Roadmap.canvas",
     "Docs/Tasks",
     "Inbox/Pathregist.md",
     "Inbox/Kanban.md",
