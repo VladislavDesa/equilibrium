@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f251a300325642e9",
+        "id": "8bebe93c71895a52",
         "type": "tabs",
         "children": [
           {
-            "id": "5ba42b67cf37455c",
+            "id": "c0e72987d1b8c2d8",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -212,18 +212,19 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "5ba42b67cf37455c",
+  "active": "c0e72987d1b8c2d8",
   "lastOpenFiles": [
-    "_AFK_ZONE.md",
-    "Tasks.md",
-    "Docs/Tasks/Current-Tasks.md",
-    "conflict-files-obsidian-git.md",
-    "Docs/Tasks/Idea.md",
-    "Docs/System-Evolution.md",
-    "Docs/Integration-Ideas.md",
-    "Docs/Tasks/Backlog.md",
     "WTF.canvas",
     "Home.md",
+    "DATABASE.base",
+    "_AFK_ZONE.md",
+    "Tasks.md",
+    "Docs/Tasks/Idea.md",
+    "Docs/Tasks/Current-Tasks.md",
+    "Docs/Tasks/Backlog.md",
+    "conflict-files-obsidian-git.md",
+    "Docs/System-Evolution.md",
+    "Docs/Integration-Ideas.md",
     "Houdini-Learning/Roadmap.canvas",
     "Docs/Tasks",
     "Inbox/Pathregist.md",
@@ -242,7 +243,6 @@
     "Houdini-Learning/Practice/01-Procedural-Box/Procedural-Box.md",
     "Houdini-Learning/Practice/01-Procedural-Box/Notes-Procedural-Box.md",
     "Houdini-Learning/Practice/07-3DPrint-Preview/3DPrint-Preview.md",
-    "DATABASE.base",
     "Projects/04-AI-Assistant/AI.canvas",
     "Projects/01-CNC-Laser/CNC.canvas",
     "AI.canvas",
