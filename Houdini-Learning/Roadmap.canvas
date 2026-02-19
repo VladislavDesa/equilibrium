@@ -300,8 +300,9 @@
 		},
 		{
 			"id":"111cbc68cf0ee2ae",
-			"styleAttributes":{},
+			"styleAttributes":{"pathfindingMethod":"square"},
 			"toFloating":false,
+			"fromFloating":false,
 			"fromNode":"78f253f89cc23fab",
 			"fromSide":"bottom",
 			"toNode":"3debf0e633192ac3",
@@ -327,8 +328,9 @@
 		},
 		{
 			"id":"384e1475630d482d",
-			"styleAttributes":{},
+			"styleAttributes":{"pathfindingMethod":"square"},
 			"toFloating":false,
+			"fromFloating":false,
 			"fromNode":"stage4_label",
 			"fromSide":"bottom",
 			"toNode":"f0e390a63da5306c",
@@ -336,7 +338,7 @@
 		},
 		{
 			"id":"6fda5d8eaa4be94d",
-			"styleAttributes":{},
+			"styleAttributes":{"pathfindingMethod":"square"},
 			"toFloating":false,
 			"fromFloating":false,
 			"fromNode":"stage3_label",
@@ -379,6 +381,25 @@
 			"fromSide":"right",
 			"toNode":"p1",
 			"toSide":"left"
+		},
+		{
+			"id":"476c34f28e9074c8",
+			"styleAttributes":{"pathfindingMethod":"square"},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"stage2_label",
+			"fromSide":"bottom",
+			"toNode":"t2",
+			"toSide":"top"
+		},
+		{
+			"id":"cc1eca899f103274",
+			"styleAttributes":{"pathfindingMethod":"square"},
+			"toFloating":false,
+			"fromNode":"stage1_label",
+			"fromSide":"bottom",
+			"toNode":"t1",
+			"toSide":"top"
 		}
 	],
 	"metadata":{
