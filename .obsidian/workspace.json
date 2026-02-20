@@ -11,10 +11,14 @@
             "id": "541a907592689155",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Docs/Houdini-Reference/01-Basics/interface-and-basics.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "interface-and-basics"
             }
           }
         ]
@@ -214,6 +218,9 @@
   },
   "active": "541a907592689155",
   "lastOpenFiles": [
+    "Docs/Houdini-Reference/01-Basics/interface-and-basics.md",
+    "Docs/Houdini-Reference/01-Basics",
+    "Docs/Houdini-Reference",
     "Docs/Houdini-Reference/videos/solaris/karma/karma_xpucompile.mp4",
     "Docs/Houdini-Reference/videos/solaris/karma/karma_motionblur_banner.mp4",
     "Docs/Houdini-Reference/videos/solaris/karma/hmtlxfacingratio_parameters.mp4",
@@ -222,9 +229,6 @@
     "Docs/Houdini-Reference/videos/pyro/shelf/shelf_ground_explosion_viewport.mp4",
     "Docs/Houdini-Reference/videos/pyro/shelf/shelf_ground_explosion_karma.mp4",
     "Docs/Houdini-Reference/videos/pyro/shelf/shelf_gpu_torch_fire_viewport.mp4",
-    "Docs/Houdini-Reference/videos/pyro/shelf/shelf_gpu_explosion_viewport.mp4",
-    "Docs/Houdini-Reference/videos/pyro/shelf/shelf_fireball_viewport.mp4",
-    "Docs/Houdini-Reference/videos/pyro/shelf/shelf_fireball_shockwave_viewport.mp4",
     "Docs/Houdini-Reference/images/render/mug/sampling_tab/VolumeSamplingStochastic.jpg",
     "Docs/Houdini-Reference/images/render/mug/sampling_tab/VolumeQuality.jpg",
     "Docs/Houdini-Reference/images/render/mug/sampling_tab/PixelSampling.jpg",
