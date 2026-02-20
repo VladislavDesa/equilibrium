@@ -79,7 +79,7 @@ Houdini делит работу на **контексты** — разные т�
 ## 📚 Полезные ресурсы
 
 - [Официальная документация: Interface Overview](https://www.sidefx.com/docs/houdini/basics/interface.html)
-- [Applied Houdini — Scene 0: Interface](https://www.sidefx.com/tutorials/applied-houdini-scene-0-interface/)
+- [Applied Houdini — Scene 0: Interface]
 - [SideFX Learn: Beginner Tutorials](https://www.sidefx.com/learn/)
 
 ---
