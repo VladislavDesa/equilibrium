@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tasks.md",
+                "file": "Inbox/Pathregist.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tasks"
+              "title": "Pathregist"
             }
           }
         ]
@@ -218,6 +218,8 @@
   },
   "active": "541a907592689155",
   "lastOpenFiles": [
+    "Inbox/промт.txt",
+    "Tasks.md",
     "WTF.canvas",
     "Projects/04-AI-Assistant/Docs/TG-bot.md",
     "Houdini-Learning/Practice/10-Procedural-Cities/Notes-Procedural-Cities.md",
@@ -243,7 +245,6 @@
     "Houdini-Learning/Practice/05-VEX-Basics/VEX-Basics.md",
     "Houdini-Learning/Practice/04-Particles-Snow/Notes-Particles-Snow.md",
     "Houdini-Learning/Practice/04-Particles-Snow/Particles-Snow.md",
-    "Houdini-Learning/Practice/03-RBD-Fracture/Notes-RBD-Fracture.md",
     "Houdini-Learning/Roadmap.canvas",
     "Houdini-Learning/test.canvas",
     "Houdini-Learning/Practice/10-Procedural-Cities",
