@@ -11,10 +11,14 @@
             "id": "541a907592689155",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Houdini-Learning/Resources/Free-Courses.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Free-Courses"
             }
           }
         ]
