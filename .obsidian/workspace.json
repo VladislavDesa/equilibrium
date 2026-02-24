@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Houdini-Learning/Resources/Free-Courses.md",
+                "file": "Houdini-Learning/Resources/Glossary-RU.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Free-Courses"
+              "title": "Glossary-RU"
             }
           }
         ]
@@ -218,6 +218,7 @@
   },
   "active": "541a907592689155",
   "lastOpenFiles": [
+    "Houdini-Learning/Resources/Free-Courses.md",
     "Houdini-Learning/Theory/01-Interface-Basics.md",
     "Docs/Houdini-Reference/01-Basics/interface-and-basics.md",
     "Houdini-Learning/Integration-Hub.md",
@@ -263,7 +264,6 @@
     "Docs/Houdini-Reference/character/object_level/keyframing.md",
     "Docs/Houdini-Reference/character/object_level/index.md",
     "Docs/Houdini-Reference/character/object_level/ikconstraints.md",
-    "Docs/Houdini-Reference/character/object_level/grapheditor.md",
     "WTF.canvas",
     "Houdini-Learning/Roadmap.canvas",
     "Houdini-Learning/test.canvas",
