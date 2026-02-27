@@ -15,27 +15,31 @@
 ### Быстрые действия
 
 ```button
-name ➕ Новая идея
+name 💡 Новая идея
 type command
 action Templater: Create new note from template
+class primary
 ```
 
 ```button
 name 📝 Новый проект
 type command
 action Templater: Create new note from template
+class primary
 ```
 
 ```button
 name ✅ Задачи
 type link
 action obsidian://open?file=Tasks
+class secondary
 ```
 
 ```button
 name ♻️ Синхронизировать
 type command
 action Git: Commit-and-sync
+class secondary
 ```
 
 ---
