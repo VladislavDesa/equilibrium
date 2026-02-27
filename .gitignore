@@ -3,6 +3,7 @@
 # Игнорируем workspace (индивидуальный layout)
 .obsidian/workspace/*
 .obsidian/workspace.json
+.env
 
 # Игнорируем кэш и временные файлы
 .obsidian/cache/
