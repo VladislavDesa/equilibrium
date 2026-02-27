@@ -1,1 +1,1 @@
-[[e-mail sorter v4.1]]
+[[e-mail-sorter-v4.1]]
