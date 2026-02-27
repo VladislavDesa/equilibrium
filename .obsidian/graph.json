@@ -8,31 +8,17 @@
   "collapse-color-groups": true,
   "colorGroups": [
     {
-      "query": "HOME",
+      "query": "Alex",
       "color": {
         "a": 1,
-        "rgb": 560138
+        "rgb": 16777215
       }
     },
     {
-      "query": "DATABASE",
+      "query": "Vlad",
       "color": {
         "a": 1,
-        "rgb": 1844640
-      }
-    },
-    {
-      "query": "CNC",
-      "color": {
-        "a": 1,
-        "rgb": 13702421
-      }
-    },
-    {
-      "query": "E-MAIL",
-      "color": {
-        "a": 1,
-        "rgb": 14014483
+        "rgb": 16777215
       }
     },
     {
@@ -41,18 +27,47 @@
         "a": 1,
         "rgb": 0
       }
+    },
+    {
+      "query": "CNC",
+      "color": {
+        "a": 1,
+        "rgb": 4607
+      }
+    },
+    {
+      "query": "Data",
+      "color": {
+        "a": 1,
+        "rgb": 16711680
+      }
+    },
+    {
+      "query": "Houdini",
+      "color": {
+        "a": 1,
+        "rgb": 4980991
+      }
     }
   ],
   "collapse-display": true,
   "showArrow": false,
-  "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 1,
+  "textFadeMultiplier": -0.3,
+  "nodeSizeMultiplier": 1.12083333333333,
+  "lineSizeMultiplier": 0.686979166666667,
   "collapse-forces": true,
+<<<<<<< HEAD
   "centerStrength": 0.518713248970312,
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
   "scale": 1.4019828977761002,
+=======
+  "centerStrength": 0.046875,
+  "repelStrength": 8.125,
+  "linkStrength": 0.307291666666667,
+  "linkDistance": 500,
+  "scale": 0.2588386562181618,
+>>>>>>> origin/main
   "close": false
 }
