@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiActivity",
       "LiAsteriskSquare",
       "LiAlertOctagon",
       "LiBackpack",
-      "LiAreaChart",
-      "LiApple"
+      "LiAreaChart"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -185,5 +185,6 @@
     "iconColor": "#aba203"
   },
   "Houdini-Learning/Practice/10-Procedural-Cities/Notes-Procedural-Cities.md": "LiAsteriskSquare",
-  "Houdini-Learning/Progress/alex-progress.md": "LiActivity"
+  "Houdini-Learning/Progress/alex-progress.md": "LiActivity",
+  "Houdini-Learning/Progress/vlad-progress.md": "LiActivity"
 }

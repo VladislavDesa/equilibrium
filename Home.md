@@ -1,11 +1,18 @@
 # 🧠 Equilibrium
 
+> [!quote] Vision
 > «Единая система знаний — основа инженерного мастерства»
-> — В. & А.
+> — *В. & А.*
 
 ---
 
-## 🚀 Быстрые действия
+## 🕹️ Control Center
+
+> [!tip] **Active Context**
+> Перед началом работы и перед закрытием — сверься с контекстом:
+> 👉 **[[Docs/SESSION_CONTEXT|🟢 SESSION CONTEXT]]**
+
+### Быстрые действия
 
 ```button
 name ➕ Новая идея
@@ -62,7 +69,7 @@ SORT file.name ASC
 ```tasks
 not done
 priority is highest
-OR priority is high
+priority is high
 limit 5
 sort by priority
 ```
