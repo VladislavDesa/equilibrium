@@ -11,26 +11,24 @@
 name ➕ Новая идея
 type command
 action Templater: Create new note from template
-templater: Shared/Templates/idea-template.md
 ```
 
 ```button
 name 📝 Новый проект
 type command
 action Templater: Create new note from template
-templater: Shared/Templates/project-template.md
 ```
 
 ```button
 name ✅ Задачи
-type link
+type note
 action Tasks
 ```
 
 ```button
 name ♻️ Синхронизировать
 type command
-action Git: Commit and push
+action Git: Commit-and-sync
 ```
 
 ---
@@ -64,7 +62,7 @@ SORT file.name ASC
 ```tasks
 not done
 priority is highest
-priority is high
+OR priority is high
 limit 5
 sort by priority
 ```
