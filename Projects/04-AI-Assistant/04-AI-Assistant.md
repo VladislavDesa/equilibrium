@@ -45,9 +45,9 @@ team: All
 ## 📚 Документация
 
 - [[04-AI-Assistant-Docs-FAST-TREVEL]] — быстрая навигация по всем доками
-- [[Self local AI]] — зачем локальный AI и для кого
-- [[How to start AI]] — Ollama, LM Studio, Jan, GPT4All — как запустить
-- [[6 local AI]] — топ-6 моделей, как выбрать под железо
+- [[local-ai-guide]] — зачем локальный AI и для кого
+- [[how-to-start-ai]] — Ollama, LM Studio, Jan, GPT4All — как запустить
+- [[top-6-local-models]] — топ-6 моделей, как выбрать под железо
 - [[AI-variant]] — сравнение моделей: цена, доступность, совместимость
 
 ---

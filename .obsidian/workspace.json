@@ -24,6 +24,18 @@
           {
             "id": "e43fc25f17d7f915",
             "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "juggl_view",
+              "state": {},
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Juggl"
+            }
+          },
+          {
+            "id": "7c322cc770d2f560",
+            "type": "leaf",
             "state": {
               "type": "graph",
               "state": {},
@@ -32,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -217,8 +229,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "e43fc25f17d7f915",
+  "active": "7c322cc770d2f560",
   "lastOpenFiles": [
+    "Home.md",
+    "Projects/01-CNC-Laser/Docs/cnc-build-log.md",
+    "Projects/04-AI-Assistant/Docs/local-ai-guide.md",
     "Tasks.md",
     "Docs/Tasks/Idea.md",
     "Docs/Tasks/Current-Tasks.md",
@@ -234,7 +249,6 @@
     "Houdini-Learning/Resources/Glossary-RU.md",
     "Houdini-Learning/Integration-Hub.md",
     "Houdini-Learning/Roadmap.canvas",
-    "Home.md",
     "conflict-files-obsidian-git.md",
     "Shared/Templates/project-template.md",
     "Shared/Templates/idea-template.md",
@@ -253,9 +267,7 @@
     "Projects/03-Data-Analytics/Scripts/svod/TXT/key.md",
     "Projects/03-Data-Analytics/Scripts/svod/TXT",
     "Projects/01-CNC-Laser/CNC.canvas",
-    "Inbox/промт.txt",
-    "Houdini-Learning/Practice/10-Procedural-Cities/Procedural-Cities.md",
-    "Houdini-Learning/Practice/10-Procedural-Cities/Notes-Procedural-Cities.md",
+    "Inbox/system-prompt.txt",
     "Houdini-Learning/Practice/10-Procedural-Cities",
     "Houdini-Learning/Practice/09-Pyro-Fire",
     "Docs/Houdini-Reference/01-Basics/images/ui/viewports_space_t2.png",
