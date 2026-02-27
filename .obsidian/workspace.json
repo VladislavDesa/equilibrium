@@ -11,10 +11,14 @@
             "id": "541a907592689155",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Home.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Home"
             }
           }
         ]
@@ -212,9 +216,10 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "541a907592689155",
+  "active": "18373721d63cd4be",
   "lastOpenFiles": [
     "Home.md",
+    "Untitled.md",
     "README.md",
     "Tasks.md",
     "Shared/Templates/project-template.md",
@@ -262,7 +267,6 @@
     "Docs/Houdini-Reference/character/object_level/starthere.md",
     "Docs/Houdini-Reference/character/object_level/scoping.md",
     "Docs/Houdini-Reference/character/object_level/riggingtips.md",
-    "Docs/Houdini-Reference/character/object_level/riggingconstraints.md",
     "Houdini-Learning/test.canvas",
     "Projects/01-CNC-Laser/CNC.canvas",
     "AI.canvas",
