@@ -21,8 +21,8 @@ action Templater: Create new note from template
 
 ```button
 name ✅ Задачи
-type note
-action Tasks
+type link
+action obsidian://open?file=Tasks
 ```
 
 ```button
