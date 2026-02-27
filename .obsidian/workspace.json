@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tasks.md",
+                "file": "README.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tasks"
+              "title": "README"
             }
           }
         ]
@@ -218,6 +218,10 @@
   },
   "active": "541a907592689155",
   "lastOpenFiles": [
+    "Docs/Pathregist.md",
+    "WTF.canvas",
+    "Home.md",
+    "Tasks.md",
     "Docs/Tasks/Current-Tasks.md",
     "Docs/Tasks/Backlog.md",
     "Docs/Tasks/Idea.md",
@@ -230,8 +234,6 @@
     "Houdini-Learning.md",
     "Docs/Integration-Ideas.md",
     "Docs/System-Evolution.md",
-    "Tasks.md",
-    "WTF.canvas",
     "DATABASE.base",
     "Houdini-Learning/Resources/Glossary-RU.md",
     "Houdini-Learning/Resources/Free-Courses.md",
@@ -264,9 +266,6 @@
     "Docs/Houdini-Reference/character/object_level/riggingconstraints.md",
     "Docs/Houdini-Reference/character/object_level/riggingapproaches.md",
     "Docs/Houdini-Reference/character/object_level/restangles.md",
-    "Docs/Houdini-Reference/character/object_level/proximityvspills.md",
-    "Docs/Houdini-Reference/character/object_level/proximity.md",
-    "Docs/Houdini-Reference/character/object_level/pose_tool.md",
     "Houdini-Learning/test.canvas",
     "Projects/01-CNC-Laser/CNC.canvas",
     "AI.canvas",
