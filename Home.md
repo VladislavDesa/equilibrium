@@ -46,19 +46,19 @@ class secondary
 
 ## 🔭 Обзор системы
 
-###  Активные проекты
+### Активные проекты
 
->[!example]- Детали прогресса (развернуть)
->```dataview
->TABLE WITHOUT ID
->	  file.link as "Проект",
+> [!example]- Список проектов (развернуть)
+> ```dataview
+> TABLE WITHOUT ID
+> 	file.link as "Проект",
 > 	status AS "Статус",
 > 	priority AS "Приоритет",
 > 	team AS "Команда"
->FROM "Projects"
->WHERE status != "done" AND status != "on-hold"
->SORT priority ASC
->```
+> FROM "Projects"
+> WHERE status != "done" AND status != "on-hold"
+> SORT priority ASC
+> ```
 
 ### 🎓 Houdini — Прогресс обучения
 
