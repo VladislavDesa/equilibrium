@@ -1,6 +1,6 @@
 {
   "command_timeout": 5,
-  "templates_folder": "Houdini-Learning",
+  "templates_folder": "Shared/Templates",
   "templates_pairs": [
     [
       "",
