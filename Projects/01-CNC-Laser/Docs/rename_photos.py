@@ -37,6 +37,7 @@ photos_dir = os.path.join(project_dir, "Photos")
 # Словарь соответствия: "Старое имя" -> "Новое имя"
 renaming_rules = {
     "photo_2026-02-28_11-55-49.jpg": "Arduino_Mega_2560.jpg",
+    "photo_1_2026-02-28_12-11-27.jpg": "Arduino_Uno_R3_Clone.jpg",
     # Сюда буду добавлять следующие фото по мере их появления
 }
 
