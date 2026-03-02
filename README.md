@@ -6,7 +6,11 @@
 
 ---
 
+<<<<<<< HEAD
 ## � О проекте
+=======
+## 📌 О проекте
+>>>>>>> 53265070ff5d362fb38377424e7448472008f56d
 
 Equilibrium — это персональная база знаний и инженерная экосистема, объединяющая обучение, проектирование и автоматизацию в одном репозитории. Система построена на Obsidian + Git и охватывает:
 
@@ -24,7 +28,11 @@ equilibrium/
 ├── Houdini-Learning/        # Курс по SideFX Houdini
 │   ├── Theory/              # 10 теоретических модулей
 │   ├── Practice/            # 10 практических заданий
+<<<<<<< HEAD
 │   ├── Progress/            # vlad-progress.md, alex-progress.md
+=======
+│   ├── Progress/            # Vlad-progress.md, Alex-progress.md
+>>>>>>> 53265070ff5d362fb38377424e7448472008f56d
 │   └── Resources/           # Глоссарий, курсы, плейлисты
 ├── Projects/
 │   ├── 01-CNC-Laser/        # Лазерный станок
@@ -144,7 +152,11 @@ team: Vlad
 | `qwen-coder (local)` | Написание и отладка кода |
 | `llama3.1:8b (local)` | Быстрые локальные задачи |
 
+<<<<<<< HEAD
 Подробнее — [[Projects/04-AI-Assistant/04-AI-Assistant]].
+=======
+Подробнее — [[Projects/04-AI-Assistant/04-AI-Assistant.md]].
+>>>>>>> 53265070ff5d362fb38377424e7448472008f56d
 
 ---
 
