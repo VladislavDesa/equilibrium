@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "Docs/Pathregist.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "Pathregist"
             }
           }
         ]
@@ -44,7 +44,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Файловый менеджер"
             }
           },
           {
@@ -203,13 +203,13 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "bases:Create new base": false,
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false,
+      "bases:Создать новую базу": false,
       "templater-obsidian:Templater": false,
       "obsidian-kanban:Create new board": false,
       "obsidian-git:Open Git source control": false,
@@ -218,6 +218,7 @@
   },
   "active": "541a907592689155",
   "lastOpenFiles": [
+    "Home.md",
     "README.md",
     "Shared/Templates/idea-template.md",
     "Shared/Templates/project-template.md",
@@ -245,7 +246,6 @@
     "Houdini-Learning/Practice/10-Procedural-Cities/Procedural-Cities.md",
     "Houdini-Learning/Practice/10-Procedural-Cities/Notes-Procedural-Cities.md",
     "Houdini-Learning/Practice/09-Pyro-Fire/Notes-09-Pyro-Fire.md",
-    "Houdini-Learning/Practice/09-Pyro-Fire/09-Pyro-Fire.md",
     "Docs/Houdini-Reference/01-Basics/videos/basics_handles_movealongcp.mp4",
     "Docs/Houdini-Reference/01-Basics/images/ui/cook_controls.png",
     "Docs/Houdini-Reference/01-Basics/images/ui/2d_pan_and_zoom.jpg",
