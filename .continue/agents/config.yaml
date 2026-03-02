@@ -6,14 +6,12 @@ models:
   - name: Gemini 2.5 Pro (Large Context)
     provider: gemini
     model: gemini-2.5-pro
-    apiKey: AIzaSyCywuQB2Z5YVik_YzfRF3C2Ttq_w3sVPh0
     defaultCompletionOptions:
       contextLength: 1000000
 
   - name: Claude Sonnet (Analysis)
     provider: anthropic
     model: claude-sonnet-4-6
-    apiKey: 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
     defaultCompletionOptions:
       contextLength: 200000
 
