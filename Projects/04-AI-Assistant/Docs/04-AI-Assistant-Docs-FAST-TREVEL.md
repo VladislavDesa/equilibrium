@@ -1,0 +1,6 @@
+[[top-6-local-models]]
+[[AI-variant]]
+[[how-to-start-ai]]
+[[Local-assistant]]
+[[local-ai-guide]]
+[[Continue-Setup]]
